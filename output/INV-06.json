@@ -1,0 +1,37 @@
+{
+  "file": "INV-06.pdf",
+  "payables": [
+    {
+      "invoice_number": "8527907727",
+      "invoice_date": "2025-04-07",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "",
+      "supplier": {
+        "name": "",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": "NOGAAE639440"
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "75884754",
+      "po_id": "",
+      "gross_total": "1683.98",
+      "subtotal": "1633.98",
+      "total_tax_amount": "169.83",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": []
+    }
+  ],
+  "declined": []
+}

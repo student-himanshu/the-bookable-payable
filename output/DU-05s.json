@@ -1,0 +1,10 @@
+{
+  "file": "DU-05s.pdf",
+  "payables": [],
+  "declined": [
+    {
+      "doc_type": "delivery_note",
+      "reason": "SUPPORTING pages 1-15 (high confidence) is not a payable: pages [13, 14] attached as untitled continuation; low OCR confidence on pages [13, 14]"
+    }
+  ]
+}

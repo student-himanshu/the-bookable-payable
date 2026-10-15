@@ -1,0 +1,10 @@
+{
+  "file": "DU-08.pdf",
+  "payables": [],
+  "declined": [
+    {
+      "doc_type": "payment_reminder",
+      "reason": "NON_PAYABLE pages 1-1 (high confidence) is not a payable: first page"
+    }
+  ]
+}

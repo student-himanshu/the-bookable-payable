@@ -1,0 +1,51 @@
+{
+  "file": "HLD-05.pdf",
+  "payables": [
+    {
+      "invoice_number": "",
+      "invoice_date": "2026-06-12",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "",
+      "supplier": {
+        "name": "al pate, Support Services PT Unipessoal, Lda Portugal",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "",
+      "subtotal": "835.27",
+      "total_tax_amount": "0.00",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "REE 1240-Oe/20n",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "2.00",
+          "total": "2.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

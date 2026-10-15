@@ -1,0 +1,37 @@
+{
+  "file": "HLD-08.pdf",
+  "payables": [
+    {
+      "invoice_number": "162547",
+      "invoice_date": "2026-05-19",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "ZAR",
+      "supplier": {
+        "name": "Cloverdale Partners CC",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "",
+      "subtotal": "",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": []
+    }
+  ],
+  "declined": []
+}

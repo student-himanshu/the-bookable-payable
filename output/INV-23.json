@@ -1,0 +1,98 @@
+{
+  "file": "INV-23.pdf",
+  "payables": [
+    {
+      "invoice_number": "",
+      "invoice_date": "2025-12-31",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "GHS",
+      "supplier": {
+        "name": "Kingsley Supply LIMITED",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": "EST259684"
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "13724.19",
+      "subtotal": "13646.04",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "GETFL",
+          "tax_name": "GETFund (2.5%",
+          "tax_rate": "2.5",
+          "tax_amount": "8.92",
+          "tax_type_code": ""
+        },
+        {
+          "tax_type": "NHIL",
+          "tax_name": "NHIL (2.5%",
+          "tax_rate": "2.5",
+          "tax_amount": "8.92",
+          "tax_type_code": "TAX028"
+        },
+        {
+          "tax_type": "LEVY",
+          "tax_name": "Covid Levy (1%",
+          "tax_rate": "1",
+          "tax_amount": "3.57",
+          "tax_type_code": "TAX030"
+        },
+        {
+          "tax_type": "VAT",
+          "tax_name": "VAT Output-15 (15%",
+          "tax_rate": "15",
+          "tax_amount": "56.74",
+          "tax_type_code": ""
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Custom Duties |ASO",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "13289.19",
+          "total": "13289.19",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "Service Charges - FDX0001",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "356.85",
+          "total": "356.85",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": [
+    {
+      "doc_type": "customs_document",
+      "reason": "SUPPORTING pages 4-6 (high confidence) is not a payable: pages [6] attached as untitled continuation"
+    }
+  ]
+}

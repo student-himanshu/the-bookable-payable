@@ -1,0 +1,208 @@
+{
+  "file": "DU-06.pdf",
+  "payables": [
+    {
+      "invoice_number": "",
+      "invoice_date": "2026-06-15",
+      "due_date": "2026-07-16",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "Blackpine Supply S.A",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": "EE1161350091"
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "153.58",
+      "subtotal": "",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "62782 Empanadilha Atum Cozida (50u)",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "41.68",
+          "total": "41.68",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "23",
+          "tax_amount": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "VAT 23%",
+              "tax_rate": "23",
+              "tax_amount": "",
+              "tax_type_code": "PL_230_VAT"
+            }
+          ]
+        },
+        {
+          "description": "67110 Pao Burger Brioch LeBrio14px4u",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "28.43",
+          "total": "28.43",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "6",
+          "tax_amount": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "VAT 6%",
+              "tax_rate": "6",
+              "tax_amount": "",
+              "tax_type_code": "PT_060_IVA"
+            }
+          ]
+        },
+        {
+          "description": "67322 Chapata Cristallino 28px2u",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "25.94",
+          "total": "25.94",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "6",
+          "tax_amount": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "VAT 6%",
+              "tax_rate": "6",
+              "tax_amount": "",
+              "tax_type_code": "PT_060_IVA"
+            }
+          ]
+        },
+        {
+          "description": "85101 Pao Maestra Classica 7u",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "2",
+          "unit_price": "13.43",
+          "total": "26.86",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "6",
+          "tax_amount": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "VAT 6%",
+              "tax_rate": "6",
+              "tax_amount": "",
+              "tax_type_code": "PT_060_IVA"
+            }
+          ]
+        },
+        {
+          "description": "85102 Pao Maestra Cereais 7u",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "15.29",
+          "total": "15.29",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "6",
+          "tax_amount": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "VAT 6%",
+              "tax_rate": "6",
+              "tax_amount": "",
+              "tax_type_code": "PT_060_IVA"
+            }
+          ]
+        },
+        {
+          "description": "67110 LeBrio14px4u",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "1.00",
+          "total": "1.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "67322 Chapata Cristallino 28px2u",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "1.00",
+          "total": "1.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "85101 Pao Maestra Classica 7u",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "2",
+          "unit_price": "2.00",
+          "total": "4.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "85102 Pao Maestra Cereais 7u",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "1.00",
+          "total": "1.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "62782 o th alee ee",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "1.00",
+          "total": "1.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

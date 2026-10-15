@@ -1,0 +1,1131 @@
+[
+ {
+  "file": "DU-02.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20
+    ],
+    "label": "INVOICE",
+    "classifier_review": [
+     "page counter restarted on pages [3, 4, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19] but the document number is unchanged: kept as ONE segment; verify whether these are separate payables",
+     "pages [5, 8, 20] attached as untitled continuation",
+     "customs invoice: confirm it is a payable",
+     "low OCR confidence on pages [5, 8, 20]"
+    ],
+    "status": "review",
+    "flags": [
+     "invoice_date ambiguous d/m vs m/d: read as mdy",
+     "no item row passed the qty x unit price = total test; line_items left empty",
+     "no printed gross total found"
+    ],
+    "structure": "no taxes",
+    "printed_gross": "",
+    "erp_gross": "0.00",
+    "diff": "",
+    "supplier_match": "none",
+    "ungrounded": [],
+    "n_rows": 0
+   }
+  ]
+ },
+ {
+  "file": "DU-03.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1,
+     2
+    ],
+    "label": "INVOICE",
+    "classifier_review": [
+     "customs invoice: confirm it is a payable"
+    ],
+    "status": "review",
+    "flags": [
+     "invoice_date = first date on page (no label)",
+     "1 numeric line(s) in the item table failed qty x price = total: ['1,040.06']",
+     "missing invoice_number",
+     "supplier near-miss not accepted: [(0.5, '2749690'), (0.5, '2815044'), (0.5, '2841753')]"
+    ],
+    "structure": "header taxes (rate-derived)",
+    "printed_gross": "1040.06",
+    "erp_gross": "1040.06",
+    "diff": "",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 10
+   }
+  ]
+ },
+ {
+  "file": "DU-05.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [
+     "customs invoice: confirm it is a payable"
+    ],
+    "status": "review",
+    "flags": [
+     "1 numeric line(s) in the item table failed qty x price = total: ['80 4108044 100 PC 771.66 100 771.66']",
+     "no item row passed the qty x unit price = total test; line_items left empty",
+     "no printed gross total found",
+     "missing invoice_number"
+    ],
+    "structure": "no taxes",
+    "printed_gross": "",
+    "erp_gross": "0.00",
+    "diff": "",
+    "supplier_match": "none",
+    "ungrounded": [],
+    "n_rows": 0
+   }
+  ]
+ },
+ {
+  "file": "DU-05s.pdf",
+  "segments": []
+ },
+ {
+  "file": "DU-06.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1,
+     2
+    ],
+    "label": "INVOICE",
+    "classifier_review": [
+     "pages [2] attached as untitled continuation"
+    ],
+    "status": "not_footing",
+    "flags": [
+     "4 numeric line(s) in the item table failed qty x price = total: ['Num. Pedido Total 6 138,20', 'Rota 804 Incidéncia 41,68 23,00% 9,59', 'Ped. 80120853 Incidéncia 96,52 6,00% 5,79']",
+     "missing invoice_number",
+     "supplier near-miss not accepted: [(0.5, '2815044'), (0.5, '2841753')]"
+    ],
+    "structure": "line-level taxes",
+    "printed_gross": "153.58",
+    "erp_gross": "161.59",
+    "diff": "8.01",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 10
+   }
+  ]
+ },
+ {
+  "file": "DU-08.pdf",
+  "segments": []
+ },
+ {
+  "file": "DU-09.pdf",
+  "segments": []
+ },
+ {
+  "file": "DU-10.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "CREDIT_MEMO",
+    "classifier_review": [],
+    "status": "not_footing",
+    "flags": [
+     "2 numeric line(s) in the item table failed qty x price = total: ['4582314 952-000091 6 20% 457.24 2,743.44', '4541892 939-001950 2 20% 743.35 1,486.70']",
+     "no item row passed the qty x unit price = total test; line_items left empty",
+     "supplier near-miss not accepted: [(0.5, '2815044'), (0.5, '2841753')]"
+    ],
+    "structure": "header taxes (rate-derived)",
+    "printed_gross": "5076.17",
+    "erp_gross": "0.00",
+    "diff": "-5076.17",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 0
+   }
+  ]
+ },
+ {
+  "file": "DU-11.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "CREDIT_MEMO",
+    "classifier_review": [
+     "negative total printed: confirm invoice vs credit memo"
+    ],
+    "status": "not_footing",
+    "flags": [
+     "1 numeric line(s) in the item table failed qty x price = total: ['Summa km-ta 22% -327,87']",
+     "missing invoice_number"
+    ],
+    "structure": "header taxes (rate-derived)",
+    "printed_gross": "400.00",
+    "erp_gross": "472.13",
+    "diff": "72.13",
+    "supplier_match": "none",
+    "ungrounded": [],
+    "n_rows": 1
+   }
+  ]
+ },
+ {
+  "file": "HLD-01.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [
+     "low OCR confidence on pages [1]"
+    ],
+    "status": "not_footing",
+    "flags": [
+     "missing invoice_number",
+     "missing invoice_date",
+     "missing currency",
+     "supplier near-miss not accepted: [(0.5, '2815044')]"
+    ],
+    "structure": "header taxes (rate-derived)",
+    "printed_gross": "8397.36",
+    "erp_gross": "7704.00",
+    "diff": "-693.36",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 1
+   }
+  ]
+ },
+ {
+  "file": "HLD-03.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "review",
+    "flags": [
+     "invoice_date ambiguous d/m vs m/d: read as dmy",
+     "1 numeric line(s) in the item table failed qty x price = total: ['13,00 59,51 7,74 Descontos Promocionais 63,85-']",
+     "no printed gross total found",
+     "missing invoice_number",
+     "supplier near-miss not accepted: [(0.5, '2815044')]",
+     "ungrounded values: ['line1.quantity=1']"
+    ],
+    "structure": "line-level taxes",
+    "printed_gross": "",
+    "erp_gross": "199.55",
+    "diff": "",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [
+     "line1.quantity=1"
+    ],
+    "n_rows": 1
+   }
+  ]
+ },
+ {
+  "file": "HLD-05.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1,
+     2
+    ],
+    "label": "INVOICE",
+    "classifier_review": [
+     "low classification confidence"
+    ],
+    "status": "review",
+    "flags": [
+     "invoice_date = first date on page (no label) [ambiguous d/m]",
+     "no printed gross total found",
+     "missing invoice_number",
+     "missing currency",
+     "supplier near-miss not accepted: [(0.5, '2815044')]"
+    ],
+    "structure": "no taxes",
+    "printed_gross": "",
+    "erp_gross": "2.00",
+    "diff": "",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 1
+   }
+  ]
+ },
+ {
+  "file": "HLD-08.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [
+     "page marked copy/duplicate but no earlier matching segment: kept as payable"
+    ],
+    "status": "review",
+    "flags": [
+     "2 numeric line(s) in the item table failed qty x price = total: [\"TGBO001/531 Hall's Smooth Fruit Punch 1lt M 337521 ae | 1000 276.74 15.00% R129,514.32\", 'Amount ExciTax | 120 514.92 |']",
+     "no item row passed the qty x unit price = total test; line_items left empty",
+     "no printed gross total found",
+     "supplier near-miss not accepted: [(0.5, '2841753')]"
+    ],
+    "structure": "no taxes",
+    "printed_gross": "",
+    "erp_gross": "0.00",
+    "diff": "",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 0
+   }
+  ]
+ },
+ {
+  "file": "HLD-10.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1,
+     2
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "not_footing",
+    "flags": [
+     "invoice_date ambiguous d/m vs m/d: read as dmy",
+     "due_date ambiguous d/m vs m/d: read as dmy",
+     "2 numeric line(s) in the item table failed qty x price = total: ['A F 24,00% 127,25 30,54', 'B - 0,00% 96,73 0,00']",
+     "no item row passed the qty x unit price = total test; line_items left empty",
+     "missing invoice_number"
+    ],
+    "structure": "no taxes",
+    "printed_gross": "254.52",
+    "erp_gross": "0.00",
+    "diff": "-254.52",
+    "supplier_match": "none",
+    "ungrounded": [],
+    "n_rows": 0
+   }
+  ]
+ },
+ {
+  "file": "INV-01.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "review",
+    "flags": [
+     "due_date ambiguous d/m vs m/d: read as dmy",
+     "1 numeric line(s) in the item table failed qty x price = total: ['Liefer-/Leistungsdatum: Zeitraum von 01.01.2026 bis 31.01.2026 Gesamtsumme 438,00 €']"
+    ],
+    "structure": "header taxes (rate-derived)",
+    "printed_gross": "438.00",
+    "erp_gross": "438.00",
+    "diff": "",
+    "supplier_match": "none",
+    "ungrounded": [],
+    "n_rows": 2
+   }
+  ]
+ },
+ {
+  "file": "INV-02.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1,
+     2
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "not_footing",
+    "flags": [
+     "invoice_number taken from classifier doc_ids (no labelled field)",
+     "due_date ambiguous d/m vs m/d: read as dmy",
+     "16 numeric line(s) in the item table failed qty x price = total: ['9x Led Bar FOS Luminus BAR 24 tundi €6,00 €54,00', '2x Pioneer CDJ-3000 24 tundi €45,00 €90,00', '2% Aktiivkolar NOVA Veritas 12 24 tundi €20,00']",
+     "supplier near-miss not accepted: [(0.5, '2749690')]"
+    ],
+    "structure": "header taxes (rate-derived)",
+    "printed_gross": "608.23",
+    "erp_gross": "280.98",
+    "diff": "-327.25",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 5
+   }
+  ]
+ },
+ {
+  "file": "INV-03.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "review",
+    "flags": [
+     "missing invoice_number",
+     "supplier near-miss not accepted: [(0.5, '2815044')]"
+    ],
+    "structure": "line-level taxes",
+    "printed_gross": "8550.00",
+    "erp_gross": "8550.00",
+    "diff": "",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 1
+   }
+  ]
+ },
+ {
+  "file": "INV-04.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "review",
+    "flags": [
+     "missing invoice_number",
+     "missing invoice_date",
+     "supplier near-miss not accepted: [(0.5, '2815044'), (0.5, '2841753')]"
+    ],
+    "structure": "line-level taxes",
+    "printed_gross": "19730.55",
+    "erp_gross": "19730.55",
+    "diff": "",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 1
+   }
+  ]
+ },
+ {
+  "file": "INV-06.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1,
+     2
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "not_footing",
+    "flags": [
+     "invoice_number taken from classifier doc_ids (no labelled field)",
+     "invoice_date ambiguous d/m vs m/d: read as dmy",
+     "no item row passed the qty x unit price = total test; line_items left empty",
+     "missing currency",
+     "supplier near-miss not accepted: [(0.5, '2815044')]"
+    ],
+    "structure": "no taxes",
+    "printed_gross": "1683.98",
+    "erp_gross": "0.00",
+    "diff": "-1683.98",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 0
+   }
+  ]
+ },
+ {
+  "file": "INV-07.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "review",
+    "flags": [
+     "missing invoice_number",
+     "missing invoice_date",
+     "supplier near-miss not accepted: [(0.5, '2815044'), (0.5, '2841753')]"
+    ],
+    "structure": "line-level taxes",
+    "printed_gross": "19730.55",
+    "erp_gross": "19730.55",
+    "diff": "",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 1
+   }
+  ]
+ },
+ {
+  "file": "INV-09.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [
+     "customs invoice: confirm it is a payable"
+    ],
+    "status": "review",
+    "flags": [
+     "4 numeric line(s) in the item table failed qty x price = total: ['752 Import duties 0 31889.09', '751 Customs VAT 0 5878.23', '2 EUR 37767.32']",
+     "no printed gross total found",
+     "missing invoice_date",
+     "supplier near-miss not accepted: [(0.5, '2841753'), (0.5, '2758343')]"
+    ],
+    "structure": "no taxes",
+    "printed_gross": "",
+    "erp_gross": "6.00",
+    "diff": "",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 1
+   }
+  ]
+ },
+ {
+  "file": "INV-10.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "not_footing",
+    "flags": [
+     "missing currency"
+    ],
+    "structure": "header taxes (rate-derived)",
+    "printed_gross": "594.30",
+    "erp_gross": "594.32",
+    "diff": "0.02",
+    "supplier_match": "none",
+    "ungrounded": [],
+    "n_rows": 2
+   }
+  ]
+ },
+ {
+  "file": "INV-11.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "review",
+    "flags": [
+     "invoice_date ambiguous d/m vs m/d: read as dmy",
+     "6 numeric line(s) in the item table failed qty x price = total: ['408 AGREED PICKUP FEE 24,0 % 5,00', '551 TARNEKULUD 24,0 % 53,40', 'z 805 AGREED DELIVERY FEE 24,0 % 5,00']",
+     "no item row passed the qty x unit price = total test; line_items left empty",
+     "no printed gross total found",
+     "missing invoice_number"
+    ],
+    "structure": "header taxes (rate-derived)",
+    "printed_gross": "",
+    "erp_gross": "0.00",
+    "diff": "",
+    "supplier_match": "none",
+    "ungrounded": [],
+    "n_rows": 0
+   }
+  ]
+ },
+ {
+  "file": "INV-13.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "not_footing",
+    "flags": [
+     "7 numeric line(s) in the item table failed qty x price = total: ['1 Parking fee EUROPARK success fee 1 3 173.98 3173.98 24', '1 Parking start fee EUROPARK 1 6 976.80 6976.80 24', '1 Parking fee UHISTEENUSED OPEN AREA discount 20% -1 4276.01 ~4 276.01 24']",
+     "supplier near-miss not accepted: [(0.5, '2815044')]"
+    ],
+    "structure": "line-level taxes",
+    "printed_gross": "587.46",
+    "erp_gross": "12153.16",
+    "diff": "11565.70",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 22
+   }
+  ]
+ },
+ {
+  "file": "INV-14.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "review",
+    "flags": [
+     "missing invoice_number",
+     "supplier near-miss not accepted: [(0.5, '2815044')]"
+    ],
+    "structure": "line-level taxes",
+    "printed_gross": "29253.72",
+    "erp_gross": "29253.72",
+    "diff": "",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 3
+   }
+  ]
+ },
+ {
+  "file": "INV-15.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "review",
+    "flags": [
+     "missing invoice_number",
+     "supplier near-miss not accepted: [(0.5, '2815044')]"
+    ],
+    "structure": "line-level taxes",
+    "printed_gross": "29253.72",
+    "erp_gross": "29253.72",
+    "diff": "",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 3
+   }
+  ]
+ },
+ {
+  "file": "INV-16.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1,
+     2
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "not_footing",
+    "flags": [
+     "invoice_number taken from classifier doc_ids (no labelled field)",
+     "invoice_date ambiguous d/m vs m/d: read as dmy",
+     "1 numeric line(s) in the item table failed qty x price = total: ['A 3 22,00% 21,70 4,77']",
+     "no item row passed the qty x unit price = total test; line_items left empty"
+    ],
+    "structure": "no taxes",
+    "printed_gross": "26.47",
+    "erp_gross": "0.00",
+    "diff": "-26.47",
+    "supplier_match": "none",
+    "ungrounded": [],
+    "n_rows": 0
+   }
+  ]
+ },
+ {
+  "file": "INV-19.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1,
+     2
+    ],
+    "label": "INVOICE",
+    "classifier_review": [
+     "pages [2] attached as untitled continuation",
+     "low classification confidence"
+    ],
+    "status": "not_footing",
+    "flags": [
+     "6 numeric line(s) in the item table failed qty x price = total: ['(ii) NHIL(2.5%) GHC 165.00', '(iii) | GETFund Levy (2.5%) GHC 165.00', '(iv) COVID-19 Levy (1%) GHC 66.00']",
+     "missing invoice_number",
+     "missing invoice_date",
+     "missing currency"
+    ],
+    "structure": "header taxes (rate-derived)",
+    "printed_gross": "8045.40",
+    "erp_gross": "1452.00",
+    "diff": "-6593.40",
+    "supplier_match": "none",
+    "ungrounded": [],
+    "n_rows": 1
+   }
+  ]
+ },
+ {
+  "file": "INV-20.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1,
+     2
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "review",
+    "flags": [
+     "invoice_number taken from classifier doc_ids (no labelled field)",
+     "due_date ambiguous d/m vs m/d: read as dmy",
+     "supplier near-miss not accepted: [(0.5, '2815044')]"
+    ],
+    "structure": "no taxes",
+    "printed_gross": "12.10",
+    "erp_gross": "12.10",
+    "diff": "",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 1
+   }
+  ]
+ },
+ {
+  "file": "INV-21.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "not_footing",
+    "flags": [
+     "due_date ambiguous d/m vs m/d: read as dmy",
+     "6 numeric line(s) in the item table failed qty x price = total: ['5601126039575 | 12422850 _| SICAL SUPER BAR Cafe Grao Gx1kg NIPT 24,000 34,69 407,95', 'Desconto em Valor BEVERAGES SOLUTIONS 8,30-', 'IMPOSTO SOBRE VALOR ACRESCENTADO DATA DE VENCIMENTO 06/05/2026 VALOR BRUTO 868,51']",
+     "missing invoice_number",
+     "missing invoice_date",
+     "missing currency",
+     "supplier near-miss not accepted: [(0.5, '2815044')]"
+    ],
+    "structure": "no taxes",
+    "printed_gross": "535.79",
+    "erp_gross": "35.95",
+    "diff": "-499.84",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 4
+   }
+  ]
+ },
+ {
+  "file": "INV-23.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1,
+     2,
+     3
+    ],
+    "label": "INVOICE",
+    "classifier_review": [
+     "pages [2, 3] attached as untitled continuation",
+     "low classification confidence",
+     "customs invoice: confirm it is a payable",
+     "low OCR confidence on pages [2, 3]"
+    ],
+    "status": "review",
+    "flags": [
+     "missing invoice_number",
+     "ungrounded values: ['gross_total=13724.19']"
+    ],
+    "structure": "header taxes (printed amounts)",
+    "printed_gross": "13724.19",
+    "erp_gross": "13724.19",
+    "diff": "",
+    "supplier_match": "none (best 0.33)",
+    "ungrounded": [
+     "gross_total=13724.19"
+    ],
+    "n_rows": 2
+   }
+  ]
+ },
+ {
+  "file": "INV-25.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "review",
+    "flags": [
+     "invoice_date = first date on page (no label)",
+     "6 numeric line(s) in the item table failed qty x price = total: ['FLI FOLHA 80g BRANCO A4 400,00 UNI 0,000 EUR 0,00 EUR 23 %', 'Incidéncia Valor de I.V.A. TOTAL BRUTO 176,00 EUR', '143,09 23,0 % 32,91 DESCONTO LINHA 0,00 EUR']",
+     "missing invoice_number",
+     "supplier near-miss not accepted: [(0.5, '2900112'), (0.5, '2815044')]"
+    ],
+    "structure": "no taxes",
+    "printed_gross": "176.00",
+    "erp_gross": "176.00",
+    "diff": "",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 2
+   }
+  ]
+ },
+ {
+  "file": "INV-26.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1,
+     2
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "not_footing",
+    "flags": [
+     "invoice_date ambiguous d/m vs m/d: read as dmy",
+     "5 numeric line(s) in the item table failed qty x price = total: ['4 NOI MIXED ROOT CHIPS 656 2 3.60 720 720', '6 (+/-1KG) 1 7.20 720 720', '5 DAIRY THICK & 1506 6 950 $7.00 57.00']",
+     "missing invoice_number",
+     "supplier near-miss not accepted: [(0.5, '2841753')]"
+    ],
+    "structure": "no taxes",
+    "printed_gross": "0.00",
+    "erp_gross": "35127.30",
+    "diff": "35127.30",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 28
+   }
+  ]
+ },
+ {
+  "file": "INV-27.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1,
+     2
+    ],
+    "label": "INVOICE",
+    "classifier_review": [
+     "pages [1] attached as untitled continuation",
+     "low classification confidence"
+    ],
+    "status": "review",
+    "flags": [
+     "invoice_date = first date on page (no label) [ambiguous d/m]",
+     "1 numeric line(s) in the item table failed qty x price = total: ['Warehosuing for May 2025 SUBTOTAL 60,908.88']",
+     "missing invoice_number"
+    ],
+    "structure": "header taxes (rate-derived)",
+    "printed_gross": "70654.30",
+    "erp_gross": "70654.30",
+    "diff": "",
+    "supplier_match": "none",
+    "ungrounded": [],
+    "n_rows": 7
+   }
+  ]
+ },
+ {
+  "file": "INV-28.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1,
+     2,
+     3
+    ],
+    "label": "INVOICE",
+    "classifier_review": [
+     "pages [2, 3] attached as untitled continuation"
+    ],
+    "status": "review",
+    "flags": [
+     "invoice_date = first date on page (no label)",
+     "5 numeric line(s) in the item table failed qty x price = total: ['OVNI wen we ww 8 3.582,56', '‘Lalt DKK\" 3.582,56', '25% moms 895,64']",
+     "no printed gross total found",
+     "missing invoice_number",
+     "supplier near-miss not accepted: [(0.5, '2815044')]"
+    ],
+    "structure": "header taxes (rate-derived)",
+    "printed_gross": "",
+    "erp_gross": "7541.26",
+    "diff": "",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 22
+   }
+  ]
+ },
+ {
+  "file": "INV-31.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1,
+     2,
+     3
+    ],
+    "label": "INVOICE",
+    "classifier_review": [
+     "pages [2, 3] attached as untitled continuation"
+    ],
+    "status": "not_footing",
+    "flags": [
+     "invoice_date ambiguous d/m vs m/d: read as mdy",
+     "due_date ambiguous d/m vs m/d: read as mdy",
+     "1 numeric line(s) in the item table failed qty x price = total: ['100  6/1/2018  17,657.53 Electric 04/27/18-05/16/18']",
+     "no item row passed the qty x unit price = total test; line_items left empty",
+     "missing currency"
+    ],
+    "structure": "no taxes",
+    "printed_gross": "17657.53",
+    "erp_gross": "0.00",
+    "diff": "-17657.53",
+    "supplier_match": "none",
+    "ungrounded": [],
+    "n_rows": 0
+   }
+  ]
+ },
+ {
+  "file": "INV-32.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "review",
+    "flags": [
+     "invoice_date ambiguous d/m vs m/d: read as dmy",
+     "1 numeric line(s) in the item table failed qty x price = total: ['1  $0.00  $0.00']",
+     "missing invoice_number",
+     "missing currency",
+     "supplier near-miss not accepted: [(0.5, '2815044')]"
+    ],
+    "structure": "header taxes (rate-derived)",
+    "printed_gross": "750.00",
+    "erp_gross": "750.00",
+    "diff": "",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 1
+   }
+  ]
+ },
+ {
+  "file": "INV-33.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "review",
+    "flags": [
+     "1 numeric line(s) in the item table failed qty x price = total: ['* Please kindly endorse and scan via qmail back to us once you hava received this Invoice. Thank you. | _|Total | $250.00 |']",
+     "no printed gross total found"
+    ],
+    "structure": "no taxes",
+    "printed_gross": "",
+    "erp_gross": "250.00",
+    "diff": "",
+    "supplier_match": "none",
+    "ungrounded": [],
+    "n_rows": 1
+   }
+  ]
+ },
+ {
+  "file": "INV-34.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1,
+     2,
+     3
+    ],
+    "label": "INVOICE",
+    "classifier_review": [
+     "pages [2, 3] attached as untitled continuation"
+    ],
+    "status": "not_footing",
+    "flags": [
+     "1 numeric line(s) in the item table failed qty x price = total: ['Licence Fees - Suite 313b  20/06/2015 - 19/07/2015  1.00  $520.00']",
+     "no item row passed the qty x unit price = total test; line_items left empty",
+     "missing currency"
+    ],
+    "structure": "no taxes",
+    "printed_gross": "520.00",
+    "erp_gross": "0.00",
+    "diff": "-520.00",
+    "supplier_match": "none",
+    "ungrounded": [],
+    "n_rows": 0
+   }
+  ]
+ },
+ {
+  "file": "INV-35.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [
+     "page marked copy/duplicate but no earlier matching segment: kept as payable"
+    ],
+    "status": "not_footing",
+    "flags": [
+     "invoice_date = first date on page (no label)",
+     "4 numeric line(s) in the item table failed qty x price = total: ['Basic Fee 25.50', 'Retrieval Fee 0.00', 'Per Page Copy (Paper) 1 13 0.00']",
+     "no item row passed the qty x unit price = total test; line_items left empty"
+    ],
+    "structure": "no taxes",
+    "printed_gross": "30.25",
+    "erp_gross": "0.00",
+    "diff": "-30.25",
+    "supplier_match": "none",
+    "ungrounded": [],
+    "n_rows": 0
+   }
+  ]
+ },
+ {
+  "file": "INV-36.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "review",
+    "flags": [
+     "2 numeric line(s) in the item table failed qty x price = total: ['1  Managed Cloud Services - Computer and Administration Services -  11  N  91,580.50', '91,580.50  0.00  91,580.50']",
+     "no item row passed the qty x unit price = total test; line_items left empty",
+     "no printed gross total found",
+     "supplier near-miss not accepted: [(0.5, '2815044')]"
+    ],
+    "structure": "no taxes",
+    "printed_gross": "",
+    "erp_gross": "0.00",
+    "diff": "",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 0
+   }
+  ]
+ },
+ {
+  "file": "INV-37.pdf",
+  "segments": [
+   {
+    "segment": 1,
+    "pages": [
+     1
+    ],
+    "label": "INVOICE",
+    "classifier_review": [],
+    "status": "not_footing",
+    "flags": [
+     "invoice_date ambiguous d/m vs m/d: read as dmy",
+     "missing invoice_number",
+     "supplier near-miss not accepted: [(0.5, '2815044'), (0.5, '2841753')]"
+    ],
+    "structure": "no taxes",
+    "printed_gross": "416.65",
+    "erp_gross": "1611.37",
+    "diff": "1194.72",
+    "supplier_match": "none (best 0.50)",
+    "ungrounded": [],
+    "n_rows": 6
+   }
+  ]
+ }
+]

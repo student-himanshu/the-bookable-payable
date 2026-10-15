@@ -1,0 +1,14 @@
+{
+  "file": "DU-09.pdf",
+  "payables": [],
+  "declined": [
+    {
+      "doc_type": "form",
+      "reason": "NON_PAYABLE pages 1-1 (medium confidence) is not a payable: first page"
+    },
+    {
+      "doc_type": "email",
+      "reason": "NON_PAYABLE pages 2-2 (high confidence) is not a payable: subtype change form -> email"
+    }
+  ]
+}

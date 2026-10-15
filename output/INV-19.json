@@ -1,0 +1,80 @@
+{
+  "file": "INV-19.pdf",
+  "payables": [
+    {
+      "invoice_number": "",
+      "invoice_date": "",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "",
+      "supplier": {
+        "name": "",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "8045.40",
+      "subtotal": "",
+      "total_tax_amount": "8045.40",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "NHIL",
+          "tax_name": "(ii) NHIL(2.5%",
+          "tax_rate": "2.5",
+          "tax_amount": "",
+          "tax_type_code": ""
+        },
+        {
+          "tax_type": "GETFL",
+          "tax_name": "(iii) | GETFund Levy (2.5%",
+          "tax_rate": "2.5",
+          "tax_amount": "",
+          "tax_type_code": ""
+        },
+        {
+          "tax_type": "LEVY",
+          "tax_name": "(iv) COVID-19 Levy (1%",
+          "tax_rate": "1",
+          "tax_amount": "",
+          "tax_type_code": "TAX030"
+        },
+        {
+          "tax_type": "VAT",
+          "tax_name": "(vi) VAT (15%",
+          "tax_rate": "15",
+          "tax_amount": "",
+          "tax_type_code": ""
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Transportation and Set up",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "1200.00",
+          "total": "1200.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

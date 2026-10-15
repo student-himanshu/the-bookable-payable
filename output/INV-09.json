@@ -1,0 +1,56 @@
+{
+  "file": "INV-09.pdf",
+  "payables": [
+    {
+      "invoice_number": "2025",
+      "invoice_date": "",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "",
+      "subtotal": "37767.32",
+      "total_tax_amount": "37767.32",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "PTGGM351961374",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "6.00",
+          "total": "6.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": [
+    {
+      "doc_type": "customs_document",
+      "reason": "SUPPORTING pages 2-2 (medium confidence) is not a payable: class change INVOICE -> SUPPORTING"
+    }
+  ]
+}

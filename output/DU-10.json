@@ -1,0 +1,45 @@
+{
+  "file": "DU-10.pdf",
+  "payables": [
+    {
+      "invoice_number": "5900366703",
+      "invoice_date": "2026-04-15",
+      "due_date": "",
+      "invoice_type": "CREDIT_MEMO",
+      "currency": "GBP",
+      "supplier": {
+        "name": "",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "Net_30",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "5076.17",
+      "subtotal": "4230.14",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "VAT",
+          "tax_name": "VAT 20 %",
+          "tax_rate": "20",
+          "tax_amount": "",
+          "tax_type_code": "GB_200_VAT"
+        }
+      ],
+      "line_items": []
+    }
+  ],
+  "declined": []
+}

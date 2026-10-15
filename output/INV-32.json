@@ -1,0 +1,59 @@
+{
+  "file": "INV-32.pdf",
+  "payables": [
+    {
+      "invoice_number": "",
+      "invoice_date": "2018-05-06",
+      "due_date": "2018-06-19",
+      "invoice_type": "INVOICE",
+      "currency": "",
+      "supplier": {
+        "name": "",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "Net_14",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "750.00",
+      "subtotal": "750.00",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "TAX",
+          "tax_name": "Includes TAX 0%",
+          "tax_rate": "0",
+          "tax_amount": "",
+          "tax_type_code": ""
+        }
+      ],
+      "line_items": [
+        {
+          "description": "passenger van from Philly going to DC pick back up in DC coming back to to Philly : am to : pm hr *",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "750.00",
+          "total": "750.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

@@ -1,0 +1,90 @@
+{
+  "file": "INV-21.pdf",
+  "payables": [
+    {
+      "invoice_number": "",
+      "invoice_date": "",
+      "due_date": "2026-05-06",
+      "invoice_type": "INVOICE",
+      "currency": "",
+      "supplier": {
+        "name": "",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "535.79",
+      "subtotal": "",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "8445291766662 [12616271 | Vireo Chocolate Quente 12(25x209) N",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "10.01",
+          "total": "10.01",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "8445291894877 | 12624778 _| NESCAFE Acucar Std 1x2.8kg PT",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "8.30",
+          "total": "8.30",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "054881000024 =| 14181244 —_| AHMAD Inf MentaHirtLim 6(20x1,59)N1PT",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "3",
+          "unit_price": "2.94",
+          "total": "8.82",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "054881000062 | 14186288 —_ | AHMAD Int Camomila 6(20x1.5g)N1PT",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "3",
+          "unit_price": "2.94",
+          "total": "8.82",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

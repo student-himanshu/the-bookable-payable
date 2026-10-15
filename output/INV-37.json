@@ -1,0 +1,116 @@
+{
+  "file": "INV-37.pdf",
+  "payables": [
+    {
+      "invoice_number": "",
+      "invoice_date": "2018-12-06",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "MYR",
+      "supplier": {
+        "name": "",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "17816",
+      "po_id": "",
+      "gross_total": "416.65",
+      "subtotal": "416.65",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "SM #0201 Actual 497649 - 497625 =",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "24",
+          "unit_price": "0.097958122",
+          "total": "2.35",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "at 2nd fl North Mech Room Demand",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "11.470001",
+          "total": "11.47",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "SM #0202 Actual 434313 - 434122 =",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "191",
+          "unit_price": "0.097958122",
+          "total": "18.71",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "at 2nd fl North Mech Room Demand",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "11.470001",
+          "unit_price": "0.70",
+          "total": "8.03",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "SM #0206 Actual 703329 - 687513 =",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "15816",
+          "unit_price": "0.097958122",
+          "total": "1549.31",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        },
+        {
+          "description": "at 0 Actual 0 - 0 Demand=",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "21.50",
+          "total": "21.50",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

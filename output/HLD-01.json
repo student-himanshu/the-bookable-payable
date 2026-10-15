@@ -1,0 +1,59 @@
+{
+  "file": "HLD-01.pdf",
+  "payables": [
+    {
+      "invoice_number": "",
+      "invoice_date": "",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "",
+      "supplier": {
+        "name": "",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "8397.36",
+      "subtotal": "",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "VAT",
+          "tax_name": "Vat 7 %",
+          "tax_rate": "7",
+          "tax_amount": "",
+          "tax_type_code": ""
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Staff 2 Units X 6 Days",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "12",
+          "unit_price": "600.00",
+          "total": "7200.00",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "",
+          "tax_amount": "",
+          "taxes": []
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

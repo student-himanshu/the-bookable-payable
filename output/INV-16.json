@@ -1,0 +1,37 @@
+{
+  "file": "INV-16.pdf",
+  "payables": [
+    {
+      "invoice_number": "TLLIR72836045",
+      "invoice_date": "2025-06-09",
+      "due_date": "2025-07-07",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": "EE003250025004"
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "26.47",
+      "subtotal": "",
+      "total_tax_amount": "26.47",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": []
+    }
+  ],
+  "declined": []
+}

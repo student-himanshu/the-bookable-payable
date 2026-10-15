@@ -1,0 +1,59 @@
+{
+  "file": "HLD-03.pdf",
+  "payables": [
+    {
+      "invoice_number": "",
+      "invoice_date": "2025-12-02",
+      "due_date": "2026-01-01",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "Larkspur Print ou",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "Net_30",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "",
+      "subtotal": "",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "CX = |TRINCA ALE 122 6X1500 CXE NTT 13,5",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "123.36",
+          "total": "123.36",
+          "discount": "",
+          "discount_percentage": "",
+          "tax_rate": "61.76",
+          "tax_amount": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "VAT 61.76%",
+              "tax_rate": "61.76",
+              "tax_amount": "",
+              "tax_type_code": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "declined": []
+}

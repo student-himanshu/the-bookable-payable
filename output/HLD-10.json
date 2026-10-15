@@ -1,0 +1,37 @@
+{
+  "file": "HLD-10.pdf",
+  "payables": [
+    {
+      "invoice_number": "",
+      "invoice_date": "2026-05-07",
+      "due_date": "2026-06-04",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "254.52",
+      "subtotal": "",
+      "total_tax_amount": "254.52",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": []
+    }
+  ],
+  "declined": []
+}

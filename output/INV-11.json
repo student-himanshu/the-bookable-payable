@@ -1,0 +1,45 @@
+{
+  "file": "INV-11.pdf",
+  "payables": [
+    {
+      "invoice_number": "",
+      "invoice_date": "2026-04-01",
+      "due_date": "2026-04-28",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "",
+      "subtotal": "",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "VAT",
+          "tax_name": "Had@as KM 24,0 %",
+          "tax_rate": "24",
+          "tax_amount": "",
+          "tax_type_code": "EST_240_VAT"
+        }
+      ],
+      "line_items": []
+    }
+  ],
+  "declined": []
+}

@@ -1,0 +1,37 @@
+{
+  "file": "INV-35.pdf",
+  "payables": [
+    {
+      "invoice_number": "0248727220",
+      "invoice_date": "2018-06-27",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "USD",
+      "supplier": {
+        "name": "",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "1000020040",
+      "po_id": "",
+      "gross_total": "30.25",
+      "subtotal": "27.50",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": []
+    }
+  ],
+  "declined": []
+}
