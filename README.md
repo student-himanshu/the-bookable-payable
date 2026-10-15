@@ -1,3 +1,17 @@
+# How to run (our system)
+
+```
+python run.py                       # reads documents/*.pdf, writes output/<name>.json
+python run.py --docs DIR --out DIR  # any folder of PDFs
+python run.py --no-llm              # offline, rules only
+```
+Setup: `setup.ps1` (Windows) or `pip install -r requirements.txt pytesseract pillow pypdfium2`, plus the `tesseract`
+executable with language packs `deu est por tur msa fra spa nld dan`. Optional vision rescue: put
+`GEMINI_API_KEY=...` in `.env` (see `.env.example`); without a key the run is rules-only. A `Dockerfile` is provided
+(not built in our sandbox). Tests: `python -m unittest discover -s tests`. Design notes: `DESIGN.md`.
+
+---
+
 # The Bookable Payable
 ### A 3–4 day engineering challenge
 

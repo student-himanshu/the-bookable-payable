@@ -109,7 +109,6 @@ class ClaudeBackend:
 
 def make_client(provider: str = ""):
     """Backend for the first available key (Gemini, then Claude), or None. `provider` forces one."""
-    load_env()
     gem = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
     if provider in ("", "gemini") and gem:
         try:
