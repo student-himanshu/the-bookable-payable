@@ -1,0 +1,145 @@
+{
+ "file": "INV-25.pdf",
+ "sha256": "e0d7babe165dfc3c5d2a251dc7f51fe8ebc828b10948f52aeabcbf470151c2b2",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "Poe FAC A98/712\nOriginal Folha\nN° 1de1\nFairmont Services LDA\nHigh Street 34\n1000-137 LISBOA Support Services PT Unipessoal, Lda\nro 224\nChamada para a rede fixa nacional: Tel:40486«\nCaso esteja a ligar do estrangeiro contacte a sua ope Lisboa\npara saber a taxa aplicada\nIBAN: PT03 3800 2817 0335 4051 0822 4\nContribuinte N° :029461956\nCapital Social: 9975.96€\nRegistada na C.R.C.de LX. N.°2888\nE-Mail: lena.silva@larkspur-partners.com\nPT456472637 Emitido em Condigdes de Pagamento Vencimento em\n% 2026-04-13 Pagamento Credito 2026-05-13\n$ V/ Documento Cliente N° V/ Contribuinte Transporte\ng 9448 353598648 V/Viatura\nooo eer\n”\n8 (Alinea f do N° 5 do Art® 36 CIVA) Os artigos facturados foram colocados a disposicdo do adquirente em 2026-04-13\n~ REFERENCIA DESCRICAO COR TAM QUANTIDADE UNI P.VENDAC/IVA DESC VALORLIQUIDO IVA\nC6 FOT./IMPRESSAO A4 CORES 1 A4 400,00 UNI 0,400 EUR 160,00 EUR 23 %\nESTUD.\nFLI FOLHA 80g BRANCO A4 400,00 UNI 0,000 EUR 0,00 EUR 23 %\nFL2 FOLHA 1209 BRANCO A4 200,00 UNI 0,080 EUR 16,00 EUR 23 %\nObservacoes:\nHid}? Street 34\nre S ‘ LDA\nanFo - Processado por programa certificado n° 1217/AT - Sage\nIncidéncia Valor de I.V.A. TOTAL BRUTO 176,00 EUR\n143,09 23,0 % 32,91 DESCONTO LINHA 0,00 EUR\n0,00 0,0 % 0,00 DESCONTO GLOBAL 0,00 EUR\n0,00 0,0 % 0,00 TOTAL LIQUIDO 143,09 EUR\n0,00 0,0 % 0,00 TOTAL L.V.A. 32,91 EUR\nTOTAL PORTES 0,00 EUR\nHora de Carga: 12:38 Hora Descarga:\nLocal de Carga: _N/INSTALACOES Total 176,00 EUR\nLocal de Descarga: Rua do Ouro 224\n1250-148 Lisboa\n© Sage licenciado a: Kingsley Partners LDA",
+   "chars": 1277,
+   "text_layer_chars": 0,
+   "ocr_confidence": 84.7,
+   "ocr_words": 258,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\bfac\\s+[a-z]?\\d",
+      "where": "headline",
+      "line": "Poe FAC A98/712"
+     }
+    ],
+    "page_marker": [
+     1,
+     1
+    ],
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 2,
+   "method": "ocr",
+   "text": "Toke FAC A98/712\nDuplicado Folha\nN° 1de1\nFairmont Services LDA\nHigh Street 34\n1000-137 LISBOA Support Services PT Unipessoal, Lda\nro 224\nChamada para a rede fixa nacional: Tel:40486«\nCaso esteja a ligar do estrangeiro contacte a sua ope Lisboa\npara saber a taxa aplicada\nIBAN: PT03 3800 2817 0335 4051 0822 4\nContribuinte N° :029461956\nCapital Social: 9975.96€\nRegistada na C.R.C.de LX. N.°2888\nE-Mail: lena.silva@larkspur-partners.com\nPT456472637 Emitido em Condigdes de Pagamento Vencimento em\n% 2026-04-13 Pagamento Credito 2026-05-13\n$ V/ Documento Cliente N° V/ Contribuinte Transporte\ng 9448 353598648 V/Viatura\nooo eer\n”\n8 (Alinea f do N° 5 do Art® 36 CIVA) Os artigos facturados foram colocados a disposicdo do adquirente em 2026-04-13\n~ REFERENCIA DESCRICAO COR TAM QUANTIDADE UNI P.VENDAC/IVA DESC VALORLIQUIDO IVA\nC6 FOT./IMPRESSAO A4 CORES 1 A4 400,00 UNI 0,400 EUR 160,00 EUR 23 %\nESTUD.\nFLI FOLHA 80g BRANCO A4 400,00 UNI 0,000 EUR 0,00 EUR 23 %\nFL2 FOLHA 120g BRANCO A4 200,00 UNI 0,080 EUR 16,00 EUR 23 %\nObservacoes:\nHid}? Street 34\nre S ‘ LDA\nanFo - Processado por programa certificado n° 1217/AT - Sage\nIncidéncia Valor de I.V.A. TOTAL BRUTO 176,00 EUR\n143,09 23,0 % 32,91 DESCONTO LINHA 0,00 EUR\n0,00 0,0 % 0,00 DESCONTO GLOBAL 0,00 EUR\n0,00 0,0 % 0,00 TOTAL LIQUIDO 143,09 EUR\n0,00 0,0 % 0,00 TOTAL L.V.A. 32,91 EUR\nTOTAL PORTES 0,00 EUR\nHora de Carga: 12:38 Hora Descarga:\nLocal de Carga: _N/INSTALACOES Total 176,00 EUR\nLocal de Descarga: Rua do Ouro 224\n1250-148 Lisboa\n© Sage licenciado a: Kingsley Partners LDA",
+   "chars": 1279,
+   "text_layer_chars": 0,
+   "ocr_confidence": 84.7,
+   "ocr_words": 258,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 2,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\bfac\\s+[a-z]?\\d",
+      "where": "headline",
+      "line": "Toke FAC A98/712"
+     }
+    ],
+    "page_marker": [
+     1,
+     1
+    ],
+    "doc_ids": [],
+    "qualifiers": [
+     "copy_marker"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1
+   ],
+   "confidence": "high",
+   "doc_ids": [],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE"
+   ],
+   "needs_review": [],
+   "boundary_reason": "first page"
+  },
+  {
+   "index": 2,
+   "label": "SUPPORTING",
+   "subtype": "duplicate_copy",
+   "pages": [
+    2
+   ],
+   "confidence": "high",
+   "doc_ids": [],
+   "payable_candidate": false,
+   "page_labels": [
+    "2:INVOICE"
+   ],
+   "needs_review": [
+    "marked copy/duplicate of segment 1 (numeric overlap >= 0.8)"
+   ],
+   "boundary_reason": "page counter restarted (no document number to compare)"
+  }
+ ]
+}

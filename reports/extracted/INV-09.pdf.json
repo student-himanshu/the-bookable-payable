@@ -1,0 +1,182 @@
+{
+ "file": "INV-09.pdf",
+ "sha256": "05a23bb430aa2bbcee34dcbe642f5b97945f4491d13d1a77c3eb5fc667d4d5e5",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "ARVE\nKuupaev Date Kliendi nr. Client No. Arve nr. Invoice No.\n2025 / 06/06 11768395\nEMK_2492_ 177233378 EE5 166 EDO DSEPERRERSS\nArve maksja Payer of invoice Reg. nr. VAT reg. no.\nNorthwind Operations OU EE398766194\nu 48 Maksetahtaeg Due Date\nindenstrasse\nEE-10134 TALLINN code ee\nViide maksmisel Payment reference\n210020201117683950\nmaria.tamm@northwind.eu\nMeie viide Our ref. Veovahend Vehicle Saatmise kuupdev Departure date\nTLLFW19939 /TLL9386486 2025 / 06 / 06\nSaatja viide Shipper Reference Tarneklausel Terms of delivery Saabumise kuupaev Arrival date\nPTGGM351961374 001 Ismir 2025 / 06 / 06\nVastuvotja Consignee\nNorthwifaPERATIONS\nFrielas business park, PT-2660 Frielas\nKood Code Tekst Notes KM VAT % Neto summa Net amount\n752 Import duties 0 31889.09\n751 Customs VAT 0 5878.23\ni Valuuta Currency Kokku Total\n2 EUR 37767.32\nfi Arve tahtajaks mittetasumisel on Cloverdale Tradiigigus nduda viivist 0,1% tasumata summast iga maksetahtpaeva illetanud paeva eest. Lisandub\n3 viivisarve valjastamise tasu 40 eurot.\n3 Cloverdale Tradidyas the right to charge interest on arrears 0.1% of the unpaid amount for each day the invoice is overdue. Service fee of 40 EUR applies\nE for every interest invoicing.\nNeto summa Net amount KM alus VAT C.A Kaibemaks VAT amount Valuuta Currency Kokku Total\n37767.32 0.00 0.00 EUR 37767.32\nCloverdale Trading\n10112, Gartenweg 13 , Harju county ESTONIA tel:\nAriregistri nr., Trade reg. No.: 15116864\nKM reg. nr., VAT reg. No.: EE418070965\nE-mail, E-post: luis.roth@ashtord-distribution.com\nPangad, Banks:\nOakhaven BaéiE516678092588562155 , BIC: SZWGVJOV\nRedwater BariE319931502108360825 , BIC: USQNDC2G",
+   "chars": 1397,
+   "text_layer_chars": 0,
+   "ocr_confidence": 84.4,
+   "ocr_words": 240,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 14.0,
+     "SUPPORTING/shipping_document": 1.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Kuupaev Date Kliendi nr. Client No. Arve nr. Invoice No."
+     },
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\barve\\b",
+      "where": "headline",
+      "line": "ARVE"
+     },
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\barve ?nr\\b",
+      "where": "headline",
+      "line": "Kuupaev Date Kliendi nr. Client No. Arve nr. Invoice No."
+     },
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bshipper\\b",
+      "where": "body",
+      "line": "Saatja viide Shipper Reference Tarneklausel Terms of delivery Saabumise kuupaev Arrival date"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 2,
+   "method": "ocr",
+   "text": "Blackpine Services S.A NRL : 3217PT6557408317495996\nESTANCIA ADUANEIRA : PT423029 Tipo Declaragaéo -EU A} N° Ad.-1 | Total Vis - 156 Processo N° - 1693 de 05/05/2025\nN° Aceitagao : 9752PT76913459517321 de 05/05/2025 | N° Provisorio : 356960/2025| Conta N°:\nExpedidor : Oakhaven Technologies LTD Pais : TR\nDestinatario : Northwind OPERATIONS PT NIF : 198709709\nInc.: EXW. NT.: 11 Montante Casa 22 : 489.840,000 CNY Tx Cambio: 8,319900 Frete : 6.875,000 Seguro : 0,000\nPeso Bruto : 4.882,800 Peso Liquido : 3.884,400 Valor Aduaneiro Total : 65.750,710 CM : 002615000000\nLocalizagao (C30) : DTP96621713004PT MT18: 30 / 76GPC174 MT21: 30 / BE\n[wr [codigo dos wovcadoras [ret [ AVA [USupl [ro] Pucugy | Pi@iwe | valorAdido | Aueimeni |\n[i | __ 87120030 90 8999 [#00 [| ise] TR] —-saea0o] 4.887.800] 480.840.000] 6.875.000\n2\n[aso_| __65.750,710 | 488 | 91000,08 | ovvssea 202s. |\nee\nfem [nese [SN SSSCSSCSCSC~dY ~SSSSS—~ 707A] 05-05-20]\nppRoc ff\n[n380_[ravnowmnaveee CS SSCS «00 |\n[ezor_[eroao i —_*Y «(S05 2028 |\n|_Na21_[s7rRoosesssasaieme 25-04-2028 |\nLO (CC)\n| 3630 su 08-05-2028 |\n2 a CT\nDavee [smd —_*Y 05 2028 |\n| sH27 [SN 98-05-2028 |\n| svor sn 08-05-2025 |\n| vico [sy 98-05-2028 |\n[wre [ist Kee26.0sa7 i SSSSC—~™'é0a 2028 |\n[ezis_[ceRT. ORIGEMTR.O1oez129 «| SSCS «20208 |\n[nore [a iserezs SSCS 02029 |\nTotal erie\nTrinta e sete mil setecentos e sessenta e sete euros e trinta e dois céntimos 37.767,32\nGIDWIN - Desenvolvido por Meridian Distribution Ldkicenciado a: Nordis - Transitarios, S.A",
+   "chars": 1245,
+   "text_layer_chars": 0,
+   "ocr_confidence": 60.4,
+   "ocr_words": 249,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 2,
+    "label": "SUPPORTING",
+    "subtype": "customs_document",
+    "confidence": "medium",
+    "scores": {
+     "SUPPORTING/customs_document": 10.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\bestancia aduaneira\\b",
+      "where": "body",
+      "line": "ESTANCIA ADUANEIRA : PT423029 Tipo Declaragaéo -EU A} N° Ad.-1 | Total Vis - 156 Processo N° - 1693 de 05/05/2025"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\btipo declara\\w+",
+      "where": "body",
+      "line": "ESTANCIA ADUANEIRA : PT423029 Tipo Declaragaéo -EU A} N° Ad.-1 | Total Vis - 156 Processo N° - 1693 de 05/05/2025"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\baduaneir\\w*",
+      "where": "body",
+      "line": "ESTANCIA ADUANEIRA : PT423029 Tipo Declaragaéo -EU A} N° Ad.-1 | Total Vis - 156 Processo N° - 1693 de 05/05/2025"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\bdeclara[cg]\\w+",
+      "where": "body",
+      "line": "ESTANCIA ADUANEIRA : PT423029 Tipo Declaragaéo -EU A} N° Ad.-1 | Total Vis - 156 Processo N° - 1693 de 05/05/2025"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\bexpedidor\\b",
+      "where": "body",
+      "line": "Expedidor : Oakhaven Technologies LTD Pais : TR"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1
+   ],
+   "confidence": "high",
+   "doc_ids": [],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE"
+   ],
+   "needs_review": [
+    "customs invoice: confirm it is a payable"
+   ],
+   "boundary_reason": "first page"
+  },
+  {
+   "index": 2,
+   "label": "SUPPORTING",
+   "subtype": "customs_document",
+   "pages": [
+    2
+   ],
+   "confidence": "medium",
+   "doc_ids": [],
+   "payable_candidate": false,
+   "page_labels": [
+    "2:SUPPORTING"
+   ],
+   "needs_review": [],
+   "boundary_reason": "class change INVOICE -> SUPPORTING"
+  }
+ ]
+}

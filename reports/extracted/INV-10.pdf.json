@@ -1,0 +1,89 @@
+{
+ "file": "INV-10.pdf",
+ "sha256": "0144f284f656fbe966eb4dcabba199ff7ce78ee971088ebedcd86686b5fe6384",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "Arvenr.: 18533\nKuupiiev: 25.03.2026\nMaksja: Northwind Operations OU Kliendi nr: 5207\nRua do Ouro 15 Tingimused: 30 pv neto\nTallinn Tahtaeg: 24.04.2026\nHarju maakond mee —\n10134 Viivis: 0,5% piievas\nKontaktisik: Marco Lind\nMaksja KMKR nr: EE398766194\nKauba Kauba nimetus Uhik Kogus % Hind Summa\nkood\n001 17/03 Toitlustus kord =o 479,28 479,28\nYM Umardus 1 -0,01 -0,01\nKokku: 479,27\nSumma s6nadega: PS\nKaibemaks 24%: 115,03\nViissada iiheksakiimmend neli ja 30\n, Tasuda: 594,30\nAllkiri:\nLarkspur Print OU Kontakt: +190 2609 0057 A/a: EE684837406967098266\nJalan Ampang 60 KMKR nr: EE755780626 Harbor Savings\n: ase Reg.nr.:77060059 SWIFT XYQXPY30\nTallinn\nHarju maakond\n10412",
+   "chars": 569,
+   "text_layer_chars": 0,
+   "ocr_confidence": 81.3,
+   "ocr_words": 101,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\barve ?nr\\b",
+      "where": "headline",
+      "line": "Arvenr.: 18533"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [
+     "18533"
+    ],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1
+   ],
+   "confidence": "high",
+   "doc_ids": [
+    "18533"
+   ],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE"
+   ],
+   "needs_review": [],
+   "boundary_reason": "first page"
+  }
+ ]
+}

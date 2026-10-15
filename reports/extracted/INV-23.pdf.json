@@ -1,0 +1,283 @@
+{
+ "file": "INV-23.pdf",
+ "sha256": "d6b8d3f2623765d42d4bede13f5109d3602e6a3cc6eaa80319c8a2ba54c05fd3",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "# EST-259684\nKingsley Supply LIMITED\nRua do Ouro 88\nGhana\nBill To\nCASH CUSTOMER - FedEx\nNorthwind HOLDINGS % .\nGhana Estimate Date : 31 Dec 2025\n1 Custom Duties - |ASO01 1.00 13,289.19 13,289.19\nCustom Duties\n2 Service Charges - FDX0001 1.00 356.85 356.85\nService Charges\nSub Total 13,646.04\nGETFund (2.5%) 8.92\nNHIL (2.5%) 8.92\nCovid Levy (1%) 3.57\nVAT Output-15 (15%) 56.74\nTotal GHS13,724.19\nNotes\nLooking forward for your business.\nTerms & Conditions\nPLEASE BE INFORMED THAT A DEPOSIT OF GHC13,000 IS REQUIRED TO ENABLE US TO PROCEED WITH THE CUSTOMS DUTY.\nAwb No.7778 8290 8336\nWeight - 6.20 KG\n1",
+   "chars": 499,
+   "text_layer_chars": 0,
+   "ocr_confidence": 92.6,
+   "ocr_words": 103,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "untitled_invoice_like",
+    "confidence": "low",
+    "scores": {},
+    "evidence": [],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": false,
+    "notes": [
+     "no title found; invoice-like content (tax/price vocabulary + total amount)"
+    ]
+   }
+  },
+  {
+   "page": 2,
+   "method": "empty",
+   "text": "",
+   "chars": 0,
+   "text_layer_chars": 0,
+   "ocr_confidence": 0.0,
+   "ocr_words": 0,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [
+    "OCR returned no text (blank or unreadable page)"
+   ],
+   "classification": {
+    "page": 2,
+    "label": "UNKNOWN",
+    "subtype": "unclassified",
+    "confidence": "none",
+    "scores": {},
+    "evidence": [],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": false,
+    "notes": [
+     "almost no text on page (blank, drawing or unreadable)"
+    ]
+   }
+  },
+  {
+   "page": 3,
+   "method": "empty",
+   "text": "",
+   "chars": 0,
+   "text_layer_chars": 0,
+   "ocr_confidence": 0.0,
+   "ocr_words": 0,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [
+    "OCR returned no text (blank or unreadable page)"
+   ],
+   "classification": {
+    "page": 3,
+    "label": "UNKNOWN",
+    "subtype": "unclassified",
+    "confidence": "none",
+    "scores": {},
+    "evidence": [],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": false,
+    "notes": [
+     "almost no text on page (blank, drawing or unreadable)"
+    ]
+   }
+  },
+  {
+   "page": 4,
+   "method": "ocr",
+   "text": "12/31/25, 12:39 PM ICUMS\nDuty Calculator\nBOE unit\nTotal tax amount\nTax Ney(A) Last Tax Ncy(B) Relief Tax Ncy(C=A-B) Guarantee Tax Ncy(D=C) Payable Tax Ncy(B)\n13,289.19 13,289.19 0.00 0.00 13,289.19\nTax amount by tax code\nee User Tax Last Tax Relief Tax Guarantee Tax Payable Tax\nDef. Ney(A) Ncy(B) Ney(C=A-B) Ney(D=C) Ney(B)\n[01] Import Duty N 2,081.58 2,081.58 0.00 0.00 2,081.58\n[02] import VAT N 6,950.41 6,950.41 0.00 0.00 6,950.41\n[05] Processing Fee N 0.00 0.00 0.00 0.00 0.00\n[06] ECOWAS Levy N 208.16 208.16 0.00 0.00 208.16\n[32] Network Charge N 159.92 159.92 0.00 0.00 159.92\n[33] Network Charge VAT N 25.19 25.19 0.00 0.00 25.19\n[47] Import NHIL N 1,092.83 1,092.83 0.00 0.00 1,092.83\n[48] Network Charge NHIL N 4.00 4.00 0.00 0.00 4.00\n[56] 1% Withholding Tax on Import N 416.32 416.32 0.00 0.00 416.32\n[72] MoTI e-IDF Fee N 5.00 5.00 0.00 0.00 5.00\n[87] Ghana Export-Import Bank\n(EXIM) Levy N 312.24 312.24 0.00 0.00 312.24\ner TEN N 1,092.83 —-1,092.83 0.00 0.00 1,092.83\n[89] Network Charge GET Fund Levy N 4.00 4.00 0.00 0.00 4.00\n[93] Inspection Fee N 416.32 416.32 0.00 0.00 416.32\n[98] African Union Import Levy N 83.26 83.26 0.00 0.00 83.26\n[99] COVID-19 Health Recovery Levy N 437.13 437.13 0.00 0.00 437.13\nTax amount by header tax code\nss User Tax Last Tax Relief Tax Ncey(C=A- Guarantee Tax Payable Tax\nDef. Ncy(A) Ncy(B) B) Ncy(D=C) Ncy(B)\n[72] MoTI e-IDF\nFee N 5.00 5.00 0.00 0.00 5.00\nhttps://cloverdale-services.com 1/3",
+   "chars": 1200,
+   "text_layer_chars": 0,
+   "ocr_confidence": 90.8,
+   "ocr_words": 247,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 4,
+    "label": "SUPPORTING",
+    "subtype": "customs_document",
+    "confidence": "high",
+    "scores": {
+     "SUPPORTING/customs_document": 7.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\bduty calculator\\b",
+      "where": "headline",
+      "line": "Duty Calculator"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\bicums\\b",
+      "where": "body",
+      "line": "12/31/25, 12:39 PM ICUMS"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 5,
+   "method": "ocr",
+   "text": "12/31/25, 12:39 PM ICUMS\nITEM unit\nItem Info. [1]\nTransaction 202512311238\nCalc No Item No 1 HSCode 8525890000\nNo 688642393366\nReference Country\nCN FOB Ncy 39,980.16 CIF Ncy 41,631.67\nType Code\nCurrency Exchange\nUSD 11.105600 CPC 40D01\nCode Rate\nTax amount by tax code\nGuara\nTax Ncy Last Tax Ney Relief\nRegi User Tax site\nTax Code TBC Tax Tax Tax Tax\nme Def. Duty Duty Duty Duty Ney(\nBase Ney( Ney( Ney(\nRate Ney Rate Ney B)\nNey A) Cc) B)\n[01] Import 41,631.6 2,081.5 2,081.5\n40 24 N 5.00 0.00 5.00 0.00 0.00 0.00\nDuty 7 8 8\n[06] ECOWAS 41,631.6\n40 24 N 0.50 0.00 208.16 0.50 0.00 208.16 0.00 0.00\nLevy 7\n[56] 1%\n41,631.6\n40 Withholding 24 N 7 1.00 0.00 416.32 1.00 0.00 416.32 0.00 0.00\nTax on Import\n[87] Ghana\nExport-Import 41,631.6\n40 24 N 0.75 0.00 312.24 0.75 0.00 312.24 0.00 0.00\nBank (EXIM) 7\nLevy\n(93]\n41,631.6\n40 Inspection 24 N 7 1.00 0.00 416.32 1.00 0.00 416.32 0.00 0.00\nFee\n[98] African\n\" 41,631.6\n40 Union Import 24 N ci 0.20 0.00 83.26 0.20 0.00 83.26 0.00 0.00\nLevy\n[47] Import 43,713.2 1,092.8 1,092.8\n40 31 N 2.50 0.00 2.50 0.00 0.00 0.00\nNHIL 5 3 3\n[88] Ghana\nEducation\n43,713.2 1,092.8 1,092.8\n40 Trust (GET) 31 N 5 2.50 0.00 3 2.50 0.00 5 0.00 0.00\nFund Import\nLevy\n40 [99] COVID-19 31 N 43,713.2 1.00 0.00 437.13 1.00 0.00 437.13 0.00 0.00\nHealth 5\nhttps://cloverdale-services.com 2/3",
+   "chars": 1062,
+   "text_layer_chars": 0,
+   "ocr_confidence": 89.7,
+   "ocr_words": 248,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 5,
+    "label": "SUPPORTING",
+    "subtype": "customs_document",
+    "confidence": "medium",
+    "scores": {
+     "SUPPORTING/customs_document": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\bicums\\b",
+      "where": "body",
+      "line": "12/31/25, 12:39 PM ICUMS"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\bhs ?code\\b",
+      "where": "body",
+      "line": "Calc No Item No 1 HSCode 8525890000"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 6,
+   "method": "ocr",
+   "text": "12/31/25, 12:39 PM ICUMS\nTi Guara\n‘ax Ney Last Tax Ney Relief\nRegi User Tax —_\neg!\nTax Code TBC Tax Tax Tax Tax\nme Def. Duty Duty Duty = Duty Ncy(\nBase Ney( Ney( Ney(\nRate Ney Rate Ney B)\nNey A) c) B)\nRecovery\nLevy\n[02] Import 46,336.0 6,950.4 6,950.4\n40 30 N 15.00 0.00 15.00 0.00 0.00 0.00\nVAT 4 1 1\n[32] Network 39,980.1\n40 25 N 0.40 0.00 159.92 0.40 0.00 159.92 0.00 0.00\nCharge 6\n[48] Network\n40 52 N 159.92 2.50 0.00 4.00 2.50 0.00 4.00 0.00 0.00\nCharge NHIL\n[89] Network\n40 ChargeGET 52 N 159.92 2.50 0.00 4.00 2.50 0.00 4.00 0.00 0.00\nFund Levy\n[33] Network\n40 33 N 167.92 15.00 0.00 25.19 15.00 0.00 25.19 0.00 0.00\nCharge VAT\n{05]\n41,631.6\n40 Processing 24 N 7 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00\nFee\nTotal by item\nTax Ncy(A) Relief Tax Ncy(B) Last Tax Ncy(C=A-B) Guarantee Tax Ncy(D) Payable Tax Ncy(C-D)\n13,284.19 0.00 13,284.19 0.00 13,284.19\nhttps://cloverdale-services.com 3/3",
+   "chars": 726,
+   "text_layer_chars": 0,
+   "ocr_confidence": 90.1,
+   "ocr_words": 170,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 6,
+    "label": "UNKNOWN",
+    "subtype": "unclassified",
+    "confidence": "none",
+    "scores": {
+     "SUPPORTING/customs_document": 2.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\bicums\\b",
+      "where": "body",
+      "line": "12/31/25, 12:39 PM ICUMS"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": false,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "untitled_invoice_like",
+   "pages": [
+    1,
+    2,
+    3
+   ],
+   "confidence": "low",
+   "doc_ids": [],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE*",
+    "2:UNKNOWN*",
+    "3:UNKNOWN*"
+   ],
+   "needs_review": [
+    "pages [2, 3] attached as untitled continuation",
+    "low classification confidence",
+    "customs invoice: confirm it is a payable",
+    "low OCR confidence on pages [2, 3]"
+   ],
+   "boundary_reason": "first page"
+  },
+  {
+   "index": 2,
+   "label": "SUPPORTING",
+   "subtype": "customs_document",
+   "pages": [
+    4,
+    5,
+    6
+   ],
+   "confidence": "high",
+   "doc_ids": [],
+   "payable_candidate": false,
+   "page_labels": [
+    "4:SUPPORTING",
+    "5:SUPPORTING",
+    "6:UNKNOWN*"
+   ],
+   "needs_review": [
+    "pages [6] attached as untitled continuation"
+   ],
+   "boundary_reason": "class change INVOICE -> SUPPORTING"
+  }
+ ]
+}

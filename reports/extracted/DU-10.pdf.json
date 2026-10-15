@@ -1,0 +1,98 @@
+{
+ "file": "DU-10.pdf",
+ "sha256": "94c44e3b5bab9439d4d4564c78a7593135e50ddfb73518228d17a721aae078e7",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "Department Accounts\nNorthwi i IK Limi .\nHaid Sencha LAT Credit Note No.: 5900366703\nJalan Ampang 157\nJalan Ampang 175\nLondon SE1 4GT\nUNITED KINGDOM Date : 15/04/2026 Page 1\nCustomer No. > 7470922788\nSales Person: > David = Tamm Lind\nE-Mail Sales Person : marco.silva@ashford-media.com\nDelivery Address Your Reference: t Jonas Costa\nJonas Costa Invoice No. + 0394289238\nNorthwind Services UK Limited Currency in : GBP\nJalan Ampang 207 VAT Registration No. : GB726874417\n211 Old St\nLondon EC1V 9NR\nUNITED KINGDOM\nAlex Kask | REF-11966\nProduct Reference No. Quantity Unit VAT Unit Price Net Amount\n4582314 952-000091 6 20% 457.24 2,743.44\nLogitech Tap Scheduler Touch Controller\n4541892 939-001950 2 20% 743.35 1,486.70\nLogitech Tap Touch Controller Cat5e Kit\ncredit invoice 0394289238\nfailed delivery\nNet Amount GBP 4,230.14\nVAT 20 % 846.03\nTotal Amount GBP 5,076.17\nTerms of Payment: Within 30 days of invoice date\nBlackpine Consulting Limited Registered in England Managing Director GB73ETPB85770231331598 larclays dit GB73ETPB85770231331598 larclays |\nPamu mnt 50 Reg no.; 5383241 Lena Kask 1 Churchill Place ‘Swift: XFOLBQ11\nBahnhofstrasse 65 London\nChippenham VAT:GB447324473 E14 SHP Account Number: 10890769\nSN14 0GF EORI: GB952288503357 Sort Code:20-04-67\nSales: 59725 626556 Accounts: 59725 626556 sofia. vidal@northwind-services.com www.larkspur-distribution.uk",
+   "chars": 1171,
+   "text_layer_chars": 0,
+   "ocr_confidence": 86.0,
+   "ocr_words": 198,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "CREDIT_MEMO",
+    "subtype": "credit_memo",
+    "confidence": "medium",
+    "scores": {
+     "CREDIT_MEMO/credit_memo": 6.0,
+     "INVOICE/invoice": 5.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Jonas Costa Invoice No. + 0394289238"
+     },
+     {
+      "kind": "CREDIT_MEMO/credit_memo",
+      "keyword": "\\bcredit\\s+(?:note|memo(?:randum)?)\\b",
+      "where": "headline",
+      "line": "Haid Sencha LAT Credit Note No.: 5900366703"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [
+     "5900366703",
+     "0394289238"
+    ],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "CREDIT_MEMO",
+   "subtype": "credit_memo",
+   "pages": [
+    1
+   ],
+   "confidence": "medium",
+   "doc_ids": [
+    "5900366703",
+    "0394289238"
+   ],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:CREDIT_MEMO"
+   ],
+   "needs_review": [],
+   "boundary_reason": "first page"
+  }
+ ]
+}

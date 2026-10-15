@@ -1,0 +1,103 @@
+{
+ "file": "DU-05.pdf",
+ "sha256": "12aad81c660676c02dbd885b58def36fe6297d6758ca63211dc5391ac8971c0b",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "Vantek Asia Pte Ltd. Phone +43 0546 01 68\nHigh Street 7 Fax +65 6546 65 76\n#03-66/67/68/69 www.vantek.com\nSingapore 737664 clara.kask@vantek.com\nSingapore\nTax Invoice\n[rember Date Page\nCadence Pte. Ltd - Standard 7363916 30.06.2026 ao\nJalan Ampang 08 = faniwateo\nin r 77! lomer nr. our/ “no\ni 12192 207490313H\nYour Ust-ID no our Ust-ID no\n207490313H\nyour EORI no our EORI no\n[eontact\n[Phone [Fx ©\n[Fonsianee | Ship-to party [eustomer reference\nFairmont Technologies Inc 693100096\nGartenweg 24\nLaguna Technopark, Building C Order number Currency\n4024 BINAN-SPECIAL ECONOMIC ZONE 3057199 SGD\nPHILIPPINES\n[Pos. | Product number / Description ‘Amount [Un [List price perunit [PU VAT [Fetar\n80 4108044 100 PC 771.66 100 771.66\nF:WSA_a89424080 _HSS (N) H2940 DKC\nCust. mat-no: 89424080\nCountry of origin: Indonesia\nCustoms tariff nr.: 3926.9000\nDelivery note: 8358769 from 30.06.2026\nTotal amount in SGD\nIncoterms: EXW BATAM\nTerms of payment: 90 days net\nDue date: Up to 28.09.2026 without deduction\nBank account Larkspur Bank SINGAPORE BRANCH\nUSD-ace. 267-621698-425. Swift Code: TFFKBCCO\nSGD-acc. 143-022260-749. Swift Code: TFFKBCCQ",
+   "chars": 958,
+   "text_layer_chars": 0,
+   "ocr_confidence": 84.6,
+   "ocr_words": 172,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "medium",
+    "scores": {
+     "INVOICE/invoice": 4.0,
+     "SUPPORTING/customs_document": 2.0,
+     "SUPPORTING/delivery_note": 1.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Tax Invoice"
+     },
+     {
+      "kind": "SUPPORTING/delivery_note",
+      "keyword": "\\bdelivery (?:note|order)\\b",
+      "where": "body",
+      "line": "Delivery note: 8358769 from 30.06.2026"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\btariff\\b",
+      "where": "body",
+      "line": "Customs tariff nr.: 3926.9000"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1
+   ],
+   "confidence": "medium",
+   "doc_ids": [],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE"
+   ],
+   "needs_review": [
+    "customs invoice: confirm it is a payable"
+   ],
+   "boundary_reason": "first page"
+  }
+ ]
+}

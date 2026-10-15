@@ -1,0 +1,669 @@
+{
+ "file": "DU-05s.pdf",
+ "sha256": "93c2415f04dfcf7144930208491404de72ca5c51a9be516203251f8bd180661c",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "nd Vantek Pte Ltd.\nMarket Road 7\nCivur — —\nSingapore 737664 clara. kask@vantek.com\nSingapore\nDelivery note\nFranner Date Pace\nKinasley Services Inc\nGartenweg 24\nae Technopark, Buildina C [Customernr. ~~ ~—~«&(owiVATmo = SOSC~*S\n4024 BINAN-SPECIAL ZONE 12320\n| Your Ust-ID no our Ust-ID no\nyour EORI no our EORI no\neT\nui\n“ aiex.novak@vantek.com\n[ ~ [fx ©\nDelivery [customer reference\nEXW BATAM\nShipping type Delivery date\nLuis 29.06.2026 ‘Order number Goods issue date\n3057199\n| Weight Number of packets:\n0.780 KG\n[Pos. Product number / Description Quantity ordered { Quantity delivered [un Remarks\n10 4111401 1,000 100 PC final delivery\nF:WSA_10950635_HSS (N1) H3550 SLV\nNet weight 0.000 KG\nGross weight 0.780 KG\nCountry of origin: Indonesia\nCustoms tariff nr.: 3926.9000\nBatch:",
+   "chars": 655,
+   "text_layer_chars": 0,
+   "ocr_confidence": 81.5,
+   "ocr_words": 123,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "SUPPORTING",
+    "subtype": "delivery_note",
+    "confidence": "high",
+    "scores": {
+     "SUPPORTING/delivery_note": 5.0,
+     "SUPPORTING/customs_document": 2.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/delivery_note",
+      "keyword": "\\bdelivery (?:note|order)\\b",
+      "where": "headline",
+      "line": "Delivery note"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\btariff\\b",
+      "where": "body",
+      "line": "Customs tariff nr.: 3926.9000"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 2,
+   "method": "ocr",
+   "text": "nd Vantek Pte Ltd.\nMarket Road 7\nLUI #03-66/67/68/69 www.vantek.com\nSingapore 737664 rai a. neon yvarnen.com\nSingapore\nDelivery note\nFranner Date Pace\nMeridian Technologies Inc\nGartenweg 24\nae Technopark, Buildina C [Customernr. ~~ ~—~«&(owiVATmo = SOSC~*S\n4024 BINAN-SPECIAL ZONE 12320\nYour Ust-D no our Ust-ID no\nyour EORI no our EORI no\na\nLuis\naiex.novak@vantek.com\n~~ Trax\n’\nDelivery [customer reference\nEXW BATAM\nShipping type Delivery date\nLuis 29.06.2026 ‘Order number Goods issue date\n3060775\nWeight Number of packets\n16.500 KG\n[Pos. | Product number / Description Quantity ordered [ Quantity delivered [un Remarks\n10 4122467 60,000 7,000 PC Partial Delivery\nF:WSA_10980649_FRAME COVER H3820 (C6)BLK\nNet weight 0.000 KG\nGross weight 15.400 KG\nCountry of origin: Indonesia\nCustoms tariff nr.: 3926.9000\nBatch:\n20 4122469 60,000 500 PC Partial Delivery\nF:WSA_21017686_FRAME MAIN H3820 (C6) BLK\nNet weight 0.000 KG\nGross weight 1.100 KG\nCountry of origin: Indonesia\nCustoms tariff nr.: 3926.9000\nBatch:",
+   "chars": 857,
+   "text_layer_chars": 0,
+   "ocr_confidence": 82.2,
+   "ocr_words": 151,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 2,
+    "label": "SUPPORTING",
+    "subtype": "delivery_note",
+    "confidence": "high",
+    "scores": {
+     "SUPPORTING/delivery_note": 5.0,
+     "SUPPORTING/customs_document": 2.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/delivery_note",
+      "keyword": "\\bdelivery (?:note|order)\\b",
+      "where": "headline",
+      "line": "Delivery note"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\btariff\\b",
+      "where": "body",
+      "line": "Customs tariff nr.: 3926.9000"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 3,
+   "method": "ocr",
+   "text": "nd Vantek Pte Ltd.\nMarket Road 7\nLUI #03-66/67/68/69 www.vantek.com\nSingapore 737664 rai a. neon yvarnen.com\nSingapore\nDelivery note\nFranner Date Pace\nKingsley Consulting Inc\nGartenweg 24\nae Technopark, Buildina C [Customernr. ~~ ~—~«&(owiVATmo = SOSC~*S\n4024 BINAN-SPECIAL ZONE 12320\nYour Ust-iD no ‘our Ust-ID no\nyour EORI no our EORI no\na\nLuis\naiex.novak@vantek.com\n~~ Trax\n’\nDelivery [customer reference\nEXW BATAM\nShipping type Delivery date\nLuis 30.06.2026 ‘Order number Goods issue date\n3057604\n[Pos. | Product number / Description Quantity ordered [ Quantity delivered [un Remarks\n10 4103236 500 100 PC final delivery\nF:WSA_10956542_HSS (N) H3552 DGT\nNet weight 0,000\nGross weight 0.000\nCust. mat-no 10956542\nCountry of origin: Indonesia\nCustoms tariff nr.: 3926.9000\n- Batch:\n20 4103165 500 100 PC Partial Delivery\nF:WSA_10950632_HSS (N) H3550 GNT\nNet weight 0.000\nGross weight 0.000\nCust. mat-no 10950632\nCountry of origin: Indonesia\nCustoms tariff nr.: 3926.9000\nBatch:",
+   "chars": 833,
+   "text_layer_chars": 0,
+   "ocr_confidence": 81.5,
+   "ocr_words": 147,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 3,
+    "label": "SUPPORTING",
+    "subtype": "delivery_note",
+    "confidence": "high",
+    "scores": {
+     "SUPPORTING/delivery_note": 5.0,
+     "SUPPORTING/customs_document": 2.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/delivery_note",
+      "keyword": "\\bdelivery (?:note|order)\\b",
+      "where": "headline",
+      "line": "Delivery note"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\btariff\\b",
+      "where": "body",
+      "line": "Customs tariff nr.: 3926.9000"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 4,
+   "method": "ocr",
+   "text": "nd Vantek Pte Ltd.\nMarket Road 7\nCicui — —\nSingapore 737664 clara. kask@vantek.com\nSingapore\nDelivery note\n(1 0D sx=——— es —\nCloverdale Partners Inc\nGartenweg 24\nae Technopark, Buildina C [Customernr. ~~ ~—~«&(owiVATmo = SOSC~*S\n4024 BINAN-SPECIAL ZONE 12320\n| Your Ust-D no our Ust-ID no\nyour EORI no our EORI no\neT\nLuis\naiex.novak@vantek.com\n[ ~ [fx ©\n’\nDelivery [customer reference\nEXW BATAM\nShipping type Delivery date\nLuis 30.06.2026 ‘Order number Goods issue date\n3056096\n| Weight Number of packets:\n0.780 KG\n[Pos. Product number / Description Quantity ordered { Quantity delivered [un Remarks\n10 4111404 1,000 100 PC final delivery\nF:WSA_10956547_HSS (N1) H3552 SB\nNet weight 0.000 KG\nGross weight 0.780 KG\nCountry of origin: Indonesia\nCustoms tariff nr.: 3926.9000\nBatch:",
+   "chars": 655,
+   "text_layer_chars": 0,
+   "ocr_confidence": 79.7,
+   "ocr_words": 125,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 4,
+    "label": "SUPPORTING",
+    "subtype": "delivery_note",
+    "confidence": "high",
+    "scores": {
+     "SUPPORTING/delivery_note": 5.0,
+     "SUPPORTING/customs_document": 2.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/delivery_note",
+      "keyword": "\\bdelivery (?:note|order)\\b",
+      "where": "headline",
+      "line": "Delivery note"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\btariff\\b",
+      "where": "body",
+      "line": "Customs tariff nr.: 3926.9000"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 5,
+   "method": "ocr",
+   "text": "nd Vantek Pte Ltd.\nMarket Road 7\nLUI #03-66/67/68/69 www.vantek.com\nSingapore 737664 rai a. neon yvarnen.com\nSingapore\nDelivery note\nFranner Date Pace\nCloverdale Systems Inc\nGartenweg 24\nae Technopark, Buildina C [Customernr. ~~ ~—~«&(owiVATmo = SOSC~*S\n4024 BINAN-SPECIAL ZONE 12320\nYour Ust-D no our Ust-ID no\nyour EORI no our EORI no\na\nLuis\naiex.novak@vantek.com\n~~ Trax\n’\nDelivery [customer reference\nEXW BATAM\nShipping type Delivery date\nLuis 30.06.2026 ‘Order number Goods issue date\n3057451\nWeight Number of packets\n4.240 KG\n[Pos. | Product number / Description Quantity ordered [ Quantity delivered [un Remarks\n10 4110072 500 400 PC _ Partial Delivery\nF:WSA_10974232_HSS (N) H3690 DBR\nNet weight 0.000 KG\nGross weight 1.560 KG\nCountry of origin: Indonesia\nCustoms tariff nr.: 3926.9000\nBatch:\n20 4130030 1,000 100 PC _ Partial Delivery\nF:WSA_10977817_HSS (N) H3640 DBR MDF2\nNet weight 0.000 KG\nGross weight 2.680 KG\nCountry of origin: Indonesia\nCustoms tariff nr.: 3926.9000\nBatch:",
+   "chars": 837,
+   "text_layer_chars": 0,
+   "ocr_confidence": 82.7,
+   "ocr_words": 153,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 5,
+    "label": "SUPPORTING",
+    "subtype": "delivery_note",
+    "confidence": "high",
+    "scores": {
+     "SUPPORTING/delivery_note": 5.0,
+     "SUPPORTING/customs_document": 2.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/delivery_note",
+      "keyword": "\\bdelivery (?:note|order)\\b",
+      "where": "headline",
+      "line": "Delivery note"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\btariff\\b",
+      "where": "body",
+      "line": "Customs tariff nr.: 3926.9000"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 6,
+   "method": "ocr",
+   "text": "nd Vantek Pte Ltd.\nMarket Road 7\nLUI #03-66/67/68/69 www.vantek.com\nSingapore 737664 rai a. neon yvarnen.com\nSingapore\nDelivery note\nFranner Date Pace\nRedwater Trading Inc\nGartenweg 24\nae Technopark, Buildina C [Customernr. ~~ ~—~«&(owiVATmo = SOSC~*S\n4024 BINAN-SPECIAL ZONE 12320\nYour Ust-D no our Ust-ID no\nyour EORI no our EORI no\na\nLuis\naiex.novak@vantek.com\n~~ Trax\n’\nDelivery [customer reference\nEXW BATAM\nShipping type Delivery date\nLuis 30.06.2026 ‘Order number Goods issue date\n3057199\nWeight Number of packets\n1.560 KG\n[Pos. | Product number / Description Quantity ordered [ Quantity delivered [un Remarks\n10 4107945 500 100 PC final delivery\nF:WSA_10944435_HSS (N) H2940 GNT\nNet weight 0.000 KG\nGross weight 0.780 KG\nCust. mat-no 10944435\nCountry of origin: Indonesia\nCustoms tariff nr.: 3926.9000\n- Batch:\n30 4103162 500 100 PC final delivery\nF:WSA_10950627_HSS (N) H3550 BLK\nNet weight 0.000 KG\nGross weight 0.780 KG\nCust. mat-no 10950627\nCountry of origin: Indonesia\nCustoms tariff nr.: 3926.9000\nBatch:",
+   "chars": 862,
+   "text_layer_chars": 0,
+   "ocr_confidence": 83.3,
+   "ocr_words": 157,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 6,
+    "label": "SUPPORTING",
+    "subtype": "delivery_note",
+    "confidence": "high",
+    "scores": {
+     "SUPPORTING/delivery_note": 5.0,
+     "SUPPORTING/customs_document": 2.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/delivery_note",
+      "keyword": "\\bdelivery (?:note|order)\\b",
+      "where": "headline",
+      "line": "Delivery note"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\btariff\\b",
+      "where": "body",
+      "line": "Customs tariff nr.: 3926.9000"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 7,
+   "method": "ocr",
+   "text": "nd Vantek Pte Ltd.\nMarket Road 7\nCicui — —\nSingapore 737664 clara. kask@vantek.com\nSingapore\nDelivery note\nFranner Date Pace\nMeridian Media Inc\nGartenweg 24\nae Technopark, Buildina C [Customernr. ~~ ~—~«&(owiVATmo = SOSC~*S\n4024 BINAN-SPECIAL ZONE 12320\n| Your Ust-D no our Ust-ID no\nyour EORI no our EORI no\neT\nLuis\naiex.novak@vantek.com\n[ “ffx °°\n)\nDelivery [customer reference\nEXW BATAM\nShipping type Delivery date\nLuis 17.07.2026 ‘Order number Goods issue date\n3060775\n| Weight Number of packets\n1.100 KG\n[Pos. | Product number / Description Quantity ordered [ Quantity delivered [un Remarks\n10 4122469 60,000 500 PC Partial Delivery\nF:WSA_21017686_FRAME MAIN H3820 (C6) BLK\nNet weight 0.000 KG\nGross weight 1.100 KG\nCountry of origin: Indonesia\nCustoms tariff nr.: 3926.9000\nBatch:",
+   "chars": 663,
+   "text_layer_chars": 0,
+   "ocr_confidence": 82.0,
+   "ocr_words": 124,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 7,
+    "label": "SUPPORTING",
+    "subtype": "delivery_note",
+    "confidence": "high",
+    "scores": {
+     "SUPPORTING/delivery_note": 5.0,
+     "SUPPORTING/customs_document": 2.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/delivery_note",
+      "keyword": "\\bdelivery (?:note|order)\\b",
+      "where": "headline",
+      "line": "Delivery note"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\btariff\\b",
+      "where": "body",
+      "line": "Customs tariff nr.: 3926.9000"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 8,
+   "method": "ocr",
+   "text": "nd Vantek Pte Ltd.\nMarket Road 7\nCicus a —\nSingapore 737664 clara. kask@vantek.com\nSingapore\nDelivery note\nFranner Date Pace\nFairmont Services Inc\nGartenweg 24\nae Technopark, Buildina C [Customernr. ~~ ~—~«&(owiVATmo = SOSC~*S\n4024 BINAN-SPECIAL ZONE 12320\n| Your Ust-ID no our Ust-ID no\nyour EORI no our EORI no\neT\nLuis\naiex.novak@vantek.com\n[ ~ [fx ©\n)\nDelivery [customer reference\nEXW BATAM\nShipping type Delivery date\nLuis 30.06.2026 ‘Order number Goods issue date\n3061229\n| Weight Number of packets\n0.780 KG\n[Pos. | Product number / Description Quantity ordered [ Quantity delivered [un Remarks\n10 4141982 500 100 PC Partial Delivery\nF:WSA_21043685_HSS (C6) H3994 SLV\nNet weight 0.000 KG\nGross weight 0.780 KG\nCountry of origin: Indonesia\nCustoms tariff nr.: 3926.9000\nBatch:",
+   "chars": 657,
+   "text_layer_chars": 0,
+   "ocr_confidence": 81.2,
+   "ocr_words": 124,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 8,
+    "label": "SUPPORTING",
+    "subtype": "delivery_note",
+    "confidence": "high",
+    "scores": {
+     "SUPPORTING/delivery_note": 5.0,
+     "SUPPORTING/customs_document": 2.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/delivery_note",
+      "keyword": "\\bdelivery (?:note|order)\\b",
+      "where": "headline",
+      "line": "Delivery note"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\btariff\\b",
+      "where": "body",
+      "line": "Customs tariff nr.: 3926.9000"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 9,
+   "method": "ocr",
+   "text": "nd Vantek Pte Ltd.\nMarket Road 7\nCicur a —\nSingapore 737664 clara. kask@vantek.com\nSingapore\nDelivery note\nFranner Date Pace\nNorthwind Services Inc\nGartenweg 24\nae Technopark, Buildina C [Customernr. ~~ ~—~«&(owiVATmo = SOSC~*S\n4024 BINAN-SPECIAL ZONE 12320\n| Your Ust-ID no our Ust-ID no\nyour EORI no our EORI no\neT\nLuis\naiex.novak@vantek.com\n[none ~~ Trax\n)\nDelivery [customer reference\nEXW BATAM\nShipping type Delivery date\nLuis 31.07.2026 ‘Order number Goods issue date\n3061562\n| Weight Number of packets\n0.780 KG\n[Pos. | Product number / Description Quantity ordered [ Quantity delivered [un Remarks\n10 4146090 500 200 PC _ Partial Delivery\nF:WSA_21044210_HSS (C6) H3942 BG\nNet weight 0.000 KG\nGross weight 0.780 KG\nCountry of origin: Indonesia\nCustoms tariff nr.: 3926.9000\nBatch:",
+   "chars": 663,
+   "text_layer_chars": 0,
+   "ocr_confidence": 82.1,
+   "ocr_words": 124,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 9,
+    "label": "SUPPORTING",
+    "subtype": "delivery_note",
+    "confidence": "high",
+    "scores": {
+     "SUPPORTING/delivery_note": 5.0,
+     "SUPPORTING/customs_document": 2.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/delivery_note",
+      "keyword": "\\bdelivery (?:note|order)\\b",
+      "where": "headline",
+      "line": "Delivery note"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\btariff\\b",
+      "where": "body",
+      "line": "Customs tariff nr.: 3926.9000"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 10,
+   "method": "ocr",
+   "text": "nd Vantek Pte Ltd.\nMarket Road 7\nCicui a —\nSingapore 737664 clara. kask@vantek.com\nSingapore\nDelivery note\nFranner Date Pace\nBrightside Loaistics Inc\nGartenweg 24\nae Technopark, Buildina C [Customernr. ~~ ~—~«&(owiVATmo = SOSC~*S\n4024 BINAN-SPECIAL ZONE 12320\n| Your Ust-D no our Ust-ID no\nyour EORI no our EORI no\neT\nLuis\naiex.novak@vantek.com\n[ ~ [fx ©\n)\nDelivery [customer reference\nEXW BATAM\nShipping type Delivery date\nLuis 28.07.2026 ‘Order number Goods issue date\n3061564\n| Weight Number of packets\n0.780 KG\n[Pos. | Product number / Description Quantity ordered [ Quantity delivered [un Remarks\n10 4138891 500 100 PC Partial Delivery\nF:WSA_21038247_HSS (C6) H3990 PRLP\nNet weight 0.000 KG\nGross weight 0.780 KG\nCountry of origin: Indonesia\nCustoms tariff nr.: 3926.9000\nBatch:",
+   "chars": 660,
+   "text_layer_chars": 0,
+   "ocr_confidence": 80.6,
+   "ocr_words": 124,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 10,
+    "label": "SUPPORTING",
+    "subtype": "delivery_note",
+    "confidence": "high",
+    "scores": {
+     "SUPPORTING/delivery_note": 5.0,
+     "SUPPORTING/customs_document": 2.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/delivery_note",
+      "keyword": "\\bdelivery (?:note|order)\\b",
+      "where": "headline",
+      "line": "Delivery note"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\btariff\\b",
+      "where": "body",
+      "line": "Customs tariff nr.: 3926.9000"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 11,
+   "method": "ocr",
+   "text": "nd Vantek Pte Ltd.\nMarket Road 7\nCivur — =—\nSingapore 737664 clara. kask@vantek.com\nSingapore\nDelivery note\nFranner Date Pace\nSilverbrook Distribution Inc\nGartenweg 24\nae Technopark, Buildina C [Customernr. ~~ ~—~«&(owiVATmo = SOSC~*S\n4024 BINAN-SPECIAL ZONE 12320\n| Your Ust-D no our Ust-ID no\nyour EORI no our EORI no\neT\nLuis\naiex.novak@vantek.com\n[ “ffx °°\n)\nDelivery [customer reference\nEXW BATAM\nShipping type Delivery date\nLuis 30.06.2026 ‘Order number Goods issue date\n3057199\n| Weight Number of packets\n0.780 KG\n[Pos. | Product number / Description Quantity ordered [ Quantity delivered [un Remarks\n10 4108044 500 100 PC final delivery\nF:WSA_10944450_HSS (N) H2940 DKC\nNet weight 0.000 KG\nGross weight 0.780 KG\nCust. mat-no 10944450\nCountry of origin: Indonesia\nCustoms tariff nr.: 3926.9000\n- Batch:",
+   "chars": 682,
+   "text_layer_chars": 0,
+   "ocr_confidence": 81.6,
+   "ocr_words": 127,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 11,
+    "label": "SUPPORTING",
+    "subtype": "delivery_note",
+    "confidence": "high",
+    "scores": {
+     "SUPPORTING/delivery_note": 5.0,
+     "SUPPORTING/customs_document": 2.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/delivery_note",
+      "keyword": "\\bdelivery (?:note|order)\\b",
+      "where": "headline",
+      "line": "Delivery note"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\btariff\\b",
+      "where": "body",
+      "line": "Customs tariff nr.: 3926.9000"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 12,
+   "method": "ocr",
+   "text": "nd Vantek Pte Ltd.\nMarket Road 7\nLUI #03-66/67/68/69 se ate cam\nSingapore 737664 clara. kask@vantek.com\nSingapore\nDelivery note\nFranner Date Pace\nBrightside Print Inc\nGartenweg 24\nae Technopark, Buildina C [Customernr. ~~ ~—~«&(owiVATmo = SOSC~*S\n4024 BINAN-SPECIAL ZONE 12320\n| Your Ust-ID no our Ust-ID no\nyour EORI no our EORI no\neT\nLuis\naiex.novak@vantek.com\n[ ~ [fx ©\n’\nDelivery [customer reference\nEXW BATAM\nShipping type Delivery date\nLuis 15.07.2026 ‘Order number Goods issue date\n3061229\n| Weight Number of packets:\n0.780 KG\n[Pos. Product number / Description Quantity ordered { Quantity delivered [un Remarks\n10 4144895 500 200 PC Partial Delivery\nF:WSA_21044711_HSS (C6) H3992 BLK\nNet weight 0.000 KG\nGross weight 0.780 KG\nCountry of origin: Indonesia\nCustoms tariff nr.: 3926.9000\nBatch:",
+   "chars": 675,
+   "text_layer_chars": 0,
+   "ocr_confidence": 80.5,
+   "ocr_words": 125,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 12,
+    "label": "SUPPORTING",
+    "subtype": "delivery_note",
+    "confidence": "high",
+    "scores": {
+     "SUPPORTING/delivery_note": 5.0,
+     "SUPPORTING/customs_document": 2.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/delivery_note",
+      "keyword": "\\bdelivery (?:note|order)\\b",
+      "where": "headline",
+      "line": "Delivery note"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\btariff\\b",
+      "where": "body",
+      "line": "Customs tariff nr.: 3926.9000"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 13,
+   "method": "ocr",
+   "text": "EXPRESS WORLDWIDE lw 4 =) / a\nFrom ; PTCICOR PANATEC : Origin\nNeneng Ow Saputr\nSATAANDO MOUSTRAL PARK BTH\nA KUNING\nTOGATAM indoneso\nFro: EGRATEDMICRO-ELECTRONICS INC Contact =\nver Bautista Olver Bautista\nNORTH SCIENCE AVENUE\nLAGUNA TECHNOPARK\nSPECIAL ECONOMIC ZONE, BINAN\n4024 Bihan\nL_ Philippines, the _I\nPH-MNL-DXC\n. .\nC-DTP-PLT-SIR net\nSuc nenesay aneveds Posithot Wok Piece",
+   "chars": 319,
+   "text_layer_chars": 0,
+   "ocr_confidence": 58.2,
+   "ocr_words": 59,
+   "rotation_applied": 90,
+   "text_layer_text": "",
+   "warnings": [
+    "page rotated 90 deg before OCR"
+   ],
+   "classification": {
+    "page": 13,
+    "label": "UNKNOWN",
+    "subtype": "unclassified",
+    "confidence": "none",
+    "scores": {},
+    "evidence": [],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": false,
+    "notes": []
+   }
+  },
+  {
+   "page": 14,
+   "method": "ocr",
+   "text": "EXPRESS WORLDWIDE wht IS am\nSra ata Pm =n\na :\na wun |\na\n=\n©\n-\ns a\na)\ni=\nSo .\nTc ym\n< _—__\nny kg 2/2",
+   "chars": 69,
+   "text_layer_chars": 0,
+   "ocr_confidence": 46.7,
+   "ocr_words": 31,
+   "rotation_applied": 90,
+   "text_layer_text": "",
+   "warnings": [
+    "page rotated 90 deg before OCR"
+   ],
+   "classification": {
+    "page": 14,
+    "label": "UNKNOWN",
+    "subtype": "unclassified",
+    "confidence": "none",
+    "scores": {},
+    "evidence": [],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": false,
+    "notes": []
+   }
+  },
+  {
+   "page": 15,
+   "method": "ocr",
+   "text": "Shipment Receipt\nShipment From Shipment To\nPT Vartek MICRO-ELECTRONICS INC\nDwi Saputro Oliver Bautista\nKadaka tee 323\nPARK,\nMUKA ZONE, BINAN\n29433 BATAM indonesia 4024 Bifian\nIndonesia Philippines, the\nluis. novak@vantek.com\nShipment Details International Information\nShipment Date: Declared Value: 52,542.97 SGD\nWaybill Number: Duties&taxes acct: Third party\nService Type: Dutiable Status: Dutiable\nPackaging Type: Your Own Package Estimated Del date: Thursday, 02 Jul, 2026\nNumber of Pieces: 2 Promo Code:\nTotal Weight: 161.10kg\nDimensional: 506.88kg\nChargeable: 507.50kg\nInsured Amount:\nTerms of Trade: EXw\nBilling Information\nPayment Type: speeowAccount Number\nBilling Account:\nDuties&taxes acct:\nCharge Breakdown: --SGD Special Services: Fuel Surcharge/Duties and\nTaxes Paid/Overweight Piece (\nweight)/Paperless Trade\nCharge is estimated until sPeeow@weigh, Charges visible to Account Owner only\nReference Information\nReference: 9257347, 9257348\nPickup reference nr:\nDescription of Contents\nOF HSG SET / FRAME COVER / FRAME MAIN",
+   "chars": 896,
+   "text_layer_chars": 0,
+   "ocr_confidence": 89.7,
+   "ocr_words": 138,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 15,
+    "label": "SUPPORTING",
+    "subtype": "delivery_note",
+    "confidence": "high",
+    "scores": {
+     "SUPPORTING/delivery_note": 5.0,
+     "SUPPORTING/shipping_document": 1.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/delivery_note",
+      "keyword": "\\bshipment receipt\\b",
+      "where": "headline",
+      "line": "Shipment Receipt"
+     },
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bwaybill\\b",
+      "where": "body",
+      "line": "Waybill Number: Duties&taxes acct: Third party"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "SUPPORTING",
+   "subtype": "delivery_note",
+   "pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "confidence": "high",
+   "doc_ids": [],
+   "payable_candidate": false,
+   "page_labels": [
+    "1:SUPPORTING",
+    "2:SUPPORTING",
+    "3:SUPPORTING",
+    "4:SUPPORTING",
+    "5:SUPPORTING",
+    "6:SUPPORTING",
+    "7:SUPPORTING",
+    "8:SUPPORTING",
+    "9:SUPPORTING",
+    "10:SUPPORTING",
+    "11:SUPPORTING",
+    "12:SUPPORTING",
+    "13:UNKNOWN*",
+    "14:UNKNOWN*",
+    "15:SUPPORTING"
+   ],
+   "needs_review": [
+    "pages [13, 14] attached as untitled continuation",
+    "low OCR confidence on pages [13, 14]"
+   ],
+   "boundary_reason": "first page"
+  }
+ ]
+}

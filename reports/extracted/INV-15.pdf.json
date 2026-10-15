@@ -1,0 +1,91 @@
+{
+ "file": "INV-15.pdf",
+ "sha256": "cc293b82e46fc9c1ba2a17f24d09f6ca1edd015a78e30f3f79df86539f410d15",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "Invoice Date Silverbrook Media Limited\nTAX | NVO | C E 01 Apr 2026 Attention: Finance\n2nd Floor\nNorthwind Services UK Ltd Invoice Number Parnu mnt 117\nRua do Ouro 175 INV-8935 Parnu mnt 26\nTaper Studio London\nLondon Reference Middlesex\nSE1 4GT May 2026 -Kadakatee 119 - N1 ORY\nNorthwWitahagement Fee UNITED KINGDOM\nVAT Number\n474927490\nUTR Number\n18823 19423\nDescription Quantity Unit Price VAT Amount GBP\n2nd Floor\nManagement Fee for May 2026 1.00 14,620.18 20% 14,620.18\nBusiness Rates for May 2026 1.00 9,987.50 No VAT 9,987.50\nUtilities for May 2026 1.00 1,435.00 20% 1,435.00\nSubtotal 26,042.68\nTotal No VAT 0.00\nTotal VAT 20% 3,211.04\nInvoice Total GBP 29,253.72\nTotal Net Payments GBP 0.00\nAmount Due GBP 29,253.72\nDue Date: 30 Apr 2026\nBank name: Meridian Bank\nSort code: 20-41-50\nAccount number: 21823016\nSwift code: SKYYOU10\nIBAN: GB84 FAQA 54689987784014\nCompany Registration No: 43214229. Registered Office: 2nd Floor, Parnu mnt 117, Parnu mnt 26 , London, Middlesex, N1 SRY, United Kingdom",
+   "chars": 840,
+   "text_layer_chars": 0,
+   "ocr_confidence": 90.6,
+   "ocr_words": 163,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 8.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Date Silverbrook Media Limited"
+     },
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\bn\\W{0,3}v\\W{0,3}o\\W{0,3}i?\\W{0,3}c\\W{0,3}e\\b",
+      "where": "headline",
+      "line": "TAX | NVO | C E 01 Apr 2026 Attention: Finance"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1
+   ],
+   "confidence": "high",
+   "doc_ids": [],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE"
+   ],
+   "needs_review": [],
+   "boundary_reason": "first page"
+  }
+ ]
+}

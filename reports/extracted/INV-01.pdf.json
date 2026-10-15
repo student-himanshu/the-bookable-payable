@@ -1,0 +1,89 @@
+{
+ "file": "INV-01.pdf",
+ "sha256": "f34d3f1b5ae89eba33a2a2feccb11bdb73e085d0e5295eebae2f2bf6dd095b63",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "Northwind Operations OU\nHerrn Alex Kask\nLindenstrasse 15\n10134 Estonia\nRechnung Nr.: 852566\nRechnungsdatum: 02.02.2026\nRechnung Kunden-Nr.: 28973\nAccount Manager: Paul\nRoth\njonas.haas@kingsley-media.de\nSehr geehrter Herr Kask ,\nim Rahmen unseres gemeinsamen Projektes \"Unterstiitzung Standortakquise NORTHWatde-/Abstellstationen\"\nerlauben wir uns folgende Rechnung zu stellen.\nPos Beschreibung Einzelpreis Menge Gesamtpreis\n1 Projektmanagement Nachberechnung aus November 73,00 € 4 Std. 292,00 €\n2 Projektmanagement Nachberechnung aus Dezember 73,00 € 2 Std. 146,00 €\nLiefer-/Leistungsdatum: Zeitraum von 01.01.2026 bis 31.01.2026 Gesamtsumme 438,00 €\nzzgl. 0 % MwSt 0,00 €\nEndbetrag 438,00 €\nBitte begleichen Sie den Betrag bis zum 12.02.2026 auf eine der aufgeftihrten Bankverbindungen.\nVat ID: £E398766194\nReverse Charge\nWir bedanken uns fiir Ihr Vertrauen und freuen uns auf eine weiterhin erfolgreiche Zusammenarbeit.\n© Barhniinn Annashan:\n: Rechnung\neisen per Code:\n2quem Code mit der Banking-App scannen.",
+   "chars": 878,
+   "text_layer_chars": 0,
+   "ocr_confidence": 87.3,
+   "ocr_words": 134,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 5.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\brechnung\\b",
+      "where": "headline",
+      "line": "Rechnung Nr.: 852566"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [
+     "852566"
+    ],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1
+   ],
+   "confidence": "high",
+   "doc_ids": [
+    "852566"
+   ],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE"
+   ],
+   "needs_review": [],
+   "boundary_reason": "first page"
+  }
+ ]
+}

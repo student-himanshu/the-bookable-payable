@@ -1,0 +1,85 @@
+{
+ "file": "INV-32.pdf",
+ "sha256": "a9ec0fd426ebcaf72b1104f523b5f767df0525401ba4c57cd88ec7f5e7a95b8d",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "text-layer",
+   "text": "4613 Conshohocken Avenue Philadelphia PA 19131\n                                                                                                                                                                      267-767-4961\n\n                                                                                                                                                                     Invoice\n215B.E.A.R.S.\n\nBill To:                   Amerihealthcaritas Transportation                                                                            Invoice No:                               72\n                           jblatt@amerihealthcaritas.com                                                                                      Date:                     06/05/2018\n                                                                                                                                            Terms:                           NET 14\n                                                                                                                                         Due Date:                      06/19/2018\n\nDescription                                                                                                                                 Quantity          Rate       Amount\n\n5/31/18 1- 15 15 passenger van from Philly going to DC pick back up in DC coming back to to Philly . 8:30am to 5:30pm 9hr                             1     $750.00       $750.00*\n\n                                                                                                                                                      1        $0.00          $0.00\n\n*Indicates non-taxable item\n\n                                                                                                                            Subtotal                                        $750.00\n\n                                                                                                                   Includes TAX 0%                                            $0.00\n                                                                                                                                Total                                       $750.00\n\n                                                                                                                                PAID                                          $0.00\n\n                                                                                                            Balance Due                                             $750.00\n\nNotes\n\nHello you can make the check out to 215BEARS . 4613 Conshohocken Avenue Philadelphia PA 19131 . If invoice is not paid 30 days after services are rendered there\nwill be a $25 Late fee added every day starting on the 31st day after\n\n                                                                                       1 / 1",
+   "chars": 640,
+   "text_layer_chars": 640,
+   "ocr_confidence": null,
+   "ocr_words": 0,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 5.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1
+   ],
+   "confidence": "high",
+   "doc_ids": [],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE"
+   ],
+   "needs_review": [],
+   "boundary_reason": "first page"
+  }
+ ]
+}

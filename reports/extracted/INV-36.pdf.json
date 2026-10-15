@@ -1,0 +1,92 @@
+{
+ "file": "INV-36.pdf",
+ "sha256": "7f685150edaf1ccbd44d4f24a3afc49a18bcdbf6d02cf921e37c2fc34b4fbdbe",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "text-layer",
+   "text": "Page 1 of 1\n\n   Oracle America, Inc.                                                                INVOICE\n   500 Oracle Parkway                                                                               Federal Tax ID: 94-2805249\n   Redwood Shores, CA 94065                                                    INVOICE NUMBER             44273107\n   United States                                                               INVOICE DATE                  18-Jun-2018\n                                                                               YOUR P.O. NUMBER           1000021496\n                                                                               PAYMENT TERMS              30 NET\n                                                                               DUE DATE                        18-Jul-2018\n                                                                               CUSTOMER REF\n\n     BILL TO :\n                                                                                                            PAYMENT INSTRUCTIONS:\n   AmeriHealth Caritas Services                                                   REFERENCE       44273107             ON YOUR REMITTANCE\n   Attention: Accounts Payable                                                   MAIL CHECKS TO  :             Oracle America, Inc.\n   200 Stevens Drive                                                                                             P.O. Box  203448\n   Philadelphia, PA 19113                                                                                        Dallas TX 75320-3448\n   United States\n\n                                                                                 WIRE TRANSFERS TO :       WELLS FARGO BANK\n                                                                                                                 ABA     121000248\n                                                                                                                 ACCT  4522-020841\n   SHIP TO :\n   Amerihealth Caritas Health Plan                                         Regular Invoice\n   200 Stevens Dr\n   Amhss 1000- Corp Shared Services\n   Philadelphia, PA  19113\n   United States\n\n           FOR BILLING QUESTIONS, CALL: (888) 803-7414 OR EMAIL: COLLECTIONS_US@ORACLE.COM\n                                OKS_CONTRACTS001Oracle America, Inc.P.O. Box  203448DallasTX75320-3448\n ORACLE SALESPERSON                    ORACLE ORDER                     CUSTOMER CONTACT                                        END USER\n                                           NUMBER\n    Settelmeyer, Jacob                     14724557                  Attention: Accounts Payable             Amerihealth Caritas Health Plan\n\nITEM                                           DESCRIPTION                                                      QTY/             TAX          EXTENDED\n NO.                                                                                                       NO.  OF USERS                       AMOUNT\n  1        Managed Cloud Services - Computer and Administration Services -                                        11                  N                  91,580.50\n          Managed Cloud Services - Additional Services 18-JUL-2018 :\n          17-OCT-2018\n\nNOT OFD\nSPECIAL INSTRUCTIONS:                                                          SUBTOTAL                              TAX                     TOTAL(USD)\n  N\n                                                                                91,580.50                                 0.00                                91,580.50\n                                                                      Less Payments                                                                                       0.00\n                                                                      Credits/Adjustments                                                                             0.00\n                                                                      Outstanding Balance as of 27-Jun-2018                                      91,580.50",
+   "chars": 1216,
+   "text_layer_chars": 1216,
+   "ocr_confidence": null,
+   "ocr_words": 0,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "INVOICE"
+     }
+    ],
+    "page_marker": [
+     1,
+     1
+    ],
+    "doc_ids": [
+     "44273107"
+    ],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1
+   ],
+   "confidence": "high",
+   "doc_ids": [
+    "44273107"
+   ],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE"
+   ],
+   "needs_review": [],
+   "boundary_reason": "first page"
+  }
+ ]
+}

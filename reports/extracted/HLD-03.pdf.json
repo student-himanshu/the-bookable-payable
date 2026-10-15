@@ -1,0 +1,85 @@
+{
+ "file": "HLD-03.pdf",
+ "sha256": "3fe124d4a74219541fd0b6a8cdf97081899f0a9d0156a88ebc873ff11c89800c",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "ZFI\nNota: Sobre estes produtos incidem ainda, os\n‘ aactaie ilee ont Seay\nLarkspur Print ou\ndo de fornecimento, bem dos demais ai be ceroaess\nakhaven Services ou Desti-~***9: Kadaka tee 224\n_ com 0 disposto no Decreto-Lei n.° 16/2013, de aah a = 1250-148 Lisboa\n© Diekconne Proenodtbadi vefeeiai'to mits ons curio, 1990-U29'xa8bow.\nNumero Data 02.12.2025 V/Ref.* N/Ref.* N° Contrib. N° IEC N° Cliente 3845708 Nos\n| or | um | nitério | ouValor | Valor | Vator\nCX = |TRINCA ALE 122 6X1500 CXE NTT 13,5 123,36 123,36 61,76 % 63,85 13,00 59,51\nEAN:5601012004984\n13,00 59,51 7,74 Descontos Promocionais 63,85-\nIVA 7,74\nIVA Adiantamento\nData de Vencimento 01.01.2026\nIBAN: 0033 0000 05 SWIFT: croemeu Os bens desta Factura/GR foram colocados & disposigSo na data da factura Total da factura\ncontna oncuB SAQAPRoCessado por programa certificado n.°256VAT Vinora orermen\n= aero IELEHUNE: FAX:\ntele ‘ 6.500,000€ C.R.C. DE V.N. DE GAIA N° NIPC prasiaisess —SIRER # Registo\nSoftmathypoupe sn\npenn\npros",
+   "chars": 828,
+   "text_layer_chars": 0,
+   "ocr_confidence": 65.1,
+   "ocr_words": 162,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "medium",
+    "scores": {
+     "INVOICE/invoice": 3.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\bfactura\\b",
+      "where": "body",
+      "line": "IBAN: 0033 0000 05 SWIFT: croemeu Os bens desta Factura/GR foram colocados & disposigSo na data da factura Total da fact"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1
+   ],
+   "confidence": "medium",
+   "doc_ids": [],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE"
+   ],
+   "needs_review": [],
+   "boundary_reason": "first page"
+  }
+ ]
+}

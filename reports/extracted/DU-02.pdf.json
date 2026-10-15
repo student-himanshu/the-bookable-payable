@@ -1,0 +1,888 @@
+{
+ "file": "DU-02.pdf",
+ "sha256": "5e19ee4a5c1a01dbcaa23932019288a928dadc46d3e1cf4f2fa4d273c5b65c20",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "Page 1 of 2\nInvoice Number 554701215\nInvoice Date 01/06/2026\nDelivery Group 5191407\nCustoms Consolidated Invoice\nNovatek U.S. LLC Novatek Saglik ve Cevre Bilim.LTDSTi\nRedwater Mobility BV PaPhiammihaa? 102\nAvenida Central 455 Gat@artemddg 14\n1950 KRAAINEM 34912 KAGITHANE - ISTANBUL CITY\nBELGIUM TURKEY\nTax ID No. BE2480635349\nEORI No. BEUS783540\nNovatek U.S. LLC Novatek Saglik ve Cevre Bilim.LTDSTI\nc/o Fairmont Print Parianminhaae 102\nKadaka tee 711 Gat@antegddg 14\n1830 MACHELEN 34912 KAGITHANE - ISTANBUL CITY\nBELGIUM TURKEY\nTax ID No. TR6917179205\nREACT,\nREACT,\n2 ee ns | ee\nOTHE\n8926909989 89269099 89269097 [OTH.P IC MAT,OTH, EAR99 0,008 KG\nOTH,OTH\n7017200000 [70172000 70172000 (GLASSWARE,LAB,HYG, EAR99 0,040 KG 8PC\nPHARM,OTH\nCee ee eee ba as TAS Tso eot\nOTH,\naa a a\nILL.\nIND F\n8539212080 85392190 65392198 {TUNGSTEN HALGN AROS 36.6006 2pG 107,53\nMP<=100V,OTHER\na_i PCNRET LASS |epornn| ea [re] ae\n3 RR EET ESE PSAMEARTTAE [RAR] ez] OR | aeg| a\n6027304080 P0273000 0273000 ELNDLEEBBN 3A999.f 161,000 KG SC 20.850,22\n| TERS/IG\n8027304080 0273000 0273000 ELNDLEEBBN CN 1PC\nTERS/G",
+   "chars": 919,
+   "text_layer_chars": 0,
+   "ocr_confidence": 66.1,
+   "ocr_words": 169,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 6.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Number 554701215"
+     },
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\b(?:customs|commercial|consolidated)\\s+(?:consolidated\\s+)?invoice\\b",
+      "where": "headline",
+      "line": "Customs Consolidated Invoice"
+     }
+    ],
+    "page_marker": [
+     1,
+     2
+    ],
+    "doc_ids": [
+     "554701215"
+    ],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 2,
+   "method": "ocr",
+   "text": "Page 2 of 2\nInvoice Number 554701215\nInvoice Date 01/06/2026\nDelivery Group 5191407\nCustoms Consolidated Invoice\n80 90279000 0 PRT ELE EARS 0,004 KG D\nINSTRUMENT,902720\n9027905625 90279000 0279000 PRT ELEC EAR 0,018 KG\nINSTRUMENT, 902720\n17 po 80279000 90279000 [PRT ELEC EAR99 0,040 KG 9,84\nINSTRUMENT,902720\n9027905630 90279000 0279000 [PRT ELEC\nINSTRUMENT,902730\n8027905695 80279000 0279000 PT ELC INST, EAR99 CA\nOT,902720/30/5\n9027905695 90279000 (0279000 PT ELC INST, EAR99 0,462 KG 2.287,88\nOT,902720/30/5\n8027905695 90279000 90279000 PT ELC INST, EAR99 456,24\nOT,902720/30/5\nNP",
+   "chars": 502,
+   "text_layer_chars": 0,
+   "ocr_confidence": 76.5,
+   "ocr_words": 83,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 2,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 6.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Number 554701215"
+     },
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\b(?:customs|commercial|consolidated)\\s+(?:consolidated\\s+)?invoice\\b",
+      "where": "headline",
+      "line": "Customs Consolidated Invoice"
+     }
+    ],
+    "page_marker": [
+     2,
+     2
+    ],
+    "doc_ids": [
+     "554701215"
+    ],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 3,
+   "method": "ocr",
+   "text": "Page 1 of 1\nInvoice Number 554701215\nInvoice Date 01/06/2026\nCustomer PO 5505419603/66691406\nDelivery Group 5191407\nDelivery 830920460\nSales Order 5229664\nCustoms Detailed Invoice\nNovatek U.S. LLC Novatek Saglik ve Cevre Bilim.LTDSTi\nRedwater Mobility BV c/o MeridiarEXRRESS GENEL MERKEZ NSN DEPO\nAvenida Central 455 High Street 21 Heit eme 2 1\n1950 KRAAINEM 34764 UMRANIYE\nBELGIUM TURKEY\nTax ID No. BE2480635349\nEORI No. BEUS783540\nNovatek U.S. LLC Novatek — Saglik ve Cevre Bilim.LTDSTi\nc/o Fairmont Print Parianmihiae 102\nKadaka tee 711 Ga@@astegddg 14\n1830 MACHELEN 34912 KAGITHANE - ISTANBUL CITY\nBELGIUM TURKEY\nTax ID No. TR6917179205\nStandard to TR Delivered at Place\n2083596115\nPER210108B |Ref. sample Glutomatic EAR99 1.872,11 1.872,11\nHTS US: 3822190080 - REA,DIAG,POLY CHAIN\nREACT,\nHTS EU: 38221900 - Diagnostic or laboratory\nreagents on a backing, prepared diagnostic or\nlaboratory reagents whether or not on a backing,\nwhether or not put up in the form of kits; Other\ntors 4.872,11 Tr\nFt [eo] 00] oso] Ks | 10.000] 20,000] 2,000] om | 000s] ms |",
+   "chars": 892,
+   "text_layer_chars": 0,
+   "ocr_confidence": 83.2,
+   "ocr_words": 167,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 3,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Number 554701215"
+     }
+    ],
+    "page_marker": [
+     1,
+     1
+    ],
+    "doc_ids": [
+     "554701215"
+    ],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 4,
+   "method": "ocr",
+   "text": "Page 1 of2\nInvoice Number 554701215\nInvoice Date 01/06/2026\nCustomer PO 5505419505/5229132\nDelivery Group 5191407\nDelivery 830920463\nSales Order 5229596\nCustoms Detailed Invoice\nNovatek U.S. LLC Novatek Saglik ve Gevre Bilim.LTDSTI\nRedwater Mobility BV c/o MeridiarEXRRESS GENEL MERKEZ NSN DEPO\nAvenida Central 455 High Street 21 epg aa Bet 2 1\n1950 KRAAINEM 34764 UMRANIYE\nBELGIUM TURKEY\nTax ID No. BE2480635349\nEORI No. BEUS783540\nNovatek U.S. LLC Novatek — Saglik ve Cevre Bilim.LTDSTi\nc/o Fairmont Print Parianmihiae 102\nKadaka tee 711 Ga@@astegddg 14\n1830 MACHELEN 34912 KAGITHANE - ISTANBUL CITY\nBELGIUM TURKEY\nTax ID No. TR6917179205\nStandard to TR Delivered at Place\n2083596115\nVial Diffuser Molding EAR99\nHTS US: 9027905625 - PRT ELEC\nINSTRUMENT,902720\nHTS EU: 90279000 - Microtomes; parts and\nlaccessories\n09923032 3 mm Black Plastic Screw Cap EARS9 U 73,46 587,68\nHTS US: 3926909989 - OTH.PLSTIC MAT,OTH,\nOTH,OTH\nHTS EU: 39269097 - Other\n09923031 4 mL Clr al 15 x 45 13-425 PER PC. EAR99\nHTS US: 7017200000 - GLASSWARE,LAB,HYG,\nPHARM,OTH\nHTS EU: 70172000 - Of other glass having a linear\ncoefficient of expansion not exceeding 5 x 10-6 per\nKelvin within a temperature range of 0 °C to 300 °C\nCC tortef ies 1.628.316 Tr",
+   "chars": 1032,
+   "text_layer_chars": 0,
+   "ocr_confidence": 86.3,
+   "ocr_words": 198,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 4,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Number 554701215"
+     }
+    ],
+    "page_marker": [
+     1,
+     2
+    ],
+    "doc_ids": [
+     "554701215"
+    ],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 5,
+   "method": "ocr",
+   "text": "f+ [o0sof 0000] oro] xa | 10000] 20000] 20000] cm | 0.008] |",
+   "chars": 48,
+   "text_layer_chars": 0,
+   "ocr_confidence": 54.5,
+   "ocr_words": 13,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 5,
+    "label": "UNKNOWN",
+    "subtype": "unclassified",
+    "confidence": "none",
+    "scores": {},
+    "evidence": [],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": false,
+    "notes": [
+     "almost no text on page (blank, drawing or unreadable)"
+    ]
+   }
+  },
+  {
+   "page": 6,
+   "method": "ocr",
+   "text": "Page 1 of 1\nInvoice Number 554701215\nInvoice Date 01/06/2026\nCustomer PO 5505419825/5222652\nDelivery Group 5191407\nDelivery 830920464\nSales Order 5229801\nCustoms Detailed Invoice\nNovatek U.S. LLC Novatek Saglik ve Cevre Bilim.LTDSTi\nRedwater Mobility BV c/o MeridiarEXRRESS GENEL MERKEZ NSN DEPO\nAvenida Central 455 High Street 21 Heit eme 2 1\n1950 KRAAINEM 34764 UMRANIYE\nBELGIUM TURKEY\nTax ID No. BE2480635349\nEORI No. BEUS783540\nNovatek U.S. LLC Novatek — Saglik ve Cevre Bilim.LTDSTi\nc/o Fairmont Print Parianmihiae 102\nKadaka tee 711 Ga@@astegddg 14\n1830 MACHELEN 34912 KAGITHANE - ISTANBUL CITY\nBELGIUM TURKEY\nTax ID No. TR6917179205\nStandard to TR Delivered at Place\n2083596115\n8145368 PFA-ST Nebulizer for prepFAST EAR99 46.183,48 92.366,96\nHTS US: 9027905695 - PT ELC INST,\n(OT,902720/30/5\nHTS EU: 90279000 - Microtomes; parts and\nlaccessories\ntom f ce\nFt | areof 000] ora] Ka [14.000] 29.000] 28000] om | o.008] a |",
+   "chars": 782,
+   "text_layer_chars": 0,
+   "ocr_confidence": 81.1,
+   "ocr_words": 144,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 6,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Number 554701215"
+     }
+    ],
+    "page_marker": [
+     1,
+     1
+    ],
+    "doc_ids": [
+     "554701215"
+    ],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 7,
+   "method": "ocr",
+   "text": "Page 1 of2\nInvoice Number 554701215\nInvoice Date 01/06/2026\nCustomer PO 5505419739/5229131\nDelivery Group 5191407\nDelivery 830920466\nSales Order 5229803\nCustoms Detailed Invoice\nNovatek U.S. LLC Novatek Saglik ve Cevre Bilim.LTDSTi\nRedwater Mobility BV c/o MeridiarEXRRESS GENEL MERKEZ NSN DEPO\nAvenida Central 455 High Street 21 epg aa Bet 2 1\n1950 KRAAINEM 34764 UMRANIYE\nBELGIUM TURKEY\nTax ID No. BE2480635349\nEORI No. BEUS783540\nNovatek U.S. LLC Novatek Saglik ve Cevre Bilim.LTDSTi\nc/o Fairmont Print Parianmihiae 102\nKadaka tee 711 Ga@@astegddg 14\n1830 MACHELEN 34912 KAGITHANE - ISTANBUL CITY\nBELGIUM TURKEY\nTax ID No. TR6917179205\nStandard to TR Delivered at Place\n2083596115\n1W1026356 Nickel Skimmer Cone for NexlION EAR99 4.896,42 19.585,68\nHTS US: 9027905695 - PT ELC INST,\n(OT,902720/30/5\nHTS EU: 90279000 - Microtomes; parts and\nlaccessories\nWw lyperSkimmer Cone for NexlON EARS9 : 2.132,6\nHTS US: 9027905695 - PT ELC INST,\n|OT,902720/30/5\nHTS EU: 90279000 - Microtomes; parts and\nlaccessories\nNickel Sampler Cone for NexlION EAR99 5.700,66 22.802,64\nHTS US: 9027905695 - PT ELC INST,\nOT ,902720/30/5\nHTS EU: 90279000 - Microtomes; parts and\nlaccessories\ntorn} ve | 5 520,96 TRY",
+   "chars": 1010,
+   "text_layer_chars": 0,
+   "ocr_confidence": 84.8,
+   "ocr_words": 182,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 7,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Number 554701215"
+     }
+    ],
+    "page_marker": [
+     1,
+     2
+    ],
+    "doc_ids": [
+     "554701215"
+    ],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 8,
+   "method": "ocr",
+   "text": "P+ [oseof 0000] oa] xa | 11000] 20000] 25000] cm | 0.008] wa |",
+   "chars": 49,
+   "text_layer_chars": 0,
+   "ocr_confidence": 51.3,
+   "ocr_words": 14,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 8,
+    "label": "UNKNOWN",
+    "subtype": "unclassified",
+    "confidence": "none",
+    "scores": {},
+    "evidence": [],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": false,
+    "notes": [
+     "almost no text on page (blank, drawing or unreadable)"
+    ]
+   }
+  },
+  {
+   "page": 9,
+   "method": "ocr",
+   "text": "Page 1 of 1\nInvoice Number 554701215\nInvoice Date 01/06/2026\nCustomer PO 5505416600/66690602\nDelivery Group 5191407\nDelivery 830920470\nSales Order 5227704\nCustoms Detailed Invoice\nNovatek U.S. LLC Novatek Saglik ve Cevre Bilim.LTDSTi\nRedwater Mobility BV c/o MeridiarES@*RESS GENEL MERKEZ NSN DEPO\nAvenida Central 455 High Street 21 Heit eme 2 1\n1950 KRAAINEM 34764 UMRANIYE\nBELGIUM TURKEY\nTax ID No. BE2480635349\nEORI No. BEUS783540\nNovatek U.S. LLC Novatek — Saglik ve Cevre Bilim.LTDSTi\nc/o Fairmont Print Parianmihiae 102\nKadaka tee 711 Ga@@astegddg 14\n1830 MACHELEN 34912 KAGITHANE - ISTANBUL CITY\nBELGIUM TURKEY\nTax ID No. TR6917179205\nStandard to TR Delivered at Place\n2083596115\n20626505505 |O Deuterium lamp EAR99 B 16.500,40 16.500,40\nHTS US: 8539490040 - ULTRAVIOLET LAMP.\nHTS EU: 85394900 - Ultraviolet or infra-red lamps;\narc lamps; Other\ntora] 1 |__| 65000 tay|\nFt [oe] o00f oreo] Ke [tooo] 20.000] .000f cm [occa Ms |",
+   "chars": 788,
+   "text_layer_chars": 0,
+   "ocr_confidence": 80.4,
+   "ocr_words": 145,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 9,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Number 554701215"
+     }
+    ],
+    "page_marker": [
+     1,
+     1
+    ],
+    "doc_ids": [
+     "554701215"
+    ],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 10,
+   "method": "ocr",
+   "text": "Page 1 of 1\nInvoice Number 554701215\nInvoice Date 01/06/2026\nCustomer PO 5505419906/5229766\nDelivery Group 5191407\nDelivery 830920465\nSales Order 5229802\nCustoms Detailed Invoice\nNovatek U.S. LLC Novatek Saglik ve Cevre Bilim.LTDSTI\nRedwater Mobility BV c/o MeridiarEX? RES GENEL MERKEZ NSN DEPO\nAvenida Central 455 High Street 21 Hei et 2 1\n1950 KRAAINEM 34764 UMRANIYE\nBELGIUM TURKEY\nTax ID No. BE2480635349\nEORI No. BEUS783540\nNovatek U.S. LLC Novatek — Saglik ve Cevre Bilim.LTDSTi\nc/o Fairmont Print ParnBanmitaa@e 102\nKadaka tee 711 Gac@astegddg 14\n1830 MACHELEN 34912 KAGITHANE - ISTANBUL CITY\nBELGIUM TURKEY\nTax ID No. TR6917179205\nStandard to TR Delivered at Place\n2083596115\n(07150014 MPLC Concept Holder, 10 cm EAR99 8.202,20 8.202,20\nHTS US: 8421990180 - FILT/PURIF MACH\nPARTS,OTH,\nHTS EU: 84219990 - Other\nFt [oor] oo00f ots] xe [tooo] 20.000] 0.000] cm | o.cor| ms |",
+   "chars": 743,
+   "text_layer_chars": 0,
+   "ocr_confidence": 81.8,
+   "ocr_words": 138,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 10,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Number 554701215"
+     }
+    ],
+    "page_marker": [
+     1,
+     1
+    ],
+    "doc_ids": [
+     "554701215"
+    ],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 11,
+   "method": "ocr",
+   "text": "Page 1 of 2\nInvoice Number 554701215\nInvoice Date 01/06/2026\nCustomer PO 5505419741/5229612\nDelivery Group 5191407\nDelivery 830920468\nSales Order 5229805\nCustoms Detailed Invoice\nNovatek U.S. LLC Novatek Saglik ve Cevre Bilim.LTDSTi\nRedwater Mobility BV c/o MeridiarEXRRESS GENEL MERKEZ NSN DEPO\nAvenida Central 455 High Street 21 Heit eme 2 1\n1950 KRAAINEM 34764 UMRANIYE\nBELGIUM TURKEY\nTax ID No. BE2480635349\nEORI No. BEUS783540\nNovatek U.S. LLC Novatek — Saglik ve Cevre Bilim.LTDSTi\nc/o Fairmont Print Parianmihiae 102\nKadaka tee 711 Ga@@astegddg 14\n1830 MACHELEN 34912 KAGITHANE - ISTANBUL CITY\nBELGIUM TURKEY\nTax ID No. TR6917179205\nStandard to TR Delivered at Place\nA\nIN9303806 Titanium 1,000 pg/mL H2O0/Tr HF ICP 125mL EAR99 360,80) 360,80\nREACT,\nHTS EU: 38221900 - Diagnostic or laboratory\nreagents on a backing, prepared diagnostic or\nlaboratory reagents whether or not on a backing,\nwhether or not put up in the form of kits; Other\nNo790249 Hybrid XI ot Organics Torch Avio EARS U 0.380,94 20.761,86\nHTS US: 9027905630 - PRT ELEC\nINSTRUMENT,902730\nHTS EU: 90279000 - Microtomes; parts and\nlaccessories\nNO77) PFA- croFlow Nebulizer for Optima ARQ9 13.152,75 13.152,7!\nIW/IND F\nHTS EU: 84799070 - Other; Other",
+   "chars": 1029,
+   "text_layer_chars": 0,
+   "ocr_confidence": 85.4,
+   "ocr_words": 191,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 11,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Number 554701215"
+     }
+    ],
+    "page_marker": [
+     1,
+     2
+    ],
+    "doc_ids": [
+     "554701215"
+    ],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 12,
+   "method": "ocr",
+   "text": "Page 2 of 2\nInvoice Number 554701215\nInvoice Date 01/06/2026\nCustomer PO 5505419741/5229612\nDelivery Group 5191407\nDelivery 830920468\nSales Order 5229805\nCustoms Detailed Invoice\nIN9303788 ISTD - PHOSPHORUS 1000 pG/ML 125ML 707,46) 707,46\nHTS US: 3822190080 - REA,DIAG,POLY CHAIN\nREACT,\nHTS EU: 38221900 - Diagnostic or laboratory\nreagents on a backing, prepared diagnostic or\nlaboratory reagents whether or not on a backing,\nwhether or not put up in the form of kits; Other\n[+ | oaeo] 000] ogs0] KG | 1,000] 29.000] 28,000] cm | o.o0s] ma",
+   "chars": 453,
+   "text_layer_chars": 0,
+   "ocr_confidence": 82.2,
+   "ocr_words": 87,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 12,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Number 554701215"
+     }
+    ],
+    "page_marker": [
+     2,
+     2
+    ],
+    "doc_ids": [
+     "554701215",
+     "IN9303788"
+    ],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 13,
+   "method": "ocr",
+   "text": "Page 1 of 1\nInvoice Number 554701215\nInvoice Date 01/06/2026\nCustomer PO 5505418938/66691189\nDelivery Group 5191407\nDelivery 830920471\nSales Order 5229134\nCustoms Detailed Invoice\nNovatek U.S. LLC Novatek Saglik ve Cevre Bilim.LTDSTi\nRedwater Mobility BV c/o MeridiarEXRRESS GENEL MERKEZ NSN DEPO\nAvenida Central 455 High Street 21 Heit eme 2 1\n1950 KRAAINEM 34764 UMRANIYE\nBELGIUM TURKEY\nTax ID No. BE2480635349\nEORI No. BEUS783540\nNovatek U.S. LLC Novatek — Saglik ve Cevre Bilim.LTDSTi\nc/o Fairmont Print Parianmihiae 102\nKadaka tee 711 Ga@@astegddg 14\n1830 MACHELEN 34912 KAGITHANE - ISTANBUL CITY\nBELGIUM TURKEY\nTax ID No. TR6917179205\nStandard to TR Delivered at Place\n2083596115\nIN6480697 KIT - SQ8 HEADAMP EAR99 22.966,44\nHTS US: 9027905695 - PT ELC INST,\n(OT,902720/30/5\nHTS EU: 90279000 - Microtomes; parts and\nlaccessories\ntom f ce\nFt | as0of o.000] 600] Ka | 10.000] 20.000] 20000] om | ocor] a |",
+   "chars": 765,
+   "text_layer_chars": 0,
+   "ocr_confidence": 80.9,
+   "ocr_words": 144,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 13,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Number 554701215"
+     }
+    ],
+    "page_marker": [
+     1,
+     1
+    ],
+    "doc_ids": [
+     "554701215"
+    ],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 14,
+   "method": "ocr",
+   "text": "Page 1 of 1\nInvoice Number 554701215\nInvoice Date 01/06/2026\nCustomer PO 55054201 14/66691592\nDelivery Group 5191407\nDelivery 830920472\nSales Order 5229907\nCustoms Detailed Invoice\nNovatek U.S. LLC Novatek Saglik ve Cevre Bilim.LTDSTi\nRedwater Mobility BV c/o MeridiarEXRRESS GENEL MERKEZ NSN DEPO\nAvenida Central 455 High Street 21 Heit eme 2 1\n1950 KRAAINEM 34764 UMRANIYE\nBELGIUM TURKEY\nTax ID No. BE2480635349\nEORI No. BEUS783540\nNovatek U.S. LLC Novatek — Saglik ve Cevre Bilim.LTDSTi\nc/o Fairmont Print Parianmihiae 102\nKadaka tee 711 Ga@@astegddg 14\n1830 MACHELEN 34912 KAGITHANE - ISTANBUL CITY\nBELGIUM TURKEY\nTax ID No. TR6917179205\nStandard to TR Delivered at Place\n2083596115\nB0500833 GASKET EAR99 1.533,74 4.601,22\nHTS US: 3926904590 - PLSTS,GSKTS,\nWASHERS, OTHE\nHTS EU: 39269097 - Other\nB4000011 HS-40 SS Needle AR99 D 23.430,48\nHTS US: 9027905625 - PRT ELEC\nINSTRUMENT,902720\nHTS EU: 90279000 - Microtomes; parts and\nlaccessories\ntore sf 28.081,70 Tr\n[Lt | a0aof 000] te] kG | 10,000] 20,000] 20,000] cm | 0,006] MS |",
+   "chars": 870,
+   "text_layer_chars": 0,
+   "ocr_confidence": 81.0,
+   "ocr_words": 162,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 14,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Number 554701215"
+     }
+    ],
+    "page_marker": [
+     1,
+     1
+    ],
+    "doc_ids": [
+     "554701215"
+    ],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 15,
+   "method": "ocr",
+   "text": "Page 1 of 1\nInvoice Number 554701215\nInvoice Date 01/06/2026\nCustomer PO 5505420246/66691631\nDelivery Group 5191407\nDelivery 830920473\nSales Order 5230031\nCustoms Detailed Invoice\nNovatek U.S. LLC Novatek Saglik ve Cevre Bilim.LTDSTi\nRedwater Mobility BV c/o MeridiarEXRRESS GENEL MERKEZ NSN DEPO\nAvenida Central 455 High Street 21 Heit eme 2 1\n1950 KRAAINEM 34764 UMRANIYE\nBELGIUM TURKEY\nTax ID No. BE2480635349\nEORI No. BEUS783540\nNovatek U.S. LLC Novatek — Saglik ve Cevre Bilim.LTDSTi\nc/o Fairmont Print Parianmihiae 102\nKadaka tee 711 Ga@@astegddg 14\n1830 MACHELEN 34912 KAGITHANE - ISTANBUL CITY\nBELGIUM TURKEY\nTax ID No. TR6917179205\nStandard to TR Delivered at Place\n2083596115\nIN6100331 BRAZE ASSY ASXL CHARCOAL TRAP EAR99 10.932,91 21.865,82\nHTS US: 9027905625 - PRT ELEC\nINSTRUMENT,902720\nHTS EU: 90279000 - Microtomes; parts and\nlaccessories\ntom f ce\n[1 | an6of 000] 0260] Ka | 10.000] 20.000] 20000] om | o.008] a |",
+   "chars": 784,
+   "text_layer_chars": 0,
+   "ocr_confidence": 82.2,
+   "ocr_words": 145,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 15,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Number 554701215"
+     }
+    ],
+    "page_marker": [
+     1,
+     1
+    ],
+    "doc_ids": [
+     "554701215"
+    ],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 16,
+   "method": "ocr",
+   "text": "Page 1 of 1\nInvoice Number 554701215\nInvoice Date 01/06/2026\nCustomer PO 550541751 1/5228031\nDelivery Group 5191407\nDelivery 830920461\nSales Order 5228208\nCustoms Detailed Invoice\nNovatek U.S. LLC Novatek Saglik ve Cevre Bilim.LTDSTi\nRedwater Mobility BV c/o MeridiarEXRRESS GENEL MERKEZ NSN DEPO\nAvenida Central 455 High Street 21 Heit eme 2 1\n1950 KRAAINEM 34764 UMRANIYE\nBELGIUM TURKEY\nTax ID No. BE2480635349\nEORI No. BEUS783540\nNovatek U.S. LLC Novatek — Saglik ve Cevre Bilim.LTDSTi\nc/o Fairmont Print Parianmihiae 102\nKadaka tee 711 Ga@@astegddg 14\n1830 MACHELEN 34912 KAGITHANE - ISTANBUL CITY\nBELGIUM TURKEY\nTax ID No. TR6917179205\nStandard to TR Delivered at Place\n2083596115\n0790016 ‘Avio 220 Max Base Instrument 3A999.f 1.049.579,86 1.049.579,86\nHTS US: 9027304080 - ELNDLEEBBN\nISPECTROMETERS/G\nHTS EU: 90273000 - Spectrometers,\nIspectrophotometers and spectrographs using\noptical radiation (UV, visible, IR)\nee\nTRY\n[1 [29000] 0.000] 150.000] KS | 190,000] 106,000] 00,000] cm | 0.000] |",
+   "chars": 852,
+   "text_layer_chars": 0,
+   "ocr_confidence": 82.6,
+   "ocr_words": 148,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 16,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Number 554701215"
+     }
+    ],
+    "page_marker": [
+     1,
+     1
+    ],
+    "doc_ids": [
+     "554701215"
+    ],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 17,
+   "method": "ocr",
+   "text": "Page 1 of 1\nInvoice Number 554701215\nInvoice Date 01/06/2026\nCustomer PO 5505419356/5229129\nDelivery Group 5191407\nDelivery 830920462\nSales Order 5229520\nCustoms Detailed Invoice\nNovatek U.S. LLC Novatek Saglik ve Cevre Bilim.LTDSTI\nRedwater Mobility BV c/o MeridiarEX? RES GENEL MERKEZ NSN DEPO\nAvenida Central 455 High Street 21 Hei et 2 1\n1950 KRAAINEM 34764 UMRANIYE\nBELGIUM TURKEY\nTax ID No. BE2480635349\nEORI No. BEUS783540\nNovatek U.S. LLC Novatek — Saglik ve Cevre Bilim.LTDSTi\nc/o Fairmont Print ParnBanmitaa@e 102\nKadaka tee 711 Gac@astegddg 14\n1830 MACHELEN 34912 KAGITHANE - ISTANBUL CITY\nBELGIUM TURKEY\nTax ID No. TR6917179205\nStandard to TR Delivered at Place\n2083596115\n(6001609 1000uL wide bore tips, QTY 2304 EAR99 5.838,05 5.838,05\nHTS US: 8479909596 - OTH PRTS/MECH APPS,\nW/IND F\nHTS EU: 84799070 - Other; Other\nFt [sero] 00f 5270] Ke | 40.000] s2.000] 4.000] cm | o.c07] ms |",
+   "chars": 753,
+   "text_layer_chars": 0,
+   "ocr_confidence": 81.8,
+   "ocr_words": 143,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 17,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Number 554701215"
+     }
+    ],
+    "page_marker": [
+     1,
+     1
+    ],
+    "doc_ids": [
+     "554701215"
+    ],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 18,
+   "method": "ocr",
+   "text": "Page 1 of 1\nInvoice Number 554701215\nInvoice Date 01/06/2026\nCustomer PO 5505419742/5229609\nDelivery Group 5191407\nDelivery 830920467\nSales Order 5229804\nCustoms Detailed Invoice\nNovatek U.S. LLC Novatek Saglik ve Cevre Bilim.LTDSTi\nRedwater Mobility BV c/o MeridiarEXRRESS GENEL MERKEZ NSN DEPO\nAvenida Central 455 High Street 21 Heit eme 2 1\n1950 KRAAINEM 34764 UMRANIYE\nBELGIUM TURKEY\nTax ID No. BE2480635349\nEORI No. BEUS783540\nNovatek U.S. LLC Novatek — Saglik ve Cevre Bilim.LTDSTi\nc/o Fairmont Print Parianmihiae 102\nKadaka tee 711 Ga@@astegddg 14\n1830 MACHELEN 34912 KAGITHANE - ISTANBUL CITY\nBELGIUM TURKEY\nTax ID No. TR6917179205\nStandard to TR Delivered at Place\n2083596115\nL6022728 ELP UV Lamp Complete EAR99 13.334,17| 13.334,17\nHTS US: 8539490040 - ULTRAVIOLET LAMP\nHTS EU: 85394900 - Ultraviolet or infra-red lamps;\narc lamps; Other\nB01146 [Tungsten Halogen Lamp Assembl AR99 D 2.706,40! B80\nHTS US: 8539212080 - TUNGSTEN HALGN\nLMP<=100V,OTHER\nHTS EU: 85392198 - Other, for a voltage; Not\nexceeding 100 V\ntore sf 18,746,097 TR\nf+ | aro] 000] ——=—otso] KG | 1,000] 29,000 28,000] om | 0.003] a",
+   "chars": 934,
+   "text_layer_chars": 0,
+   "ocr_confidence": 81.4,
+   "ocr_words": 174,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 18,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Number 554701215"
+     }
+    ],
+    "page_marker": [
+     1,
+     1
+    ],
+    "doc_ids": [
+     "554701215"
+    ],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 19,
+   "method": "ocr",
+   "text": "Page 1 of2\nInvoice Number 554701215\nInvoice Date 01/06/2026\nCustomer PO 5505420084\nDelivery Group 5191407\nDelivery 830920469\nSales Order 5229908\nCustoms Detailed Invoice\nNovatek U.S. LLC Novatek Saglik ve Gevre Bilim.LTDSTI\nRedwater Mobility BV c/o MeridiarEXRRESS GENEL MERKEZ NSN DEPO\nAvenida Central 455 High Street 21 epg aa Bet 2 1\n1950 KRAAINEM 34764 UMRANIYE\nBELGIUM TURKEY\nTax ID No. BE2480635349\nEORI No. BEUS783540\nNovatek U.S. LLC Novatek — Saglik ve Cevre Bilim.LTDSTi\nc/o Fairmont Print Parianmihiae 102\nKadaka tee 711 Ga@@astegddg 14\n1830 MACHELEN 34912 KAGITHANE - ISTANBUL CITY\nBELGIUM TURKEY\nTax ID No. TR6917179205\nStandard to TR Delivered at Place\n2083596115\nPER022020 |GLUTOMATIC 2000 100-240V 50-60Hz EAR99 239.833,40) 239.833,40\nHTS US: 8437800010 - FLOUR MILL AND GRAIN\nMILL\nHTS EU: 84378000 - Other machinery\nPER NTRIFUG 2010 100-240V 50-60H AR99 083 083\nHTS US: 8437800010 - FLOUR MILL AND GRAIN\nMILL\nHTS EU: 84378000 - Other machinery\n00000 actoScope 300 ARQ9 N 9.453,16 9.453,16\nHTS US: 9027304080 - ELNDLEEBBN\nISPECTROMETERS/G\nHTS EU: 90273000 - Spectrometers,\nispectrophotometers and spectrographs using\noptical radiation (UV, visible, IR)\ntora! 3 | __| 532.370,06 try",
+   "chars": 1016,
+   "text_layer_chars": 0,
+   "ocr_confidence": 86.4,
+   "ocr_words": 182,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 19,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Number 554701215"
+     }
+    ],
+    "page_marker": [
+     1,
+     2
+    ],
+    "doc_ids": [
+     "554701215"
+    ],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 20,
+   "method": "ocr",
+   "text": "f+ [r2000f 000] —_—sa000] a | 120000] 80000] so000] cm | 0.100] |",
+   "chars": 53,
+   "text_layer_chars": 0,
+   "ocr_confidence": 50.6,
+   "ocr_words": 13,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 20,
+    "label": "UNKNOWN",
+    "subtype": "unclassified",
+    "confidence": "none",
+    "scores": {},
+    "evidence": [],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": false,
+    "notes": [
+     "almost no text on page (blank, drawing or unreadable)"
+    ]
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "confidence": "high",
+   "doc_ids": [
+    "554701215",
+    "IN9303788"
+   ],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE",
+    "2:INVOICE",
+    "3:INVOICE",
+    "4:INVOICE",
+    "5:UNKNOWN*",
+    "6:INVOICE",
+    "7:INVOICE",
+    "8:UNKNOWN*",
+    "9:INVOICE",
+    "10:INVOICE",
+    "11:INVOICE",
+    "12:INVOICE",
+    "13:INVOICE",
+    "14:INVOICE",
+    "15:INVOICE",
+    "16:INVOICE",
+    "17:INVOICE",
+    "18:INVOICE",
+    "19:INVOICE",
+    "20:UNKNOWN*"
+   ],
+   "needs_review": [
+    "page counter restarted on pages [3, 4, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19] but the document number is unchanged: kept as ONE segment; verify whether these are separate payables",
+    "pages [5, 8, 20] attached as untitled continuation",
+    "customs invoice: confirm it is a payable",
+    "low OCR confidence on pages [5, 8, 20]"
+   ],
+   "boundary_reason": "first page"
+  }
+ ]
+}

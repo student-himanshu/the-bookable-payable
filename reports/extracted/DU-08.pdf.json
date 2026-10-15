@@ -1,0 +1,92 @@
+{
+ "file": "DU-08.pdf",
+ "sha256": "e793c620d313babb162ca1740b7724b7b0f5fffd9fe452020a40f06f6e2977ac",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "a\nMahnung\nKingsley Trading GmbH & Co. KG\nNorthwind Services DE GmbH\nKarl-Liebknecht-Str. 29\n10178 Berlin Bankverbindun;\nDeutschland DE47 3221 2282 8473 6223 GatatabarBT79 3686\nIBAN DE47 3221 2204 8470682335 2iad50T79 3686\nBIC YSTTFV26AKT\nBitte bei Zahlungen immer angeben:\nKundennr. 665850800\nBelegnr. siehe unten\n4. Juni 2025\nMB236544896 Pahnungsnr MB236544896 Pahnungsnr\nSeite 1\nSehr geehrte Damen und Herren,\nbei der Fille der taglichen Arbeit ist es verstandlich, dass trotz aller Sorgfalt einmal ein\nZahlungstermin Ubersehen wird. Wir haben die Leistung wie vereinbart erbracht.\nWir bitten Sie daher, den Zahlungsausgleich fiir die nachstehend aufgefiihrte Forderung bis zum\n10.06.2025 auf unser Konto zu Uberweisen.\nSollten Sie inzwischen bezahit haben, betrachten Sie dieses Schreiben bitte als gegenstandslos.\nZahlungseingange wurden beriicksichtigt bis zum 03.06.25.\nRg.vRB519A2890964 ~—- wurde storniert. Guthaben EUR 44,84\nBelegdatum Belegart Belegnr. Fallig Mahnstufe Ursprungsbetrag Restbetrag\n29.01.25 Zahlung 25COBK-20-005 29.01.25 1 -44,84 -44,84\n12.05.25 Rechnung VRB700A6126940 22.05.25 2 48,94 48,94\nTotal EUR 4,10\nLassen Sie uns an dieser Stelle noch erwahnen, dass wir eine 2. Mahnung mit Mahngebihren und Zinsen\nausstellen werden.\nAusgehend davon, dass Sie die Erinnerung als solche nutzen, verbleiben wir\nmit freundlichen GriRen\nSilverbrook Media GmbH & Co.KG\nAnsprechpartner Paul : Frau Marco Reis Vidal 2948 / 90099 - 6096\ne-mail: martin.kask@larkspur-consulting.com\nWir méchten Sie darauf hinweisen, dass ab dem 01.01.2025 alle Rechnungen ausschlieRlich per E-Mail\nversendet werden.\nBitte stellen Sie sicher, dass uns Ihre aktuelle E-Mail-Adresse vorliegt, um einen reibungslosen\nAblauf zu gewahrleisten.\nKingsley Trading GmbH & Co. KG * Vidal+ 16 37106114015\nGeschaftsfiihrer: Nina Reis ,Elena Lind Lena Novak * Amtsgericht Bremen, HRA 28216 * Komplementérin: Cloverdale Distribution GntbAmtsgericht Bremen, HRB 33717\n‘Stadtbank * BLZ: 29050101 * Konto: 80141314 * BIC: YSTTFV26AKT® IBAN: DE65 8339 7329 2725 2446 71 lommerzbank\nDE65 8339 732B8e72eOMBLA RPMMRRAIAKonto: 5653843829 * BIC: WWHVFXQSMN¢ IBAN: DE47 3221 2282 8473 6223 94 Oank OT79 3686",
+   "chars": 1875,
+   "text_layer_chars": 0,
+   "ocr_confidence": 87.6,
+   "ocr_words": 301,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "NON_PAYABLE",
+    "subtype": "payment_reminder",
+    "confidence": "high",
+    "scores": {
+     "NON_PAYABLE/payment_reminder": 8.0,
+     "INVOICE/invoice": 1.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\brechnung\\b",
+      "where": "body",
+      "line": "12.05.25 Rechnung VRB700A6126940 22.05.25 2 48,94 48,94"
+     },
+     {
+      "kind": "NON_PAYABLE/payment_reminder",
+      "keyword": "\\bmahnung\\b",
+      "where": "headline",
+      "line": "Mahnung"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "NON_PAYABLE",
+   "subtype": "payment_reminder",
+   "pages": [
+    1
+   ],
+   "confidence": "high",
+   "doc_ids": [],
+   "payable_candidate": false,
+   "page_labels": [
+    "1:NON_PAYABLE"
+   ],
+   "needs_review": [],
+   "boundary_reason": "first page"
+  }
+ ]
+}

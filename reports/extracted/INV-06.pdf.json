@@ -1,0 +1,125 @@
+{
+ "file": "INV-06.pdf",
+ "sha256": "55c7fa6825b7fe6619db7bf1be3a964d64f07eea1b60b1eee9c57422582ef580",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "Tax Invoice\nNorthwind Services ZA (Pty) Ltd Northwind Services ZA (Pty) Lid Order No: 75884754\nVAT Reg. Nogaae639440 Maria Reis; Alex Invoice Date: 07/04/2025\n\" = Tax Invoice No: 8527907727\nInit 7 Block B tand alone building Smart Shopper No: 7353********2127\nM5 Office Park, Unit 7, Block B, 1A Bahnhofstrasse 185 Deli D ~ : 07/04/2025\nEastman Kadaka tee 20 Snvery wate:\nMaitland Cape Town Delivery Time: 08h00-10h00\nCape Town Method: Delivery\n7405 Tel: 897228016 Personal Shopper: = maria Reis Tamm\nCell: 1044936483\nSummary\nSub-total incl. VAT 1,633.98\nDelivery Cost 50.00\nTotal incl. VAT 1,683.98\nVAT Amount 169.83\nSmart Shopper summary\nRands earned this order 8.14\nRands left to spend 206.96\nBank details: Crestline Bank , Wynberg, Branch Code o22982 , Account 4026863135\nPlease note that this invoice reflects the final charge for this shop. The amount may differ from the original\nestimated order value due to variable weight items, the addition of shopping bags, and any substitute items\nincluded in this order. Queries? Call our Online Shopping Help on 0860 30 30 30.\nThank you for shopping at www.oakhaven-trading.za\nMeridian Mobility Ltd | Jalan Ampang 23087 |Co.Reg.No:6765/218606/15 | VatReg.No:5471258869\nLiquor License: WCP 035808 007095 Page No: 1 of 2",
+   "chars": 1068,
+   "text_layer_chars": 0,
+   "ocr_confidence": 89.0,
+   "ocr_words": 200,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 5.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Tax Invoice"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [
+     "8527907727"
+    ],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 2,
+   "method": "ocr",
+   "text": "Tax Invoice\nMaria Maria Alex Reis Order No: 75884754\nDelivered incl vat)\nPnp Bananas Box 1.2kg Vo oA EA 44.99 44.99\nPnp Banana Loaf 300g 1 EA 24.99 24.99\nLiqui-fruit Breakfast Punch Fruit Juice Ww EA 25.00 25.00\nLiqui-fruit Berry Blaze Juice 11 Ww EA 25.00 25.00\nLiqui-fruit Cranberry Cooler Juice 11 Ww EA 25.00 25.00\nLiqui-fruit Orange Fruit Juice 11 1 EA 25.00 25.00\nPnp Ripe & Ready Cling Peaches VW EA 56.99 56.99\nPnp Red Grapes 500g Voq4 EA 39.99 39.99\nPnp White Grapes 500g V1 EA 39.99 39.99\nNature Valley Crunchy Oats & Honey ia) EA 69.99 69.99\nKellogg's Cocoa & Nutmix Granola 1 EA 72.99 72.99\nKellogg's Cranberry & Linseed Granola iva) EA 72.99 72.99\nPringles Salt & Vinegar Potato Chips Ww EA 69.99 69.99\nPringles Sour Cream & Onion Potato Chips 1/1 EA 69.99 69.99\nPnp Sliced Beef Biltong 300g 1/1 EA 113.99 113.99\nPnp Roasted & Salted Economy Mixed v1 EA 125.99 125.99\nNuts\nPnp Bakehouse Blueberry Muffins 4 Pack vA EA 39.99 39.99\nPnp Full Cream Smooth Plain Yoghurt 1kg 2/2 EA 38.99 77.98\nPnp Granola 750g 1 EA 57.99 57.99\nPnp Berry Muesli Cereal 750g ia) EA 74.99 74.99\nKellogg's Corn Flakes 750g W EA 74.99 74.99\nClover Uht Full Cream Long Life 2/2 CS(6) 99.99 199.98\nLittle Bee Honey Squeeze Bottle 1kg Ww EA 159.99 159.99\n* Pnp Bakehouse Blueberry Muffins 4 Pack 1 EA 39.99 39.99\nOnline Shopping Bag 4 1.30 5.20\nNot supplied\nPnp Carrot & Pecan Nut Muffin 1/0 EA 0.00 0.00\nMeridian Mobility Ltd | Jalan Ampang 23087 |Co.Reg.No:67e5/218606/15 | VatReg.No:s471258869\nLiquor License: WCP 035808 007095\nPage No: 2 of 2",
+   "chars": 1257,
+   "text_layer_chars": 0,
+   "ocr_confidence": 89.7,
+   "ocr_words": 274,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 2,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Tax Invoice"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1,
+    2
+   ],
+   "confidence": "high",
+   "doc_ids": [
+    "8527907727"
+   ],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE",
+    "2:INVOICE"
+   ],
+   "needs_review": [],
+   "boundary_reason": "first page"
+  }
+ ]
+}

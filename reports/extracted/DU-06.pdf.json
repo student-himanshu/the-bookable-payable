@@ -1,0 +1,114 @@
+{
+ "file": "DU-06.pdf",
+ "sha256": "9d2d7c8c723f9222bb15516d3ac4d836bde10d98fc8bd2591daf341ff5c5d1a7",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "Blackpine Supply S.A\nQta da Mendanha, OTAPARK,, Fragao AN, 2580-490 Carregado\nCap.Soc: 5.170.000€ , NIF: 785255159\nIBAN: PT28909636405289370959536 / SWIFT: YDSHMSZzC\nTelf: +361 140985503 (rede fixa nacional) - www.fairmont-distribution.c\nDiregao Fiscal Diregao de\nNorthwind SUPPORT SERVICES PT, UNIPESSOAL Cloverdale DisWisthivin Cloves\nBahnhofstrasse 224 High Street 31\n1250-148 LISBOA 1150-311 LI:\nNIF: 353598648\n618745\nare Email: david.vidal@northwind.eu\nFatura FN 05/80906935 Data 2026-06-15 Reference: REF-841468 Original\nCod. Descrigado Qtd. Prego Valor IVA\n62782 Empanadilha Atum Cozida (50u) 1 41,68 41,68 23,00%\n67110 Pao Burger Brioch LeBrio14px4u 1 28,43 28,43 6,00%\n67322 Chapata Cristallino 28px2u 1 25,94 25,94 6,00%\n85101 Pao Maestra Classica 7u 2 13,43 26,86 6,00%\n85102 Pao Maestra Cereais 7u 1 15,29 15,29 6,00%\nNum. Pedido Total 6 138,20\nEmpresa Certificada RSPO n° BMC-RSPO-000188\nA responsabilidade pela gestao de residuos de embalagens foi transferida para a Entidade Gestora: Silverbrook Mobility\nSilverbrook Mobility . Mais informagées, incluindo os valores das prestag6es financeiras fixadas a favor daquela, em\nwww.northwind-techn@Xsyeps foram colocados a disposigao do adquirente na data da descarga - art.36°, n°5, f/ do CIVA.\nData Transporte 2026-06-15 Hora de inicio de transporte 00:00h\nLocal Carga Qta Medanha, / 2580-491, CARREGADO / Espaia\nLocal Descarga Morada entrega cliente\nAHm8-Processado por programa certificado n.° 6847/AT\nRubricas Base % Valor\nRota 804 Incidéncia 41,68 23,00% 9,59\nPed. 80120853 Incidéncia 96,52 6,00% 5,79\nATDocCodeld\nVencimento 2026-07-16\nT : .\nModo Pagamento ransf. bancaria TOTAL EUR 153,58\nPag. 1/2",
+   "chars": 1431,
+   "text_layer_chars": 0,
+   "ocr_confidence": 89.4,
+   "ocr_words": 233,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\bfatura\\b",
+      "where": "headline",
+      "line": "Fatura FN 05/80906935 Data 2026-06-15 Reference: REF-841468 Original"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 2,
+   "method": "ocr",
+   "text": "Blackpine Supply S.A\nQta da Mendanha, OTAPARK,, Fragao AN, 2580-490 Carregado\nCap.Soc: 5.170.000€ , NIF: 785255159\nIBAN: PT28909636405289370959536 / SWIFT: YDSHMSZzC\nTelf: +361 140985503 (rede fixa nacional) - www.fairmont-distribution.com\nDiregao Fiscal Diregao de Entrega\nNorthwind SUPPORT SERVICES PT, UNIPESSOAL Cloverdatad?iawwindinn Cloverdale Distribution LDA\nNorthwind SUPPORT SERVICES PT, UNIPESSOAL Cloverdale Distribution Cloverdale Distribution LDA\nBahnhofstrasse 224 High Street 31\n1250-148 LISBOA 1150-311 LISBOA\nNIF: 353598648\n618745\nZona\nArtigo Descrigao Qtd. Pedida Qtd. Entregue Lote Qtd. p\\ Lote Data Validade\nPao Burger Brioch\n67110 LeBrio14px4u 1 1 61070V1 1 2027-04-17\n67322 Chapata Cristallino 28px2u 1 1 61540V3 1 2027-08-27\n85101 Pao Maestra Classica 7u 2 2 61133H4 2 2027-04-23\n85102 Pao Maestra Cereais 7u 1 1 60582H4 1 2027-02-27\n62782 o th alee ee 1 1 6135009 1 2027-05-05\nTotal 6 6\nData de Entrega -Estimada Data de Entrega - Real Temperatura\n2026-06-16 02:51 2026-06-16 09:54 -18,00\nA responsabilidade pela gestao de residuos de embalagens foi transferida para a Entidade Gestora: Silverbrook Mobility\nSilverbrook Mobility Mais informagées, incluindo os valores das prestagdes financeiras fixadas a favor daquela, em\nwww.northwind-techn@syeps foram colocados a disposigao do adquirente na data da descarga - art.36°, n°5, f/ do CIVA.\nData Transporte Hora de inicio de transporte 00:00h\nLocal Carga Qta Medanha, / 2580-491, CARREGADO / Espaja\nLocal Descarga Morada entrega cliente\nRota 804\nrea ea Assinatura: (ILANDIA)\nPag. 2/2",
+   "chars": 1335,
+   "text_layer_chars": 0,
+   "ocr_confidence": 87.5,
+   "ocr_words": 223,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 2,
+    "label": "UNKNOWN",
+    "subtype": "unclassified",
+    "confidence": "none",
+    "scores": {},
+    "evidence": [],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": false,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1,
+    2
+   ],
+   "confidence": "high",
+   "doc_ids": [],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE",
+    "2:UNKNOWN*"
+   ],
+   "needs_review": [
+    "pages [2] attached as untitled continuation"
+   ],
+   "boundary_reason": "first page"
+  }
+ ]
+}

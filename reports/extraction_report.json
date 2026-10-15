@@ -1,0 +1,1642 @@
+[
+ {
+  "file": "DU-02.pdf",
+  "sha256": "5e19ee4a5c1a01dbcaa23932019288a928dadc46d3e1cf4f2fa4d273c5b65c20",
+  "pages": 20,
+  "methods": {
+   "ocr": 20
+  },
+  "mean_ocr_confidence": 77.0,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20
+    ],
+    "confidence": "high",
+    "doc_ids": [
+     "554701215",
+     "IN9303788"
+    ],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE",
+     "2:INVOICE",
+     "3:INVOICE",
+     "4:INVOICE",
+     "5:UNKNOWN*",
+     "6:INVOICE",
+     "7:INVOICE",
+     "8:UNKNOWN*",
+     "9:INVOICE",
+     "10:INVOICE",
+     "11:INVOICE",
+     "12:INVOICE",
+     "13:INVOICE",
+     "14:INVOICE",
+     "15:INVOICE",
+     "16:INVOICE",
+     "17:INVOICE",
+     "18:INVOICE",
+     "19:INVOICE",
+     "20:UNKNOWN*"
+    ],
+    "needs_review": [
+     "page counter restarted on pages [3, 4, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19] but the document number is unchanged: kept as ONE segment; verify whether these are separate payables",
+     "pages [5, 8, 20] attached as untitled continuation",
+     "customs invoice: confirm it is a payable",
+     "low OCR confidence on pages [5, 8, 20]"
+    ],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "DU-03.pdf",
+  "sha256": "a3e65fdcf15e2b0715cabfbb987407076de95c60d82b97a9220f18cb853de493",
+  "pages": 12,
+  "methods": {
+   "ocr": 12
+  },
+  "mean_ocr_confidence": 81.0,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1,
+     2
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE",
+     "2:INVOICE*"
+    ],
+    "needs_review": [
+     "customs invoice: confirm it is a payable"
+    ],
+    "boundary_reason": "first page"
+   },
+   {
+    "index": 2,
+    "label": "SUPPORTING",
+    "subtype": "shipping_document",
+    "pages": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": false,
+    "page_labels": [
+     "3:SUPPORTING",
+     "4:SUPPORTING",
+     "5:SUPPORTING",
+     "6:UNKNOWN*",
+     "7:SUPPORTING",
+     "8:UNKNOWN*",
+     "9:UNKNOWN*",
+     "10:UNKNOWN*",
+     "11:UNKNOWN*",
+     "12:UNKNOWN*"
+    ],
+    "needs_review": [
+     "pages [6, 8, 9, 10, 11, 12] attached as untitled continuation"
+    ],
+    "boundary_reason": "class change INVOICE -> SUPPORTING"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "DU-05.pdf",
+  "sha256": "12aad81c660676c02dbd885b58def36fe6297d6758ca63211dc5391ac8971c0b",
+  "pages": 1,
+  "methods": {
+   "ocr": 1
+  },
+  "mean_ocr_confidence": 84.6,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "medium",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [
+     "customs invoice: confirm it is a payable"
+    ],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "DU-05s.pdf",
+  "sha256": "93c2415f04dfcf7144930208491404de72ca5c51a9be516203251f8bd180661c",
+  "pages": 15,
+  "methods": {
+   "ocr": 15
+  },
+  "mean_ocr_confidence": 78.2,
+  "segments": [
+   {
+    "index": 1,
+    "label": "SUPPORTING",
+    "subtype": "delivery_note",
+    "pages": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": false,
+    "page_labels": [
+     "1:SUPPORTING",
+     "2:SUPPORTING",
+     "3:SUPPORTING",
+     "4:SUPPORTING",
+     "5:SUPPORTING",
+     "6:SUPPORTING",
+     "7:SUPPORTING",
+     "8:SUPPORTING",
+     "9:SUPPORTING",
+     "10:SUPPORTING",
+     "11:SUPPORTING",
+     "12:SUPPORTING",
+     "13:UNKNOWN*",
+     "14:UNKNOWN*",
+     "15:SUPPORTING"
+    ],
+    "needs_review": [
+     "pages [13, 14] attached as untitled continuation",
+     "low OCR confidence on pages [13, 14]"
+    ],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 0,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan",
+   "no payable candidate: all content would be declined"
+  ],
+  "ok": true
+ },
+ {
+  "file": "DU-06.pdf",
+  "sha256": "9d2d7c8c723f9222bb15516d3ac4d836bde10d98fc8bd2591daf341ff5c5d1a7",
+  "pages": 2,
+  "methods": {
+   "ocr": 2
+  },
+  "mean_ocr_confidence": 88.5,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1,
+     2
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE",
+     "2:UNKNOWN*"
+    ],
+    "needs_review": [
+     "pages [2] attached as untitled continuation"
+    ],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "DU-08.pdf",
+  "sha256": "e793c620d313babb162ca1740b7724b7b0f5fffd9fe452020a40f06f6e2977ac",
+  "pages": 1,
+  "methods": {
+   "ocr": 1
+  },
+  "mean_ocr_confidence": 87.6,
+  "segments": [
+   {
+    "index": 1,
+    "label": "NON_PAYABLE",
+    "subtype": "payment_reminder",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": false,
+    "page_labels": [
+     "1:NON_PAYABLE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 0,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan",
+   "no payable candidate: all content would be declined"
+  ],
+  "ok": true
+ },
+ {
+  "file": "DU-09.pdf",
+  "sha256": "14c316cc15446a301e01fb468d4efb3e0ff8bf1522cf8891701dd542defc989b",
+  "pages": 2,
+  "methods": {
+   "ocr": 2
+  },
+  "mean_ocr_confidence": 82.3,
+  "segments": [
+   {
+    "index": 1,
+    "label": "NON_PAYABLE",
+    "subtype": "form",
+    "pages": [
+     1
+    ],
+    "confidence": "medium",
+    "doc_ids": [],
+    "payable_candidate": false,
+    "page_labels": [
+     "1:NON_PAYABLE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   },
+   {
+    "index": 2,
+    "label": "NON_PAYABLE",
+    "subtype": "email",
+    "pages": [
+     2
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": false,
+    "page_labels": [
+     "2:NON_PAYABLE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "subtype change form -> email"
+   }
+  ],
+  "payable_candidates": 0,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan",
+   "no payable candidate: all content would be declined"
+  ],
+  "ok": true
+ },
+ {
+  "file": "DU-10.pdf",
+  "sha256": "94c44e3b5bab9439d4d4564c78a7593135e50ddfb73518228d17a721aae078e7",
+  "pages": 1,
+  "methods": {
+   "ocr": 1
+  },
+  "mean_ocr_confidence": 86.0,
+  "segments": [
+   {
+    "index": 1,
+    "label": "CREDIT_MEMO",
+    "subtype": "credit_memo",
+    "pages": [
+     1
+    ],
+    "confidence": "medium",
+    "doc_ids": [
+     "5900366703",
+     "0394289238"
+    ],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:CREDIT_MEMO"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "DU-11.pdf",
+  "sha256": "379399730c82ea938d88615913abd33f5ba21b9c6a8a7fdccde87407329d2665",
+  "pages": 1,
+  "methods": {
+   "ocr": 1
+  },
+  "mean_ocr_confidence": 88.6,
+  "segments": [
+   {
+    "index": 1,
+    "label": "CREDIT_MEMO",
+    "subtype": "credit_memo",
+    "pages": [
+     1
+    ],
+    "confidence": "medium",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:CREDIT_MEMO"
+    ],
+    "needs_review": [
+     "negative total printed: confirm invoice vs credit memo"
+    ],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "HLD-01.pdf",
+  "sha256": "4156e028d80c202f25646545e11d2f8972dd644f80bf6d1236e24ebb1fc52fda",
+  "pages": 1,
+  "methods": {
+   "ocr": 1
+  },
+  "mean_ocr_confidence": 59.4,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [
+     "low OCR confidence on pages [1]"
+    ],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "HLD-03.pdf",
+  "sha256": "3fe124d4a74219541fd0b6a8cdf97081899f0a9d0156a88ebc873ff11c89800c",
+  "pages": 1,
+  "methods": {
+   "ocr": 1
+  },
+  "mean_ocr_confidence": 65.1,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "medium",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "HLD-05.pdf",
+  "sha256": "42e8067a5126b8c43f42bd6457f256980186b945e86cc19a5e6d478e55f35415",
+  "pages": 2,
+  "methods": {
+   "ocr": 2
+  },
+  "mean_ocr_confidence": 83.3,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "untitled_invoice_like",
+    "pages": [
+     1,
+     2
+    ],
+    "confidence": "low",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE*",
+     "2:INVOICE*"
+    ],
+    "needs_review": [
+     "low classification confidence"
+    ],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "HLD-08.pdf",
+  "sha256": "5478cb5fbeb77f4a1c8cf4a629a4d12278abe9bf73a1ce25103c17fadd4e664c",
+  "pages": 1,
+  "methods": {
+   "ocr": 1
+  },
+  "mean_ocr_confidence": 84.7,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [
+     "page marked copy/duplicate but no earlier matching segment: kept as payable"
+    ],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "HLD-10.pdf",
+  "sha256": "275ee157afe42a05e5f111c698457216f9bcbf818f34700b956c6c2c07a60b95",
+  "pages": 2,
+  "methods": {
+   "ocr": 2
+  },
+  "mean_ocr_confidence": 79.5,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1,
+     2
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE",
+     "2:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-01.pdf",
+  "sha256": "f34d3f1b5ae89eba33a2a2feccb11bdb73e085d0e5295eebae2f2bf6dd095b63",
+  "pages": 1,
+  "methods": {
+   "ocr": 1
+  },
+  "mean_ocr_confidence": 87.3,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [
+     "852566"
+    ],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-02.pdf",
+  "sha256": "7fb8377b0e356ee49973facc735be9622e9aed9b4f00f4ba0947c8797fe100cb",
+  "pages": 2,
+  "methods": {
+   "ocr": 2
+  },
+  "mean_ocr_confidence": 87.0,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1,
+     2
+    ],
+    "confidence": "high",
+    "doc_ids": [
+     "9972-907"
+    ],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE",
+     "2:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-03.pdf",
+  "sha256": "58eab8025ecd0405398ed8acada22452109242feb1add4e5c3c717f78c9a3c0b",
+  "pages": 2,
+  "methods": {
+   "ocr": 2
+  },
+  "mean_ocr_confidence": 89.4,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   },
+   {
+    "index": 2,
+    "label": "SUPPORTING",
+    "subtype": "payment_advice",
+    "pages": [
+     2
+    ],
+    "confidence": "medium",
+    "doc_ids": [
+     "INV-75162461"
+    ],
+    "payable_candidate": false,
+    "page_labels": [
+     "2:SUPPORTING"
+    ],
+    "needs_review": [],
+    "boundary_reason": "class change INVOICE -> SUPPORTING"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-04.pdf",
+  "sha256": "5e1a981e4c638077a58c91e1b18c49aa22327047974aca6fe58971b80fd8bd53",
+  "pages": 1,
+  "methods": {
+   "ocr": 1
+  },
+  "mean_ocr_confidence": 92.9,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-06.pdf",
+  "sha256": "55c7fa6825b7fe6619db7bf1be3a964d64f07eea1b60b1eee9c57422582ef580",
+  "pages": 2,
+  "methods": {
+   "ocr": 2
+  },
+  "mean_ocr_confidence": 89.3,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1,
+     2
+    ],
+    "confidence": "high",
+    "doc_ids": [
+     "8527907727"
+    ],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE",
+     "2:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-07.pdf",
+  "sha256": "5fb06fdab3c81e0f8d3150771513f23fdb518f8e347a94bbb06da7318135e79e",
+  "pages": 1,
+  "methods": {
+   "ocr": 1
+  },
+  "mean_ocr_confidence": 92.9,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-09.pdf",
+  "sha256": "05a23bb430aa2bbcee34dcbe642f5b97945f4491d13d1a77c3eb5fc667d4d5e5",
+  "pages": 2,
+  "methods": {
+   "ocr": 2
+  },
+  "mean_ocr_confidence": 72.4,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [
+     "customs invoice: confirm it is a payable"
+    ],
+    "boundary_reason": "first page"
+   },
+   {
+    "index": 2,
+    "label": "SUPPORTING",
+    "subtype": "customs_document",
+    "pages": [
+     2
+    ],
+    "confidence": "medium",
+    "doc_ids": [],
+    "payable_candidate": false,
+    "page_labels": [
+     "2:SUPPORTING"
+    ],
+    "needs_review": [],
+    "boundary_reason": "class change INVOICE -> SUPPORTING"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-10.pdf",
+  "sha256": "0144f284f656fbe966eb4dcabba199ff7ce78ee971088ebedcd86686b5fe6384",
+  "pages": 1,
+  "methods": {
+   "ocr": 1
+  },
+  "mean_ocr_confidence": 81.3,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [
+     "18533"
+    ],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-11.pdf",
+  "sha256": "b54e26a09bbc5be96a45bd58996aa17cbccb6473e4aa73b4962b735534e93768",
+  "pages": 1,
+  "methods": {
+   "ocr": 1
+  },
+  "mean_ocr_confidence": 72.8,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-13.pdf",
+  "sha256": "f91c3508585defdec8b46a0cd4f5d4128a84973bd927de907d897fed18eca20f",
+  "pages": 1,
+  "methods": {
+   "ocr": 1
+  },
+  "mean_ocr_confidence": 88.4,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-14.pdf",
+  "sha256": "26a27d5237577caf24c3acc4ccbbd2216fc560776d7d2c2ed45d3a96d36b1a1f",
+  "pages": 1,
+  "methods": {
+   "ocr": 1
+  },
+  "mean_ocr_confidence": 91.4,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-15.pdf",
+  "sha256": "cc293b82e46fc9c1ba2a17f24d09f6ca1edd015a78e30f3f79df86539f410d15",
+  "pages": 1,
+  "methods": {
+   "ocr": 1
+  },
+  "mean_ocr_confidence": 90.6,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-16.pdf",
+  "sha256": "7b7bbbcb7d61a1b18bd83e3f6a1cb56ab1ddec50845888a7e8adefc484b7a216",
+  "pages": 2,
+  "methods": {
+   "ocr": 2
+  },
+  "mean_ocr_confidence": 85.8,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1,
+     2
+    ],
+    "confidence": "high",
+    "doc_ids": [
+     "TLLIR72836045"
+    ],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE",
+     "2:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-19.pdf",
+  "sha256": "16a4f08db282dc40f52d536a7e61d0d03c039594e509945b12336f9d7fac8978",
+  "pages": 2,
+  "methods": {
+   "ocr": 2
+  },
+  "mean_ocr_confidence": 87.5,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "untitled_invoice_like",
+    "pages": [
+     1,
+     2
+    ],
+    "confidence": "low",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE*",
+     "2:UNKNOWN*"
+    ],
+    "needs_review": [
+     "pages [2] attached as untitled continuation",
+     "low classification confidence"
+    ],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-20.pdf",
+  "sha256": "c7773a7549b00d80c91677c5e46755240bb1f1b8feb086df40db5ca7e1b8487d",
+  "pages": 2,
+  "methods": {
+   "ocr": 2
+  },
+  "mean_ocr_confidence": 77.5,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1,
+     2
+    ],
+    "confidence": "high",
+    "doc_ids": [
+     "20423591"
+    ],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE",
+     "2:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-21.pdf",
+  "sha256": "ed3dbdadf4f92873e903c0c73e5a841e3a801d150cb1daa67b1b4f7b6f7dfc1f",
+  "pages": 1,
+  "methods": {
+   "ocr": 1
+  },
+  "mean_ocr_confidence": 76.7,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-23.pdf",
+  "sha256": "d6b8d3f2623765d42d4bede13f5109d3602e6a3cc6eaa80319c8a2ba54c05fd3",
+  "pages": 6,
+  "methods": {
+   "empty": 2,
+   "ocr": 4
+  },
+  "mean_ocr_confidence": 60.5,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "untitled_invoice_like",
+    "pages": [
+     1,
+     2,
+     3
+    ],
+    "confidence": "low",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE*",
+     "2:UNKNOWN*",
+     "3:UNKNOWN*"
+    ],
+    "needs_review": [
+     "pages [2, 3] attached as untitled continuation",
+     "low classification confidence",
+     "customs invoice: confirm it is a payable",
+     "low OCR confidence on pages [2, 3]"
+    ],
+    "boundary_reason": "first page"
+   },
+   {
+    "index": 2,
+    "label": "SUPPORTING",
+    "subtype": "customs_document",
+    "pages": [
+     4,
+     5,
+     6
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": false,
+    "page_labels": [
+     "4:SUPPORTING",
+     "5:SUPPORTING",
+     "6:UNKNOWN*"
+    ],
+    "needs_review": [
+     "pages [6] attached as untitled continuation"
+    ],
+    "boundary_reason": "class change INVOICE -> SUPPORTING"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan",
+   "pages with no extracted text: [2, 3]"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-25.pdf",
+  "sha256": "e0d7babe165dfc3c5d2a251dc7f51fe8ebc828b10948f52aeabcbf470151c2b2",
+  "pages": 2,
+  "methods": {
+   "ocr": 2
+  },
+  "mean_ocr_confidence": 84.7,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   },
+   {
+    "index": 2,
+    "label": "SUPPORTING",
+    "subtype": "duplicate_copy",
+    "pages": [
+     2
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": false,
+    "page_labels": [
+     "2:INVOICE"
+    ],
+    "needs_review": [
+     "marked copy/duplicate of segment 1 (numeric overlap >= 0.8)"
+    ],
+    "boundary_reason": "page counter restarted (no document number to compare)"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-26.pdf",
+  "sha256": "7bf8d0077d4ee85f5ba4dc208d7c86c0a147d78b2e337a1d5ee57ada64866a19",
+  "pages": 2,
+  "methods": {
+   "ocr": 2
+  },
+  "mean_ocr_confidence": 78.7,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1,
+     2
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE",
+     "2:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-27.pdf",
+  "sha256": "a6f3edfc1717a6773a7fcaab90d77e9054a3acfec9f14d830e5866c9ffe74551",
+  "pages": 2,
+  "methods": {
+   "ocr": 2
+  },
+  "mean_ocr_confidence": 92.9,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "untitled_invoice_like",
+    "pages": [
+     1,
+     2
+    ],
+    "confidence": "low",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:UNKNOWN*",
+     "2:INVOICE*"
+    ],
+    "needs_review": [
+     "pages [1] attached as untitled continuation",
+     "low classification confidence"
+    ],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-28.pdf",
+  "sha256": "d4bd1553e55b90e1866651ae2a58403a6ec8514c70c302b06819095b2a99094b",
+  "pages": 3,
+  "methods": {
+   "ocr": 3
+  },
+  "mean_ocr_confidence": 89.0,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1,
+     2,
+     3
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE",
+     "2:UNKNOWN*",
+     "3:UNKNOWN*"
+    ],
+    "needs_review": [
+     "pages [2, 3] attached as untitled continuation"
+    ],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-31.pdf",
+  "sha256": "1cf3a94a9d582c479e37635baca5297a738104052636ae31b9b4472122767065",
+  "pages": 3,
+  "methods": {
+   "text-layer": 3
+  },
+  "mean_ocr_confidence": null,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1,
+     2,
+     3
+    ],
+    "confidence": "high",
+    "doc_ids": [
+     "39015"
+    ],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE",
+     "2:UNKNOWN*",
+     "3:UNKNOWN*"
+    ],
+    "needs_review": [
+     "pages [2, 3] attached as untitled continuation"
+    ],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [],
+  "ok": true
+ },
+ {
+  "file": "INV-32.pdf",
+  "sha256": "a9ec0fd426ebcaf72b1104f523b5f767df0525401ba4c57cd88ec7f5e7a95b8d",
+  "pages": 1,
+  "methods": {
+   "text-layer": 1
+  },
+  "mean_ocr_confidence": null,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [],
+  "ok": true
+ },
+ {
+  "file": "INV-33.pdf",
+  "sha256": "65fdc1728fe3c6aeced4bd6f1fe4cb7a92d7b4f620db71aea681c40f750ca8d4",
+  "pages": 1,
+  "methods": {
+   "ocr": 1
+  },
+  "mean_ocr_confidence": 74.6,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [
+     "ADIPL/INV/070/17"
+    ],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-34.pdf",
+  "sha256": "d6a0a6da0e24e46a7319f92eb9d354252452c5f6427ff0724b10ea848d7ffe9c",
+  "pages": 3,
+  "methods": {
+   "text-layer": 3
+  },
+  "mean_ocr_confidence": null,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1,
+     2,
+     3
+    ],
+    "confidence": "high",
+    "doc_ids": [
+     "I220-127612"
+    ],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE",
+     "2:UNKNOWN*",
+     "3:UNKNOWN*"
+    ],
+    "needs_review": [
+     "pages [2, 3] attached as untitled continuation"
+    ],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [],
+  "ok": true
+ },
+ {
+  "file": "INV-35.pdf",
+  "sha256": "8f217715d2c6a085387e48c421b0c4ecf4e7e87fd98d9f88d887d1cd96574880",
+  "pages": 1,
+  "methods": {
+   "ocr": 1
+  },
+  "mean_ocr_confidence": 91.7,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [
+     "0248727220"
+    ],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [
+     "page marked copy/duplicate but no earlier matching segment: kept as payable"
+    ],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [
+   "OCR ran without language packs: deu,est,por,tur,msa,fra,spa,nld,dan"
+  ],
+  "ok": true
+ },
+ {
+  "file": "INV-36.pdf",
+  "sha256": "7f685150edaf1ccbd44d4f24a3afc49a18bcdbf6d02cf921e37c2fc34b4fbdbe",
+  "pages": 1,
+  "methods": {
+   "text-layer": 1
+  },
+  "mean_ocr_confidence": null,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [
+     "44273107"
+    ],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [],
+  "ok": true
+ },
+ {
+  "file": "INV-37.pdf",
+  "sha256": "1e329960c3b832fe807daf325d84ae8fe8c4c5970c7651e7317a97696d7a4755",
+  "pages": 1,
+  "methods": {
+   "text-layer": 1
+  },
+  "mean_ocr_confidence": null,
+  "segments": [
+   {
+    "index": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "pages": [
+     1
+    ],
+    "confidence": "high",
+    "doc_ids": [],
+    "payable_candidate": true,
+    "page_labels": [
+     "1:INVOICE"
+    ],
+    "needs_review": [],
+    "boundary_reason": "first page"
+   }
+  ],
+  "payable_candidates": 1,
+  "review": [],
+  "ok": true
+ }
+]

@@ -1,0 +1,96 @@
+{
+ "file": "DU-11.pdf",
+ "sha256": "379399730c82ea938d88615913abd33f5ba21b9c6a8a7fdccde87407329d2665",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "Kuupdev 16.03.2025\nMaksetahtaeg 16.03.2025\nViitenumber 795977\nViivis 0,03% paevas\nArve kokku -400,00 EUR\nNorthwind Operations OU\nPaul Costa\nRua do Ouro 15\n10134 Kesklinna\nTallinn, Harju maakond\nEesti\nRegistrikood: 2704045\nKMKR nr.:\nToode/Teenus Hind Kogus KM% Summa\nToitlustamine Tavolo 11.03.25 -327,868852 1 (tk) 22 -327,87\nSumma km-ta 22% -327,87\nKM 22% -72,13\nArve kokku (EUR) -400,00\nKreeditarve arvele nr. 6265.\nTaname Gigeaegselt tasutud arve eest!\nTavolo OU www.Tavolo.ee Nordbank AS\n| paul.haas@tavolo.ee\nKegistrikood: 76885507\nKMKR nr.:",
+   "chars": 471,
+   "text_layer_chars": 0,
+   "ocr_confidence": 88.6,
+   "ocr_words": 76,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "CREDIT_MEMO",
+    "subtype": "credit_memo",
+    "confidence": "medium",
+    "scores": {
+     "CREDIT_MEMO/credit_memo": 6.0,
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\barve\\b",
+      "where": "headline",
+      "line": "Arve kokku -400,00 EUR"
+     },
+     {
+      "kind": "CREDIT_MEMO/credit_memo",
+      "keyword": "\\bkreedit\\s?arve\\b",
+      "where": "headline",
+      "line": "Kreeditarve arvele nr. 6265."
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [
+     "negative_total"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "CREDIT_MEMO",
+   "subtype": "credit_memo",
+   "pages": [
+    1
+   ],
+   "confidence": "medium",
+   "doc_ids": [],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:CREDIT_MEMO"
+   ],
+   "needs_review": [
+    "negative total printed: confirm invoice vs credit memo"
+   ],
+   "boundary_reason": "first page"
+  }
+ ]
+}

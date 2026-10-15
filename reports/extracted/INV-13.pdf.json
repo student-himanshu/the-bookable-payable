@@ -1,0 +1,85 @@
+{
+ "file": "INV-13.pdf",
+ "sha256": "f91c3508585defdec8b46a0cd4f5d4128a84973bd927de907d897fed18eca20f",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "ee\nPel\na\na\nMaksja: Northwind Services EE OU Arve 1410\nRua do Ouro 15 Kuupaev: 30.04.2026\n10134 Kesklinna linnaosa, Tallinn, Harju maakond Tasumistingimus: 30 paeva\nKMKR: E258627691 Tasumistahtaeg: 30.05.2026\nKontaktisik: Viivis: 0%\nSaaja: Northwind Services EE OU Lahetusaeg:\nRua do Ouro 15\n10134 Kesklinna linnaosa, Tallinn, Harju maakond\nKommentaar: Parking services 2026-04\nLehekilla: 1/2\nKood Nimetus Kogus Uhik Hind Summa KM%\n1 Parking fee EUROPARK 1 63 479.69 63 479.69 24\n1 Parking fee EUROPARK discount 20% 1 12 695.94 -12 695.94 24\n1 Parking fee EUROPARK success fee 1 3 173.98 3173.98 24\n1 Parking fee EUROPARK Ulemiste City H Garage, zone 335 1 234.86 234.86 24\n1 Parking fee EUROPARK KESKLINN 1 13 528.54 13 528.54 0\n1 Parking fee EUROPARK SUDALINN 1 8 897.68 8 897.68 it)\n1 Parking start fee EUROPARK 1 6 976.80 6976.80 24\n1 Parking fee UHISTEENUSED OPEN AREA 1 21 380.06 21 380.06 24\n1 Parking fee UHISTEENUSED OPEN AREA discount 20% -1 4276.01 ~4 276.01 24\n1 Parking fee UHISTEENUSED OPEN AREA success fee 1 1 069.00 1069.00 24\n1 Parking fee UHISTEENUSED TARTU 1 875.10 875.10 0\n1 Parking start fee UHISTEENUSED 1 1939.80 1 939.80 24\n1 Parking fee AVALIKUD TEENUSED 1 1075.86 1075.86 24\n1 Parking fee AVALIKUD TEENUSED discount 20% 1 215.17 -215.17 9 24\n1 Parking fee AVALIKUD TEENUSED success fee 1 53.79 53.79 24\n1 Parking start fee AVALIKUD TEENUSED 1 119.00 119,00 24\n1 Parking fee Snabb 1 20 711.63 20 711.63 24\n1 Parking fee Snabb discount -1 2 946.89 -2946.89 24\n1 Parking fee Snabb success fee 1 736.70 736.70 24\n1 Parking fee Snabb with special price 1 1952.18 1952.18 24\n1 Parking fee Snabb special price for North@diseount -1 1 108.87 -1 108.87 24\n1 Parking fee Snabb special price for Northauacess fee 1 160.85 160.85 24\n1 Parking start fee Snabb 1 2379.20 2379.20 24\n1 Parking fee Mahtra 5 / Mahtra 27 1 50.00 50.00 24\n1 Parking fee Mahtra 5 / Mahtra 27 success fee 1 12.50 12.50 24\nArve koostas: Martin Vidal KM% Neto KM Kokku\nE-mail: luis.kask@brightside-trading.me 0% 23 301.32 0.00 23 301.32\n24% 104 263.02 25 023.12 129 286.14\n127 564.34 25 023.12 152 587.46\nTasuda (EUR): 152 587.46\nCloverdale Supply OU E-post: maria. meyer@brightside-services.me Oakhaven BanE978205278750080990\nReg. nr: 75689514 Telefon: + 389 389 67 97 SWIFT/BIC: xyaxPY30\nKMKR nr: ££085819779\nAadress: High Street 64 , Eesti",
+   "chars": 1926,
+   "text_layer_chars": 0,
+   "ocr_confidence": 88.4,
+   "ocr_words": 404,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\barve\\b",
+      "where": "headline",
+      "line": "Maksja: Northwind Services EE OU Arve 1410"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1
+   ],
+   "confidence": "high",
+   "doc_ids": [],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE"
+   ],
+   "needs_review": [],
+   "boundary_reason": "first page"
+  }
+ ]
+}

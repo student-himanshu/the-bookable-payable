@@ -1,0 +1,579 @@
+{
+ "file": "DU-03.pdf",
+ "sha256": "a3e65fdcf15e2b0715cabfbb987407076de95c60d82b97a9220f18cb853de493",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "Blueharbor Logistics & Services\nOriginal\nTAX\nCadence PTE. LTD. Invoice 74. Nov. 0534\n08-08 18 TAI Due ; 16.Jan.2026\nParnu mnt 18\n539775\nPayment terms: 60 Days Net\nCredit Party Cadence PTE. LTD.\n08-08 18 TAI\nPamu mnt 18\n539775\nCustomer No\nTotal Amount Due\nCondition Rate Base Total(USD)\na) -\nNet value 1,040.06\n0% GST on sales 0.00 % 1,040.06 0.00\nAmount Due 1,040.06\nHAWB\nSold to Cadence PTE LTD\nPOL: Hamburg Place of Receipt: Hamburg\nPOD: Singapore Place of Delivery: Singapore SHPR;:: Polvex DISTRIBUTION GMBH & CO.KG\nETD: 92-Nov.9004 ETA: 19-Nov-7991 Cadence PTE. LTD.\nof Qty UoM Curr Unit Price ROE Total(USD)\n1 International Freight 567.000 KG USD 1.28 1.00000 725.76\n2 Origin Terminal Handling 567.000 KG USD 0.10 1.00000 56.70\n3 Documentation 1.000 EA USD 45.00 1.00000 45.00\nFee\n4 Delivery 567.000 KG USD 0.04 1.00000 22.68\n5 Pick-up 567.000 KG USD 0.18 1.00000 102.06\n6 Customs DEJTWoxDBWs - 1.000 EA USD 7.50 1.00000 7.50\nExport\nReg. No. , GST Reg. No. M2-0029161-1\nPage lof 2",
+   "chars": 818,
+   "text_layer_chars": 0,
+   "ocr_confidence": 84.3,
+   "ocr_words": 169,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Cadence PTE. LTD. Invoice 74. Nov. 0534"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 2,
+   "method": "ocr",
+   "text": "Blueharbor Logistics & Services\nItem wry vom curr Unit Price KUC lotallusv)\n7 Origin Documentation 1.000 EA USD 15.00 1.00000 15.00\n8 Customs dEsTWoxDBws - 1.000 EA USD 15.00 1.00000 15.00\nImport\n9 Carrier Manifest Filing 1.000 EA USD 5.00 1.00000 5.00\n10 vbenvacxrpve Terminal 567.000 KG USD 0.08 1.00000 45.36\n—— Handling Nn _______________\n1,040.06\nTotal Amount Duc\nCondition Rate Base Value Total(USD\nNet value 1,040.06\n0% GST on sales 0.00 % 1,040.06 0.00\nAmount Due 1,040.06\nConversion to SGD for Tax purpose only\nCondition Rate Base Total(SGD)\nValue\nSGD)\nNet value 1,350.55\n0% GST on sales 0.00 % 1,350.55 0.00\nTotal Amount Due (SGD) 1,350.55\n* Payment in USD: The And Banking Account no:\n= eee ne Ey Cogn a gindu har laenee & Gen ; Pte. Lid\n; Blueh=rhor Logistics & Services singapareevehar ete parne Cie iee Singapore te. Ltd.\nTait i HE\"\nLinan mMuurcss. vafa.silva@blueharbor.com aie\n* This is an CleCu vincuny geri wourscnt and authorised is not required.\nBlueharbor Logistics & Services Singapore Pte. Ltd.\nBrightside Trading Pte. Ltd\nChangi Airfreight Centre\nGartenweg 7\nCargo Agents Building E\n819834 Singapore\nTelephone: / 3388, Fax: 3\nReg. No. , GST Reg. No. M2-0029161-1\nPage 2o0f 2",
+   "chars": 999,
+   "text_layer_chars": 0,
+   "ocr_confidence": 76.4,
+   "ocr_words": 200,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 2,
+    "label": "INVOICE",
+    "subtype": "untitled_invoice_like",
+    "confidence": "low",
+    "scores": {
+     "SUPPORTING/shipping_document": 2.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bcargo\\b",
+      "where": "body",
+      "line": "Cargo Agents Building E"
+     },
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bmanifest\\b",
+      "where": "body",
+      "line": "9 Carrier Manifest Filing 1.000 EA USD 5.00 1.00000 5.00"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [
+     "customs"
+    ],
+    "titled": false,
+    "notes": [
+     "no title found; invoice-like content (tax/price vocabulary + total amount)"
+    ]
+   }
+  },
+  {
+   "page": 3,
+   "method": "ocr",
+   "text": "‘ Ty)\nShipment Cartage Advice\nPage 1 of 1\nJob\nRriahtside Print PTF | TD ra\nJ py eee Tileclione Mo\n918116 Fax No\nDate 13-Nov-25 12:04\n| [Pests esl ioe [ote]\n|Polvex DISTRIBUTION GMBH & CO.KG D\nParnu mnt 35\nae “ feces worry\nas |)\nBlueharbor Logistics & Services Singapore Pte. Ltd eva PTE. LTO.\n119 CARGO ROAD, CARGO 1 \\clo Yusen Logistics (Singapore) Pte Ltd\n#03-01/02 819454 SGSIN 30 Tuas Avenue 13 BA IS pm\n{Singapore 638996 P\n|\nCFS Reference: Carrier Booking Reference:\n<a\nAvailable Date: Estimated Delivery: 17-Nov-25 15:00\nLast Free Day of Storage: jj Delivery Required By: 17-Nov-25 15:00\neee | 22 EEE eee\n| + e+ see ER), 0 CTN (INNER) 567.0 KG 3.360 M3 567.0KG\nEa ba UNDGS _STACKABILITY\n« PLT 567.0 KG 3.360 M3 100 120 140 CM\nDERKXQCAVMU | enema (| : i ey\nP2H-AT -_ _\n-NOT RESTRICTED- |\nRouting\nMode Flight / Date Carrier Load Discharge ETD ETA\nAIR KL8410 / 12-Nov CASS KLM ROYAL DUTCH DEHAM NLAMS 12-Nov-25 22:59 13-Nov-25 07:59\nAIR KL835 / 13-Nov CASS KLM ROYAL DUTCH NLAMS SGSIN 13-Nov-25 20:40 14-Nov-25 16:15\nON 17/11/25 TO THE ADDRESS.\nYours Sincerely, we\nluis.haas@blueharbor.com\n,.Biueharbor Logistics & Services Singapore Pte. Ltd.\nLndenstrasse 1\nrou, Quarter\n408535\nFax:",
+   "chars": 977,
+   "text_layer_chars": 0,
+   "ocr_confidence": 75.8,
+   "ocr_words": 210,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 3,
+    "label": "SUPPORTING",
+    "subtype": "shipping_document",
+    "confidence": "high",
+    "scores": {
+     "SUPPORTING/shipping_document": 7.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bcartage advice\\b",
+      "where": "headline",
+      "line": "Shipment Cartage Advice"
+     },
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bcargo\\b",
+      "where": "body",
+      "line": "119 CARGO ROAD, CARGO 1 \\clo Yusen Logistics (Singapore) Pte Ltd"
+     }
+    ],
+    "page_marker": [
+     1,
+     1
+    ],
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 4,
+   "method": "ocr",
+   "text": "CARGO PG : 1 OF 2\nTYPE : IN-NON-PAYMENT\nTYPE 5 SES/\nCadence PTE. LTD. 81/79/6$zu\nTOTAL GROSS WT/UNIT : 567.000/KGM\nTOTAL OUTER PACK/UNIT: 2/PKG\nEXPORTER: TOT DUT 2 S$ 0.00\nTOT DUT PAYABLE: S$ 0.00\nTOT OTHER TAX : S$ 0.00\nTOTAL GST AMT : 8 T2206 TE\nAGENT: TOTAL : ss 0.00\nCARGO TYPE: OTHER NON-CONTAINERIZED\nIN IDENTIFIER:\nNO: KL835\nPORT OF LOADING/NEXT PORT OF CALL: OBL/MAWB NO :\nPORT OF DISCHARGE/FINAL PORT OF CALL DATE 2 14/11/2025\nOU IDENTIFIER:\nOF FINAL :\nNO:\nPTE, LID\nDATE 3\nAGENT: NO:\nPLACE OF RELEASE: PLACE OF RECEIPT:\nFITZ MAJOR\nCZ ME\nNO: CODE (CPC) :\nREF: 20251112 1178",
+   "chars": 473,
+   "text_layer_chars": 0,
+   "ocr_confidence": 86.3,
+   "ocr_words": 109,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 4,
+    "label": "SUPPORTING",
+    "subtype": "shipping_document",
+    "confidence": "medium",
+    "scores": {
+     "SUPPORTING/shipping_document": 7.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bcargo\\b",
+      "where": "body",
+      "line": "CARGO PG : 1 OF 2"
+     },
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bport of (?:loading|discharge)\\b",
+      "where": "body",
+      "line": "PORT OF LOADING/NEXT PORT OF CALL: OBL/MAWB NO :"
+     },
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bgross wt\\b",
+      "where": "body",
+      "line": "TOTAL GROSS WT/UNIT : 567.000/KGM"
+     },
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bmawb\\b",
+      "where": "body",
+      "line": "PORT OF LOADING/NEXT PORT OF CALL: OBL/MAWB NO :"
+     },
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bcontainer(?:ised|ized)?\\b",
+      "where": "body",
+      "line": "CARGO TYPE: OTHER NON-CONTAINERIZED"
+     },
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bkgm\\b",
+      "where": "body",
+      "line": "TOTAL GROSS WT/UNIT : 567.000/KGM"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 5,
+   "method": "ocr",
+   "text": "CARGO PG: 20F 2\nNO : Sses5555555=555=5=5===5===\n(CONTINUATION PAGE)\nS/NO HS CODE LOT NO LOT NO\nCTY ‘OF BRAND NAME MODEL\nIN HAWB/HUCR/HBL OUT HAWB/HUCR/HBL\nPACKING/GOODS DdERKxacavMu HS & UNIT\nCIF/FOB VALUE (S$)\nGST (S$)\nMANUFACTURER'S NAME\n01 39033090\nDE NA\nP2H-AT RED 0.5500 TNE\n8030.70\n122.16\nTRADER'S\nINV NO:2279433-82704896\nAnja Coste\nNO UNAUTHORISED ADDITION/AMENDMENT TO THIS MAY BE MADE AFTER\nNAME OF Bluoharbor| & PTE.LTD.\nNAME Ania Vidal\nCODE :\nTEL NO : 65769148\n/\nzol - BY CUSTOMS.\nGA = BY TO THE IMPORTER, ’\nAGENT OR/AND THE WITH THE\nFOR THE TO BE VALID. TO WITH IS AN OFFENCE.\nTx — THE GOODS IN THIS ARE IMPORTED/EXPORTED BY A\nMA - THE GOODS AND THIS WITH INVOICES, BL/AWB, ETC MUST BE\nFOR AT A FREE TRADE ZONE 'OUT' GATE,\nTRAIN/WOODLANDS/TUAS IT Is TO THE 'GREEN LANE' AT\nTHE TIME OF CLEARANCE, OR A OR AS INSTRUCTED.\nAG - IF THE IS NOT USED, IT MUST BE OR RE-VALIDATED NOT LATER\nTHAN 24 HOURS AFTER ITS EXPIRY.\nEEE - END OF CARGO PERMIT.\nREF: 20251112 1178",
+   "chars": 793,
+   "text_layer_chars": 0,
+   "ocr_confidence": 88.4,
+   "ocr_words": 178,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 5,
+    "label": "SUPPORTING",
+    "subtype": "shipping_document",
+    "confidence": "low",
+    "scores": {
+     "SUPPORTING/shipping_document": 3.0,
+     "SUPPORTING/customs_document": 2.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bcargo\\b",
+      "where": "body",
+      "line": "CARGO PG: 20F 2"
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\bhs ?code\\b",
+      "where": "body",
+      "line": "S/NO HS CODE LOT NO LOT NO"
+     },
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bhawb\\b",
+      "where": "body",
+      "line": "IN HAWB/HUCR/HBL OUT HAWB/HUCR/HBL"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 6,
+   "method": "ocr",
+   "text": "ss\nPOWEX DISTRIBUTION | | House Air _ aybill\nGMBH & CO.KG by Aldwin INTERNATIONAL GMBH\nLindenstrasse 35 Avenida Central 7\n20095, HAMBURG,\nHH 20539 DE\nTE\nConsignee's Name and Address Consignee's Account Number Itis agreed that the aande herein are accepted in apparent good order and condition (except as\nnoted) for carriage TO THE OF ‘ON THE ALL\nCadence PTE. LTO. GOODS MAY BE BY ANY OTHER MEANS ROAD OR ANY OTHER\nINSTRUCTIONS ARE GIVEN BY THE SHIPPER, AND\nTHAT THE MAY BE VIA\nRua do Ouro 18 WHICH THE DEEMS APPROPRIATE. THE SHIPPER'S IS DRAWN TO THE\nOF LIABILITY. Shipper may increase such limitation of\nliability by a higher value for carriage and paying a supplemental if required.\n539775 SG\nTe\na\n‘Agent's IATA Code Account No.\n23-4 7534/2015 a\n‘Airport of Departure (Addr. of First Carrier) and Requested Routing Reterence Number\nbe ee ee | terms:rca |\nTo By First Carior by a Value for Carriage Value for Customs\nfs] ets f| | leunlorl Te] wo | nov\n‘Airport of cewvzexneve ‘Amount of insurance ~ if Caner offers Insurance, and such Insurance is\nrequested in accordance with the conditions thereof, indicate amount to be\nkuesion2 kuessna | xxx __(etaacanererceomr\nHandling Information 11.11.2025 16:20 || SPX BY XRY DE/RA/00169-02 BY DE/RA/00095-06 MRN\n** NOT Pa :\nSol\nGross Rate Class\naz] ™ | | ||\nPieces {incl. Dimensions or Volume)\nRCP Item No.\n2 567.0|K] Q 567.0) As Agreed} |NOVODUR P2H-AT\n-NOT RESTRICTED-\nMarks: HS Codes: 39033000\nORDER NO. DIMS 100x120x140 CM x 2\nPART NO. 03153934 | VOL 3.360 M3\nTA 440162 — 82704896\nTe [a ar\n\\Prepad 7 \\_wegnt\n[ae 2]\n‘Shipper certifies that the particulars on the face hereof are correct and that insofar as any part of the consignment\ncontains danaerous aoods. such part is properly by name and is in proper condition for carriage by air according to the\nRegulations.\n[fxcox\nINTERNATIONAL AS AGENT flan\nSermersien Fates FANOV-25 oc enssntetsssuasitssaen Northwind Distribution GMBH 4\nExecuted on (date) at (place) of Issuing Carrier or its Agent\nat\nOriginal 2 - (for Consignee)",
+   "chars": 1677,
+   "text_layer_chars": 0,
+   "ocr_confidence": 80.4,
+   "ocr_words": 348,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 6,
+    "label": "UNKNOWN",
+    "subtype": "unclassified",
+    "confidence": "none",
+    "scores": {
+     "SUPPORTING/shipping_document": 1.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bshipper\\b",
+      "where": "body",
+      "line": "INSTRUCTIONS ARE GIVEN BY THE SHIPPER, AND"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": false,
+    "notes": []
+   }
+  },
+  {
+   "page": 7,
+   "method": "ocr",
+   "text": "CARRIERS’ OF\nIf the carriage involves an ultimate DEHVzcKRPYE or stop in a country other than the country of departure, the Montreal Convention or the Warsaw\nConvention may be applicable to the liability of the Carrier in respect of loss of, damage or delay to cargo. Carrier's limitation of liability in accordance\nwith those Conventions shall be as set forth in subparagraph 4 unless a higher value is\nOF\n1. In this contract and the Notices appearing hereon: 6./6.1 For cargo accepted for carriage, the Warsaw Convention and the Montreal Convention\npermit shipper to increase the limitation of liability by a higher value for carriage and\nincludes the air carrier issuing this air waybill and all carriers that carry or undertake paying a supplemental if required.\nto carry the cargo or perform any other services related to such carriage.\n6.2 In carriage to which neither the Warsaw Convention nor the Montreal Convention applies\nRIGHT (SDR) is a Special Drawing Right as defined by the International Carrier shall, in accordance with the procedures set forth in its Oro conditions of heii and\nMonetary Fund. applicable tariffs, permit shipper to increase the of liability by a higher value for\ncarriage and paying a supplementa! if so required.\nmeans whichever of the following instruments is applicable to the\ncontract of carriage: 7.7.1 In cases of loss of, damage or delay to part of the cargo, the weight to be taken into account\nin determining Carrier's limit of liability shall be only the weight of the package or packages\nthe Convention for the Unification of Certain Rules Relating to International Carriage by Air, concerned,\nsigned at Warsaw, 12 October 1929;\n7.2 Notwithstanding any other provisions, for “foreign air transportation” as defined by the U.S.\nthat Convention as amended at The Hague on 28 September 1955; Transportation Code:\nthat Convention as amended at The Hague 1955 and by Montreal Protocol No. 1, 2, or 4 7.2.1 in the case of loss of, damage or delay to a shipment, the weight to be used in determining\n(1975) as the case may be. Carrier's limit of liability shail be the weight which is used to determine the for carriage of\n‘such shipment; and\nmeans the Convention for the Unification of Certain Rules for\nInternational Carriage by Air, done at Montreal on 28 May 1999. 7.2.2 in the case of loss of, damage or delay to a part of a shipment, the shipment weight in 7.2.1\nshall be prorated to the packages covered by the same air waybill whose value is affected by the\n2./2.1 Carriage is subject to the rules relating to liability established by the Warsaw Convention loss, damage or delay. The weight applicable in the case of loss or damage to one or more articles\nor the Montreal Convention unless such carriage is not “international carriage” as defined by in a package shall be the weight of the entire package.\nthe applicable Conventions.\n8. Any exclusion or limitation of liability applicable to Carrier shall apply to Carrier's agents,\n2.2 To the extent not in conflict with the foregoing, carriage and other related services employees, and representatives and to any person whose aircraft or equipment is used by Carrier\nperformed by each Carrier are subject to: for carriage and such person's agents, employees and representatives.\n2.2.1 applicable laws and government regulations; 9. Carrier undertakes to complete the Kafe ad with reasonable dispatch. Where permitted by\napplicable laws, tariffs and government regulations, Carrier may use alternative carriers, aircraft or\n2.2.2 provisions contained in the air waybill, Carrier's conditions of carriage and related rules, modes of transport without notice but with due regard to the interests of the shipper. Carrier is\nregulations, and timetables (but not the times of departure and arrival stated therein) and authorised by the shipper to select the routing and all intermediate stopping places that it deems\napplicable tariffs of such Carrier, which are made part hereof, and which may be inspected at appropriate or to change or deviate from the routing shown on the face hereof.\nany airports or other cargo sales offices from which it operates regular services. When carriage\nis to/from the USA, the shipper and the consignee are entitled, upon request, to receive a free 10. Receipt by the person entitled to delivery of the cargo without complaint shall be prima facie\nSony of Ay Carrier's conditions of carriage. The Carrier's conditions of carriage include, but are neces that the cargo has been delivered in good condition and in accordance with the contract\nnot limited to: of carriage.\n2.2.2.1 limits on the Carrier's liability for loss, damage or delay of goods, including fragile or 10.1 In the case of loss of, Konsliy or delay to cargo a written complaint must be made to Carrier\nperishable goods; by the person entitled to delivery. Such complaint must be made:\n2.2.2.2 claims restrictions, including time periods within which shippers or consignees must file 10.1.1 in the case of damage to the cargo, immediately after discovery of the damage and at the\na claim or bring an action against the Carrier for its acts or omissions, or those of its agents; latest within 14 days from the date of receipt of the cargo;\n2.2.2.3 rights, if any, of the Carrier to change the terms of the contract; 10.1.2 in the case of delay, within 21 days from the date on which the cargo was placed at the\ndisposal of the person entitled to delivery.\n2.2.2.4 rules about Carrier's right to refuse to carry;\n10.1.3 in the case of non-delivery of the cargo, within 120 days from the date of issue of the air\n2.2.2.5 rights of the Carrier and limitations concerning delay or failure to perform service, waypbill, or if an air waybill has not been issued, within 120 days from the date of receipt of the\nincluding schedule substitution of alternate Carrier or aircraft and rerouting. cargo for transportation by the Carrier.\n3. The agreed stopping places (which may be altered by Carrier in case of necessity) are those 10.2 Such complaint may be made to the Carrier whose air waybill was used, or to the first Carrier\nplaces, except the place of departure and place of DeHvzckRPvEset forth on the face hereof or or to the last Carrier or to the Carrier, which performed the carriage during which the loss, damage\nshown in Carrier's timetables as scheduled stopping piaces for the route. Carriage to be or delay took place.\nperformed hereunder by several successive Carriers is regarded as a single operation.\n10.3 Unless a written complaint is made within the time limits specified in 10.1 no action may be\n4. For carriage to which the Montreal Convention does not apply, Carrier's liability limitation for brought against Carrier.\ncargo lost, damaged or delayed shall be 26 SDRs per kilogram unless a greater per kilogram\nmonetary limit is provided in any applicable Convention or in Carrier's tariffs or general 10.4 Any rights to damages against Carrier shall be extinguished unless an action is brought within\nconditions of carriage. two years from the date of arrival at the DEHVZCKRPYEor from the date on which the aircraft ought to\nhave arrived, or from the date on which tne carriage stopped.\n5/5.1 Except when the Carrier has extended credit to the consianee without the written\nconsent of the bab el the shipper guarantees payment of all for the carriage due in 11. Shipper shall comply with all licable laws and government regulations of any country to or\naccordance with Carrier's tariff, Conditions of carriage and relarec reguiations, applicable laws from which the cargo may be. ariel eouang those relating to the packing, carriage or delivery of\n(including national laws implementing the Warsaw Convention and the Montreal Convention), the cargo, and shall furnish such information and attach such documents to the air waybill as may\ngovernment regulations, orders and requirements. be necessary to comply with such laws and regulations. Carrier is not liable to shipper and shipper\nshall indemnify Carrier for loss or expense due to shipper's failure to comply with this provision.\n5.2 When no part of the consignment is delivered, a claim with respect to such consignment will\nbe considered even though transportation thereon are unpaid. 12. No agent, employee or representative of Carrier has authority to alter, modify or waive any\nprovisions of this contract.",
+   "chars": 6984,
+   "text_layer_chars": 0,
+   "ocr_confidence": 93.0,
+   "ocr_words": 1390,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 7,
+    "label": "SUPPORTING",
+    "subtype": "shipping_document",
+    "confidence": "medium",
+    "scores": {
+     "SUPPORTING/shipping_document": 10.0,
+     "SUPPORTING/customs_document": 2.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bair ?waybill\\b",
+      "where": "body",
+      "line": "includes the air carrier issuing this air waybill and all carriers that carry or undertake paying a supplemental if requ"
+     },
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bwaybill\\b",
+      "where": "body",
+      "line": "includes the air carrier issuing this air waybill and all carriers that carry or undertake paying a supplemental if requ"
+     },
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bcargo\\b",
+      "where": "body",
+      "line": "Convention may be applicable to the liability of the Carrier in respect of loss of, damage or delay to cargo. Carrier's "
+     },
+     {
+      "kind": "SUPPORTING/customs_document",
+      "keyword": "\\btariff\\b",
+      "where": "body",
+      "line": "accordance with Carrier's tariff, Conditions of carriage and relarec reguiations, applicable laws from which the cargo m"
+     },
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bshipper\\b",
+      "where": "body",
+      "line": "permit shipper to increase the limitation of liability by a higher value for carriage and"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 8,
+   "method": "ocr",
+   "text": "ss\nPOWEX DISTRIBUTION | | House Air _ aybill\nGMBH & CO.KG Aldwin INTERNATIONAL GMBH\nLindenstrasse 35 Avenida Central 7\n20095, HAMBURG,\nHH 20539 DE\nTE\nConsignee’s Name and Address Consignee's Account Number Received in Good Order and Condition\nCadence PTE.LTD. aan\nat (place) ‘on (date/time)\nRua do Ouro 18\n539775 SG\nTe\na\n‘Agent's IATA Code\n‘Airport of Departure (Addr. of First Carrier) and Requested Routing Reterence Number\nee Tenms:Fca |\nTo By First Carior io by a Value for Carriage Value for Customs\nfwsl kt swim) | eure Ri ono | nv\n‘Airport of oewacxnrve ‘Amount of insurance ~ It Carrer offers Insurance, and such Insurance is\nrequested in accordance with the conditions thereof, indicate amount to be\nHandling Information 11.11.2025 16:20 || SPX BY XRY DE/RA/00169-02 BY DE/RA/00095-06 an\n** NOT ” .\nsci\nGross Rate Class\nae * | (=\nPieces {incl. Dimensions or Volume)\nRCP Item No.\n2 567.0/K] Q 567.0) As Agreed} |NOVODUR P2H-AT\n-NOT RESTRICTED-\nMarks: HS Codes: 39033000\nORDER NO. DIMS 100x120x140 CM x 2\nPART NO. 03153934 | VOL 3.360 M3\nTA 440162 - 82704896\nT= [a ae\n\\Prepad 7 \\_wegnt\na aa\n‘Shipper certifies that the particulars on the face hereof are correct and that insofar as any part of the consignment\ncontains dangerous goods, such part is properly by name and is in proper condition for carriage by air according to the\naa applicable Dangerous Goods Regulations.\nleaner\nWe INTERNATIONAL AS AGENT CpeRs\nBRR Brightside Distribution CC Bilitnov-25 Northwind Distribution GMBH 4\nExecuted on (date) at (place) of Issuing Carrier or its Agent\n\\Garges at Destination 7 | \\_Total Collect Charges 7\ni eet Lee eel ns\nCopy 4 - (Delivery Receipt)",
+   "chars": 1369,
+   "text_layer_chars": 0,
+   "ocr_confidence": 76.9,
+   "ocr_words": 283,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 8,
+    "label": "UNKNOWN",
+    "subtype": "unclassified",
+    "confidence": "none",
+    "scores": {
+     "SUPPORTING/shipping_document": 1.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bshipper\\b",
+      "where": "body",
+      "line": "‘Shipper certifies that the particulars on the face hereof are correct and that insofar as any part of the consignment"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": false,
+    "notes": []
+   }
+  },
+  {
+   "page": 9,
+   "method": "ocr",
+   "text": "—_———s\nPOWEX DISTRIBUTION | | House Air _ aybill\nGMBH & CO.KG Aldwin INTERNATIONAL GMBH\nLindenstrasse 35 Avenida Central 7\n20095, HAMBURG,\nHH 20539 DE\nTE\nConsignee’s Name and Address Consignee's Account Number\nCadence PTE. LTD.\nRua do Ouro 18\n539775 SG\nTE\na\nAgents IATA Code\narcamrs | |\n‘Airport of Departure (Addr. of First Carrier) and Requested Routing Reterence Number\nee terms:rca |\nTe By First Carer Cy by ORGS |_WIWAL [Omer] Value for Carriage Value for Customs\nfaws| owl) eval wo | nov\n‘Airport of oewacxnrve ‘Amount of insurance ~ It Carrer offers Insurance, and such Insurance is\nrequested in accordance with the conditions thereof, indicate amount to be\nHandling Information 11.11.2025 16:20 || SPX BY XRY DE/RA/00169-02 BY DE/RA/00095-06 MRN\n** NOT Pa :\nSol\nGross Rate Class\nel Ey =\nPieces {incl. Dimensions or Volume)\nRCP item No.\n2 567.0/K} Q 567.0) As Agreed| |NOVODUR P2H-AT\n-NOT RESTRICTED-\nMarks: HS Codes: 39033000\nORDER NO. DIMS 100x120x140 CM x 2\nPART NO. 03153934 | VOL 3.360 M3\nTA 440162 — 82704896\nRai ae\nNo Pepa 7 Teg\na a\n‘Shipper certifies that the particulars on the face hereof are correct and that insofar as any part of the consignment\ncontains dangerous goods, such part is properly by name and is in proper condition for carriage by air according to the\naa = ss \"= \"jus Goods Regulations,\nAL DWINE AS AGENT\nSs sciosssetieicstncetuauhisisscanessaeceas elt tern eee\nINTERNATIONAL AS AGENT flan\nSermersien Fates VANOV-25 i nnstntetssuvasitssanen Northwind Distribution GMBH 4\nExecuted on (date) at (place) of Issuing Carrier or its Agent\nat\nCopy 5 - (Extra Copy)",
+   "chars": 1322,
+   "text_layer_chars": 0,
+   "ocr_confidence": 77.6,
+   "ocr_words": 270,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 9,
+    "label": "UNKNOWN",
+    "subtype": "unclassified",
+    "confidence": "none",
+    "scores": {
+     "SUPPORTING/shipping_document": 1.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bshipper\\b",
+      "where": "body",
+      "line": "‘Shipper certifies that the particulars on the face hereof are correct and that insofar as any part of the consignment"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": false,
+    "notes": []
+   }
+  },
+  {
+   "page": 10,
+   "method": "ocr",
+   "text": "a\nPOWEX DISTRIBUTION | | House Air _ aybill\nGMBH & CO.KG Aldwin INTERNATIONAL GMBH\nLindenstrasse 35 Avenida Central 7\n20095, HAMBURG,\nHH 20539 DE\nTE\nConsignee’s Name and Address Consignee's Account Number\nCadence PTE. LTD.\nRua do Ouro 18\n539775 SG\nTE\na\nAgent's IATA Code\narsuoors |\n‘Airport of Departure (Addr. of First Carrier) and Requested Routing Reterence Number\nera terms:Fca | |\nTo By First Garior to by ORGS|_WIVAL [One] Value for Carriage Value for Customs\naus! Lam fmel | [eunloel be] nwo | nov\n‘Airport of oewacxnrve ‘Amount of insurance ~ It Carrer offers Insurance, and such Insurance is\nrequested in accordance with the conditions thereof, indicate amount to be\nHandling Information 11.11.2025 16:20 || SPX BY XRY DE/RA/00169-02 BY DE/RA/00095-06 MRN\n** NOT Py r\nSor\nGross Rate Class\nFeAl a ie\nPieces {incl, Dimensions or Volume)\nRCP Item No.\n2 567.0/K] Q 567.0) As Agreed| |NOVODUR P2H-AT\n-NOT RESTRICTED-\nMarks: HS Codes: 39033000\nORDER NO. DIMS 100x120x140 CM x 2\nPART NO. 03153934 | VOL 3.360 M3\nTA 440162 — 82704896\n=e er\nX= Prepaid 77 \\_Weight\n|\n‘Shipper certifies that the particulars on the face hereof are correct and that insofar as any part of the consignment\naa contains dangerous goods, such part is properly ‘by name and is in proper condition for carriage by air according to the\n~~ s+ =\" “jus Goods Regulations.\nAL DWINE AS AGENT\nSESeo ner ree ES PS OTTER TE og pen ery\nINTERNATIONAL AS AGENT lea\nSomersion Reis VAENOV= 25 ent esssanan Northwind Distribution GMBH 4\nExecuted on (date) at (place) of Issuing Carrier or its Agent\nat\nCopy 6 - (Extra Copy)",
+   "chars": 1306,
+   "text_layer_chars": 0,
+   "ocr_confidence": 76.6,
+   "ocr_words": 277,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 10,
+    "label": "UNKNOWN",
+    "subtype": "unclassified",
+    "confidence": "none",
+    "scores": {
+     "SUPPORTING/shipping_document": 1.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bshipper\\b",
+      "where": "body",
+      "line": "‘Shipper certifies that the particulars on the face hereof are correct and that insofar as any part of the consignment"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": false,
+    "notes": []
+   }
+  },
+  {
+   "page": 11,
+   "method": "ocr",
+   "text": "ss\nPOWEX DISTRIBUTION | | House Air _ aybill\nGMBH & CO.KG Aldwin INTERNATIONAL GMBH\nLindenstrasse 35 Avenida Central 7\n20095, HAMBURG,\nHH 20539 DE\nTe\nConsignee's Name and Address Consignee's Account Number itis agreed that the aoods herein are accepted in apparent good order and condition (except as\nnoted) for carriage TO THE OF ‘ON THE ALL\nCadence PTE. LTO. GOODS MAY BE BY ANY OTHER MEANS ROAD OR ANY OTHER\nINSTRUCTIONS ARE GIVEN BY THE SHIPPER, AND\nTHAT THE MAY BE VIA INTERMEDIATE\nRua do Ouro 18 WHICH THE DEEMS APPROPRIATE. THE 1S DRAWN TO THE\nOF LIABILITY. Shipper may increase such limitation of\nliability by a higher value for carriage and paying a supplemental if required.\n539775 SG\nTE\na\n‘Agent's IATA Code Account No.\n23-4 7534/2015\n‘Airport of Departure (Addr. of First Carrier) and Routing Reterence Number\nTenms:Fca |\nTo By First Carnior by CHGS |_WrVAL | Onor | Value for Carriage Value for Customs\nfs] ets f| | leunlorl Te] wo | nov\n‘Airport of cewvzexneve ‘Amount of insurance ~ if Caner offers Insurance, and such Insurance is\nrequested in accordance with the conditions thereof, indicate amount to be\na asso | ox fate |\nHandling Information 11.11.2025 16:20 || SPX BY XRY DE/RA/00169-02 BY DE/RA/00095-06 MRN\n** NOT Pa :\nSol\nGross Rate Class\naz] ™ | | ||\nPieces {incl. Dimensions or Volume)\nRCP Item No.\n2 567.0|K] Q 567.0) As Agreed} |NOVODUR P2H-AT\n-NOT RESTRICTED-\nMarks: HS Codes: 39033000\nORDER NO. DIMS 100x120x140 CM x 2\nPART NO. 03153934 | VOL 3.360 M3\nTA 440162 — 82704896\naE =\nN__Prepaid __ 7 \\_Weight (\n[ae 2 2)\n‘Shipper certifies that the particulars on the face hereof are correct and that insofar as any part of the consignment\ncontains dangerous goods, such part is properly by name and is in proper condition for carriage by air according to the\naa applicable Dangerous Goods Regulations.\n[fxcox\nINTERNATIONAL AS AGENT flan\nSermersien Fates FANOV-25 oc enssntetsssuasitssaen Northwind Distribution GMBH 4\nExecuted on (date) at (place) of Issuing Carrier or its Agent\n[ae |] a\nat\nCopy 7 - (Extra Copy)",
+   "chars": 1683,
+   "text_layer_chars": 0,
+   "ocr_confidence": 80.4,
+   "ocr_words": 355,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 11,
+    "label": "UNKNOWN",
+    "subtype": "unclassified",
+    "confidence": "none",
+    "scores": {
+     "SUPPORTING/shipping_document": 1.0
+    },
+    "evidence": [
+     {
+      "kind": "SUPPORTING/shipping_document",
+      "keyword": "\\bshipper\\b",
+      "where": "body",
+      "line": "INSTRUCTIONS ARE GIVEN BY THE SHIPPER, AND"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": false,
+    "notes": []
+   }
+  },
+  {
+   "page": 12,
+   "method": "ocr",
+   "text": "Date : 10/28/2025\nOrder no.\nCadence PTE. LTD.\nHigh Street 18\n#08-08, 539775 Singapore\nAttn: Tan\nEmail: clara.lind@cadence.com\nUNIT PRICE TOTAL\nP2H-AT EUR 8.18 EUR 4,499.00\nPolvex (FAR EAST) LTD\nbo» £ aS we,\nf Re e»\ni mets (Ze)\n* ww\nLONG KOSS.",
+   "chars": 199,
+   "text_layer_chars": 0,
+   "ocr_confidence": 76.2,
+   "ocr_words": 44,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 12,
+    "label": "UNKNOWN",
+    "subtype": "unclassified",
+    "confidence": "none",
+    "scores": {},
+    "evidence": [],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": false,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1,
+    2
+   ],
+   "confidence": "high",
+   "doc_ids": [],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE",
+    "2:INVOICE*"
+   ],
+   "needs_review": [
+    "customs invoice: confirm it is a payable"
+   ],
+   "boundary_reason": "first page"
+  },
+  {
+   "index": 2,
+   "label": "SUPPORTING",
+   "subtype": "shipping_document",
+   "pages": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "confidence": "high",
+   "doc_ids": [],
+   "payable_candidate": false,
+   "page_labels": [
+    "3:SUPPORTING",
+    "4:SUPPORTING",
+    "5:SUPPORTING",
+    "6:UNKNOWN*",
+    "7:SUPPORTING",
+    "8:UNKNOWN*",
+    "9:UNKNOWN*",
+    "10:UNKNOWN*",
+    "11:UNKNOWN*",
+    "12:UNKNOWN*"
+   ],
+   "needs_review": [
+    "pages [6, 8, 9, 10, 11, 12] attached as untitled continuation"
+   ],
+   "boundary_reason": "class change INVOICE -> SUPPORTING"
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "file": "HLD-01.pdf",
+ "sha256": "4156e028d80c202f25646545e11d2f8972dd644f80bf6d1236e24ebb1fc52fda",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "=\nWuia1wiia (INVOICE)\nurwiaaan = - ” °\nFit 7oate____[os..a5e8 dvinvwitug\ndavw / Project: Staff Impact (May 2026) Lauvi 799/124 wii 3 duaunsn\ndagneis / Customer: _|wortwnd SUPPORT SERVICES (THAILANDDUMTESURRGRDSESUES RAEIVORE ABEND} LIMITED\nviog / Address: hauvl 8 a1ArsIu duM 16 Wasa 16-103 16-104 16-105 Sentaayvsusinrs 10280\neiangyuIN 40 qUUgYWIN UNWIN LNARADIAL AussenueY : ANdwod UvAIN\nATAMNUW IAT iuadins : 5901619152\nLanusyardadiaunrs : 4053930153035 E-mail: jonas.silva@larkspur-technologies.com\n‘ims / Tel: wmnuaunidund\nuvinal / Fax: 0 1055 56100 879\nandu munis anou maida Hwuiu\nITEM DEQGKGDFIYT QUANTITY UNIT PRICE AMOUNT\nThe detail are as below:-\n1 Staff 2 Units X 6 Days 12 600.00 7,200.00}\nTotal\nMANAGEMENT FEE 9%\nTOTAL (INCLUDING AGENCY FEE)\nVat 7 %\nGRAND TOTAL (INCLUDING VAT) | 8,397.36]\naniivin ai isan 3% (WITHHOLDING TAX) | 235.44\nsu autduviciavzirs: (TOTAL PAYMENT) | _—«8,161.92\num / BAHT uldaviuniviauundudauimmdudavdaid\n4699417904\n3 jonas.silva@larkspur-technologies.com\nAPPROVED BY PRESENTED BY\nseascartal assess tinciacaes (Managing Director)",
+   "chars": 917,
+   "text_layer_chars": 0,
+   "ocr_confidence": 59.4,
+   "ocr_words": 150,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Wuia1wiia (INVOICE)"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1
+   ],
+   "confidence": "high",
+   "doc_ids": [],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE"
+   ],
+   "needs_review": [
+    "low OCR confidence on pages [1]"
+   ],
+   "boundary_reason": "first page"
+  }
+ ]
+}

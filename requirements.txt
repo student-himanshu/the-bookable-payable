@@ -1,8 +1,11 @@
-# Phase 1 requirements. erp.py itself needs only the Python 3.10+ standard library.
-# pypdf 5.9.0 was verified in the Phase 1 sandbox (Python 3.12.3).
+# Runtime (Phase 2). erp.py itself needs only the Python 3.10+ standard library.
+# Versions below were verified in the sandbox (Python 3.12.3).
 pypdf==5.9.0
+pypdfium2==5.6.0
+pytesseract==0.3.13
+pillow==12.1.1
 # Test runner (optional: tests also run with `python -m unittest`). NOT verified here
-# (no network in the sandbox), so the range below is an unverified compatibility guess.
+# (no network in the sandbox), so the range is an unverified compatibility guess.
 pytest>=8,<9
-# System tools (not pip): poppler-utils (pdftotext, pdftoppm, pdfimages) and tesseract-ocr.
-# Phase 2 will add pytesseract / pillow / pdfplumber as they become genuinely required.
+# System tool (not pip): tesseract-ocr, plus language packs for the documents you process
+# (eng deu est por tur msa fra spa nld dan). Poppler is only needed for tools/inventory_pdfs.py.

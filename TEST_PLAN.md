@@ -16,9 +16,10 @@ Status legend: PASS / FAIL / BLOCKED / NOT RUN. Results below are from the Phase
 | T7 | PDF inventory (42 files / 111 pages) | `python -m unittest tests.test_baseline.DocumentInventory` ; `python tools/inventory_pdfs.py` | 1 | PASS |
 | T8 | Full baseline suite | `python -m unittest discover -s tests -v` | 1 | PASS (37 tests) |
 | T9 | Same suite under pytest | `python -m pytest tests -v` | 1 | NOT RUN (pytest not installed; sandbox has no network) |
+| T8b | Full suite after Phase 2 (83 tests) | `python -m unittest discover -s tests -v` | 2 | PASS |
 | T10 | setup.ps1 | `powershell -File .\setup.ps1` | 1 | NOT RUN (no PowerShell in sandbox) |
-| T11 | Extraction + OCR fallback, page boundaries | unit + per-document report | 2 | NOT RUN |
-| T12 | Classification (invoice / credit memo / supporting / non-payable / multi-payable) | unit tests + labelled review of all 42 PDFs | 2 | NOT RUN |
+| T11 | Extraction + OCR fallback, page boundaries | `python -m unittest tests.test_extract -v` ; `python -m bookable.phase2` | 2 | PASS (tests); all 42 PDFs / 111 pages extracted, 0 failures |
+| T12 | Classification (invoice / credit memo / supporting / non-payable / multi-payable) | `python -m unittest tests.test_classify -v` | 2 | PASS (unit tests on synthetic text). Labelled review of the 42 PDFs: NOT DONE - no ground truth exists; results in reports/ were only self-reviewed |
 | T13 | Parsing: locale numbers, dates, currency | unit tests | 3 | NOT RUN |
 | T14 | Master-data matching (supplier, buyer, tax, term, PO), incl. scale | unit tests + large synthetic master | 3 | NOT RUN |
 | T15 | Schema validation of every output | `python -m ... validate` | 3-5 | NOT RUN |

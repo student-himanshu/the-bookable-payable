@@ -1,0 +1,110 @@
+{
+ "file": "INV-19.pdf",
+ "sha256": "16a4f08db282dc40f52d536a7e61d0d03c039594e509945b12336f9d7fac8978",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "VENDOR DETAILS\nTIN: 9765403675\nName: Redwater Technologies\nBank Name: Stadtbank\nBranch: Lindenstrasse 111\nAccount No. 1028243888660\nPREPARED FOR: SORT code: 240124\nSWIFT code: GMOEYYPUFGV\nNorthwind HOLDINGS OU\nHigh Street 10\nPO ’\nITEM Qry PRICE TOTAL\nMeal per head 60 GHC 90,00 GHC 5400.00\nTransportation and Set up 1 GHC 1,200.00 GHC 1,200.00\n(i) Tax Exclusive Value GHC6,600.00\n(ii) NHIL(2.5%) GHC 165.00\n(iii) | GETFund Levy (2.5%) GHC 165.00\n(iv) COVID-19 Levy (1%) GHC 66.00\n(v) Total Levy Inclusive Value (i+iitiii+iv) GHC 6,996.00\n(vi) VAT (15%) (i) GHC 1049.40\n(vii) Total Tax Inclusive Value (v+vi) GHC 8,045.40\nAccount No: 1028243888660\nSORT code: 240124 SWIFT\ncode: GMOEYYPUFGV",
+   "chars": 583,
+   "text_layer_chars": 0,
+   "ocr_confidence": 88.4,
+   "ocr_words": 106,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "untitled_invoice_like",
+    "confidence": "low",
+    "scores": {},
+    "evidence": [],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": false,
+    "notes": [
+     "no title found; invoice-like content (tax/price vocabulary + total amount)"
+    ]
+   }
+  },
+  {
+   "page": 2,
+   "method": "ocr",
+   "text": "Manager Name: Alex MeyeMoreau\nAbutiate\nSignature : feo)",
+   "chars": 48,
+   "text_layer_chars": 0,
+   "ocr_confidence": 86.5,
+   "ocr_words": 8,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 2,
+    "label": "UNKNOWN",
+    "subtype": "unclassified",
+    "confidence": "none",
+    "scores": {},
+    "evidence": [],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": false,
+    "notes": [
+     "almost no text on page (blank, drawing or unreadable)"
+    ]
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "untitled_invoice_like",
+   "pages": [
+    1,
+    2
+   ],
+   "confidence": "low",
+   "doc_ids": [],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE*",
+    "2:UNKNOWN*"
+   ],
+   "needs_review": [
+    "pages [2] attached as untitled continuation",
+    "low classification confidence"
+   ],
+   "boundary_reason": "first page"
+  }
+ ]
+}

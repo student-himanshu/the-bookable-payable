@@ -1,0 +1,140 @@
+{
+ "file": "INV-16.pdf",
+ "sha256": "7b7bbbcb7d61a1b18bd83e3f6a1cb56ab1ddec50845888a7e8adefc484b7a216",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "Northwind Operations ou Arve number: TLLIR72836045\nVANA-LOUNA TN 15 Kliendikood: 952774062\n10134 TALLINN Reg. number: 27044945\nESTONIA Arve kuupaev: 09-06-25\nLehekilgede arv: 1/2\nParingud arvete kohta\nTelefon: +372 6 808 455\nE-post: luis.roth@speedwell.com\nTeenuse liik Saadetiste Kogukaal Osade Transpordi- _Lisatasud KM Kogusum-\narv arv tasu kokku ma (KM-ga)\nECONOMY SELECT 1 1,00 1 18,87 2,83 4,77 26,47\nKokku 1 1,00 1 18,87 2,83 4,77 26,47\nLisateenuste loetelu Kokku\nFUEL SURCHARGE 2,83\nKokku lisateenuste tasud 2,83\nKM analiiiis Kokku\nKood Koodi kirjeldus KM maar Maksustatav summa KM\nA 3 22,00% 21,70 4,77\nKokku KM 4,77\nKokku (v.a. KM) KM Kokku (KM-ga)\nMaksetahtaeg: 07-07-25 Kogusumma (EUR) 21,70 4,77 26,47\nSpeedwell Express EstoniaAS +372 680 8555 (klienditeenindus) Reg. No.: 10451175 Palume: * markida oma maksekorraldusele makstava\nBahnhofstrasse 32 +372 680 8455 (raamatupidamine) KMKR ££445462205 arve number ja kuupdev\n11415 Tallinn e-mail alex.keller@speedwell.com IBAN EE989745485604538087 Rank * markida saatelehele saatja nimi\nESTONIA www.speedwell.ee EE989 7T2GNR6G08EGROS7 Rank\n£E445376549651250068",
+   "chars": 967,
+   "text_layer_chars": 0,
+   "ocr_confidence": 87.1,
+   "ocr_words": 153,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 5.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\barve\\b",
+      "where": "headline",
+      "line": "Northwind Operations ou Arve number: TLLIR72836045"
+     }
+    ],
+    "page_marker": [
+     1,
+     2
+    ],
+    "doc_ids": [
+     "TLLIR72836045"
+    ],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  },
+  {
+   "page": 2,
+   "method": "ocr",
+   "text": "Arve number: TLLIR72836045 A\nKliendikood: 952774062 rve\nArve kuupaev: 09-06-25\nLehekiilgede arv: 2/2\nSaatelehe Saatja viide Saadetise Lahtekoht / saatja Sihtkoht / saaja Teenuse Kaal Osade Standard- Lisateenuste Lisatee- KM/kood Kogusum-\nnumber kuupaev liik (Kg) arv hind kirjeldus nuste ma\ntasud (KM-ga)\n6757799188 STK-EE003-25-00250 04-06-25 /MHN, MANNHEIM WAW, WARSAW ECONOMY 1,00 V 1 18,87 415A 23,02\nt) NORT@RERATIONS OUE MANNHEIM Northwind OPERATIONS OU CWH SELECT FUEL SURCHARGE 2,83 0,62 3,45\nMaria Haas Jonas Weber\nGartenweg 6 Lindenstrasse 20\nLOCATION IS ON THE BASEMENT OF BUIL PL-01-940, Warsaw\nDE-68165, MANNHEIM\n26,47\nVahesumma teenuse jargi - ECONOMY SELECT 1,00 1 18,87 2,83 477 26,47\nKokku: EUR: 1,00 1 18,87 2,83 477 26,47\nA = Kliendi poolt arvutatud tegelik kaal_V = Kliendi poolt arvutatud mahukaal 8 = DHLi poolt arvutatud tegelik kaal_ W = DHLi poolt arvutatud mahukaal_M=sega",
+   "chars": 764,
+   "text_layer_chars": 0,
+   "ocr_confidence": 84.5,
+   "ocr_words": 135,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 2,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0,
+     "SUPPORTING/delivery_note": 1.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\barve\\b",
+      "where": "headline",
+      "line": "Arve number: TLLIR72836045 A"
+     },
+     {
+      "kind": "SUPPORTING/delivery_note",
+      "keyword": "\\bsaatelehe\\b",
+      "where": "body",
+      "line": "Saatelehe Saatja viide Saadetise Lahtekoht / saatja Sihtkoht / saaja Teenuse Kaal Osade Standard- Lisateenuste Lisatee- "
+     }
+    ],
+    "page_marker": [
+     2,
+     2
+    ],
+    "doc_ids": [
+     "TLLIR72836045"
+    ],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1,
+    2
+   ],
+   "confidence": "high",
+   "doc_ids": [
+    "TLLIR72836045"
+   ],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE",
+    "2:INVOICE"
+   ],
+   "needs_review": [],
+   "boundary_reason": "first page"
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "file": "INV-33.pdf",
+ "sha256": "65fdc1728fe3c6aeced4bd6f1fe4cb7a92d7b4f620db71aea681c40f750ca8d4",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "Phrted Decument Numbers | Project NRIC: fpoog £ PDeOF\n‘Account Project No/| Amount ($) Contact Person's] Aporoving Oliver || j 7\nNo Cost Centre | Without GST| Name & Extn No |\\3 @ Initial & Date, Project officer: 60589 lag\n50401002 A 2AGEAE Mas | om - Cost Centre/ GL: 4244EAE [sore (00d\n¢)\nws LZ alii _. Ap NOTIONS INT'L PTE. LTD.\n| Vice President (Passenger Development] www.AD-Natlons.com\n_|__|_ Changi Airport Group (Singapore) Pte Lid oo~\ni REGISTRATION NO. 53057406 mecAyEON\n- were | a) RECEIVED)\na8 UN MT\nINVOICE (Page a1 of 01) FIN (EXP)\nChangi Airport Group (S) Pte Ltd\nPO Box 168 Invoice No. : ADIPL/INV/070/17\nSingapore Changi Airport Date : 8th June 2017\nSingapore 918146\nYour P.O. No. :\nTel : 6541 2374 Our D.O. No. :\nFax : 6542 5390 Job Ref. : CAG/ST/8074/06/17\nAttn : Ms. Jacqueline Hia Terms : C.0.D\nQuantity [Unit Price |_Amount |\nPROJECT : Pillar Signage Panel For Shi\nCoach Bay (Lot No. 8)\nProcess : Supply of 2mm thick clear poly-carbonate sheet with reverse\nblack color base & install onto existing pillar with A3 size\ndigital print Matt lamination onto panel surface. Please\nnote; drilling work is applicable for this job (Day Work).\n*Excluding any dismantling work.\nPanel Size + 500mm(W) x 500mm(H) 01 pe $250.00 $250.00\nRemarks 2 Design & Ready FA for: production aré all nik paca cencal\n: Future replacement of A3 size shuttle. schedule per pc @-S$70. 0 per-trip\neran a\nAgreed Makan shy i hey\nPayment Indicator _ 1 a\n3 = Cheques. S!l= Indiv pyent, BIT - Bares a ||\n[Dies —\nPecunia Vee sangre 2 |_|\n* Please kindly endorse and scan via qmail back to us once you hava received this Invoice. Thank you. | _|Total | $250.00 |\n* Cheque payment is to be issued to ; AD-NOTIONS INT'L PTE LTD - ——\nJacqueline Hia ) 0 >.\nSenior Associate (Paseénggy-Bevplopmen \" / ao\nChangi Airport Gita ( % ofa) Utd AB NOTIONS INT'L PTE. LTD. ¢ oy\nCustomer's Signatu ompany Stamp Authorised Signature )\nAD NOTIONS twr't PTE. L7O\n20 Sin Ming Lane Midview City #08-61 Singapore 573968\nt: (465) 6515 15té fr (465) 6515 1517 «@ Sales 2 AQ-Notions.com\nLarge Format Digital Printing - Billboards / Pillar Wrap Graphics eve / Mesh / Backlit / Frontlit Banners\nWa / floor / Glass Mural Graohics - Escalator Graphics Retail / Bus Stop Posters Juratrans Prints\nFleet Graphics Customized Car Graphics Designs Offset Printing Signage Design & Fabrication\nCustomized Point of Sales Materials - Promotional Standees Window Display\nAcrylic Fabrication & Laser Engraving for all types of displays\nMedia Advertising\nInnovative Design Solutions",
+   "chars": 2083,
+   "text_layer_chars": 0,
+   "ocr_confidence": 74.6,
+   "ocr_words": 444,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 6.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "INVOICE (Page a1 of 01) FIN (EXP)"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [
+     "ADIPL/INV/070/17"
+    ],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1
+   ],
+   "confidence": "high",
+   "doc_ids": [
+    "ADIPL/INV/070/17"
+   ],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE"
+   ],
+   "needs_review": [],
+   "boundary_reason": "first page"
+  }
+ ]
+}

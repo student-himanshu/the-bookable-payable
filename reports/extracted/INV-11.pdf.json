@@ -1,0 +1,91 @@
+{
+ "file": "INV-11.pdf",
+ "sha256": "b54e26a09bbc5be96a45bd58996aa17cbccb6473e4aa73b4962b735534e93768",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "ARVE INVOICE\n3 UGja - Saatja Seller - Consignor\na2, Northwind Operations OU S?o0 Jo?o da Talh Kuuodev Date Aida Ar, lnoiea Na\ngga Parnu mnt 10\nB23 07.04.26 18109293\n324 | 2695671 S?0 Jo?o da Talha —\nz g 4 PORTUGAL\nPick 3% | Arve maksia Payer of invoice Ref. EE398766194\nais Northwind OPERATIONS OU 2505212\nEE 32 | Lindenstrasse 15\n3553\n$325 | 10134 TALLINN\nggg [EESTI Meridian Media\n= H eo Vastuvétia Consignee Gartenweg 12 ‘nates\n32 * 5 | +\na 5s Northwind Operations OU Dos Hermanas E-M _ lena.tamm@blackpine-media.ee\n3s as Parnu mnt 43 WWW https://cloverdale-mobility.ee\nsage : mana Re 64670685\nB33 S?0_ Jo?0 da Talhe\n25 3 Saatmise kuupaev Dispatched on\nang) 01.04.26\n43 32 Tarneklausel Term of delivery\nbegs $?0 Jo?0 da Talha\n328 Umberiaadimise koht Sihtpunkt Destination\n2275 Dos Hermanas EXW S?0 Jo?o da Talha\n33 34 Markeerinaud. kohtade arv ia kauba nimetus. Marks and Nos. No of Pieces and Nature of Goods\n3223 3 CTN spares\n= REFNR. FJ19363 | STK-PT001-26-000084\nEE06 3132 2643 8105 Biit@ Xrutokaa Arvestuslik kaal\night Volume Chargeable weight\n64,7 0,144 65\nLisaandmed Additional information Selgitused Explanations KM VAT\n408 AGREED PICKUP FEE 24,0 % 5,00\n551 TARNEKULUD 24,0 % 53,40\nz 805 AGREED DELIVERY FEE 24,0 % 5,00\nys 920 BAF 6,93% (16.03-29.03) 24,0 % 37,10\nHad@as KM 24,0 % 67,10 16,11\ngph\noF\na25%\nHue\n28\n£296\nel\nan\n22 335 | MAKSETAHTAEG\nSehgs DUE DATE 28.04.26\n5 i 3 AFTER DUE DATE 0.1%/PAEVAS\n+ E 333 EUR 83,21\ngg 238 Eksped Jonas Meyer (alex.haas@brightside-mobility.ee\n2 ; 38 : Tel. :+403 3982 8055 (PRETENSIOONID PALUME ESITADA 10 PAEVA JOOKSUL)\ngeass\n23313 | Saaja Bene Meridian Media\n<3 5 | Pank Bank Oakhaven Bank PankB —_ Redwater Bharnimae 2, Tallinn\nSWIF SZWGVJOV SWIF USQNDC2G\nIBAN: EE06 3132 2643 8105 8219 Xrutokaa IBAN: EE05 9834 1202 5448 4875",
+   "chars": 1467,
+   "text_layer_chars": 0,
+   "ocr_confidence": 72.8,
+   "ocr_words": 311,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 8.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "ARVE INVOICE"
+     },
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\barve\\b",
+      "where": "headline",
+      "line": "ARVE INVOICE"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1
+   ],
+   "confidence": "high",
+   "doc_ids": [],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE"
+   ],
+   "needs_review": [],
+   "boundary_reason": "first page"
+  }
+ ]
+}

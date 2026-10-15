@@ -1,0 +1,91 @@
+{
+ "file": "INV-07.pdf",
+ "sha256": "5fb06fdab3c81e0f8d3150771513f23fdb518f8e347a94bbb06da7318135e79e",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "Invoice Date Larkspur Distribution Meridian Print\nTAX | N VO | C E 30 Apr 2025 Larkspur Distribution Meridian Print\nGartenweg 173\nNorthwind Services ZA (Pty) Meridian Print Ltd INV7097292303 F04, Kiepersol House\nMS Office Park Bahnhofstrasse 300\nUnit 7, Block B INV7097292303 Darrenwood\nGartenweg 60 Gauteng\nMaitland 2195\nWESTERN CAPE CAPE TOWN 7405 SES SouthiAiiCn\nSOUTH AFRICA\nVAT Number: 9446639440\nDescription Quantity Unit Price VAT Amount ZAR\nStandard Criminal Verification 133.00 129.00 15% 17,157.00\nSubtotal 17,157.00\nTOTAL VAT 2,573.55\nTOTAL ZAR 19,730.55\nLess Amount Credited 13,110.00\nAMOUNT DUE ZAR 6,620.55\nDue Date: 31 May 2025\nOakhaven Distribution Meridian Print Ltd\nRedwater Bank\nBranch: Sand\nBranch Number -\nAccount 897530172\nSWIFT: SYEWTNPV\nPlease use your invoice number as reference when making payment.\nCompany Registration No: 3268/558090/90 . Registered Office: Gartenweg 173 , F04, Kiepersol House, Bahnhofstrasse 30Marrenwood, Johannesburg, Gauteng,\n2195, South Africa.",
+   "chars": 855,
+   "text_layer_chars": 0,
+   "ocr_confidence": 92.9,
+   "ocr_words": 142,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 9.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Date Larkspur Distribution Meridian Print"
+     },
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\bn\\W{0,3}v\\W{0,3}o\\W{0,3}i?\\W{0,3}c\\W{0,3}e\\b",
+      "where": "headline",
+      "line": "TAX | N VO | C E 30 Apr 2025 Larkspur Distribution Meridian Print"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1
+   ],
+   "confidence": "high",
+   "doc_ids": [],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE"
+   ],
+   "needs_review": [],
+   "boundary_reason": "first page"
+  }
+ ]
+}

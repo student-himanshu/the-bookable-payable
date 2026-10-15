@@ -1,0 +1,95 @@
+{
+ "file": "INV-37.pdf",
+ "sha256": "1e329960c3b832fe807daf325d84ae8fe8c4c5970c7651e7317a97696d7a4755",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "text-layer",
+   "text": "1120 VERMONT AVENUE ASSOCIATES, LLP\n                                                                             UTILITIES REIMBURSEMENT\n          Amerihealth - 2nd Floor\n\n          Attention:              Accountspayable@amerihealthcaritas.com                                                                                 Invoice Date:     6/12/2018\n\n          Billing Address:        AmeriHealth                                                                                                                 Invoice:       5568\n                                  200 Stevens Drive                                                                                                   Purchase Order:        17816\n                                  Philadelphia, PA 19113\n\n          Service Period:            April 30, 2018 to May 29, 2018  (30 Days)\n\n          ELECTRIC USAGE\n                                                                   Meter Reading\n                 Meter Number            Read Type            Present          Previous                          Multiplier       KWH Used         Blended $/KWH             Amount\n\n          1      SM #0201                 Actual             497649      -    497625      =       24        x       1        =       24        x   0.097958122     =         $2.35\n               at 2nd fl North Mech Room                                             Demand        1        x       1        =        1        x    11.470001      =        $11.47\n\n          3      SM #0202                 Actual             434313      -    434122      =       191       x       1        =      191        x   0.097958122     =        $18.71\n               at 2nd fl North Mech Room                                             Demand       0.7       x       1        =       0.7       x    11.470001      =         $8.03\n\n          4      SM #0206                 Actual             703329      -    687513      =     15816       x       1        =     15816       x   0.097958122     =       $1,549.31\n\n          6    at     0                   Actual                0        -        0  Demand=     21.50      xx      11       ==     21.50      xx  0.09795812211.470001==   $246.61$0.00\n                                                                                                          Total KWH Billed:        16,031      Non-Residential-GT:         $1,570.37\n                                                                                                 Total Distribution Charged:       23.200       Maximum Demand:             $266.10\n\n                                                                                                                                Sales tax at 0.0575 on utility bills:       $105.60\n                                                                                                           SUB-TOTAL FOR ELECTRICAL COSTS:                                $1,942.07\n          EMERGENCY GENERATOR FUEL USAGE\n                                                                   Meter Reading\n                 Meter Number                                 Present          Previous         Gallons          Multiplier      Consumption            Rate                 Amount\n\n          1      #4369148                                      815       -      815       =        0        x       1        =        0        x       $2.76       =         $0.00\n                                                                                                                                Sales tax at 0.0575 on utility bills:        $0.00\n                                                                              SUB-TOTAL FOR EMERGENCY GENERATOR FUEL COSTS:                                                  $0.00\n          COOLING SYSTEM CONDENSER WATER USAGE\n\n                                                                                                                                                  Per lease annual fee of\n                                                                                                                                                  CSCW x connected ton\n                  Unit Number          Model Number         Install Date     Usage Type        Unit BTU's      BTU Tonnage      Connected Ton        / 12 months*            Amount\n\n          1           2.1                CCH-042             07/23/03         Standby           42,000      /     12,000     =      3.500      x      $63.93        =        $61.73\n\n          2           2.5              WCMS.1.024            07/23/03         24 Hour           24,000      /     12,000     =      2.000      x      $63.93        =        $35.27\n\n          4           2.9                CCH-024             01/01/14         24 Hour           60,000      /     12,000     =      5.000      x      $63.93        =       $319.65\n\n                     *24 Hour unit utility costs: $740.71, Lease Hour unit utility costs: $194.7, $26.49 for maintenance and repairs to the 24-hour central plant system; per connected ton\n\n                                                                                                  Total Connected Tonnage:         10.500       Total Energy Costs:         $393.47\n                                                                                    Cost Per Ton, Common Equipment PM:             2.208      Total C.E. PM Costs:          $23.18\n\n                                                                                                SUB-TOTAL FOR CONDENSER WATER COSTS:                                       $416.65\n\n          BUILDING SERVICE FEES\n              (4-12000.00 ::: 152.19375)                                                                                                                            ..      $122.00\n              ( ::: 7.015)                                                                                                                                                   $0.00\n              (')                                                                                                         Sales tax at 0.0575 on building services:          $7.02\n\n                                                                                                                 NET CURRENT REIMBURSEMENT:                              $2,487.73\n\n                 40000    Usage History\n\n                 20000\n\n                      0\n\npage 1 of 1\n4-02 Amerihealth Utility Reimbursement.xls",
+   "chars": 1948,
+   "text_layer_chars": 1948,
+   "ocr_confidence": null,
+   "ocr_words": 0,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 4.0,
+     "NON_PAYABLE/purchase_order": 0.5
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Invoice Date:"
+     },
+     {
+      "kind": "NON_PAYABLE/purchase_order",
+      "keyword": "\\bpurchase order\\b",
+      "where": "body",
+      "line": "Purchase Order:"
+     }
+    ],
+    "page_marker": [
+     1,
+     1
+    ],
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1
+   ],
+   "confidence": "high",
+   "doc_ids": [],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE"
+   ],
+   "needs_review": [],
+   "boundary_reason": "first page"
+  }
+ ]
+}

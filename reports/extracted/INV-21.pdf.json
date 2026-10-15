@@ -1,0 +1,91 @@
+{
+ "file": "INV-21.pdf",
+ "sha256": "ed3dbdadf4f92873e903c0c73e5a841e3a801d150cb1daa67b1b4f7b6f7dfc1f",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "High Street 8\nOakhaven Partners LDA 2799-554 LINDA-A-VELHA\nContribuinte N° PT 059909082 = Capital Social : 30.000.000 Euros, Nr. Registo SIRER: PT12964656\nIBAN: PT7669839155 1688438577388\nTIPO DE DOCUMENTO N° DE DOCUMENTO DOC. ORIGEM | N°CONTRIBUINTE | DATA FACTURA\n[| FATURA | seeasiszes =| recerisess [06/04/2026\nLOCAL DE ENTREGA EXMO(S). SR(S).\nNorthwind SUPPORT SERVICES PT, UNIPESSOAL LDA Northwind SUPPORT SERVICES PT, UNIPESSOAL LDA\nNorthéss¢ritrio Northiseritério\nAvenida Central 224 Avenida Central 224\n1250-148 Lisboa 1250-148 Lisboa\nCLIENTE\nNorthwind SUPPORT SERVICES PT, UNIPESSOAL LDA\nSERVICO DE APOIO AO CLIENTE hortht@edritario\nLisboa TEL 897230833 Avenida Central 224\nMORADA: High Street 8 1250-148 Lisboa\nCOD. POSTAL 2799-554 —LOCALIDADE Linda-a-Velha\nee | A ENE eT]\noaroaizoze [ Frouseess [TPT DCLisboa | 6679482 200836565] 200836565\nCOD. EAN ARTIGO DESCRICAO DO ARTIGO QUANT. | PREGO|] DESCONTOS % VALOR\nVireo [U.Vda [UND] UNIT.\n5601126039575 | 12422850 _| SICAL SUPER BAR Cafe Grao Gx1kg NIPT 24,000 34,69 407,95\nDesconto em Valor BEVERAGES SOLUTIONS 8,30-\n8445291766662 [12616271 | Vireo Chocolate Quente 12(25x209) N1 1,000 10,01 10,01\n8445291894877 | 12624778 _| NESCAFE Acucar Std 1x2.8kg PT 1,000 8,30 8,30\n054881000024 =| 14181244 —_| AHMAD Inf MentaHirtLim 6(20x1,59)N1PT 3,000 2,94 8,82\n054881000062 | 14186288 —_ | AHMAD Int Camomila 6(20x1.5g)N1PT 3,000 2,94 8,82\nCOMENTARIOS:\nIMPOSTO SOBRE VALOR ACRESCENTADO DATA DE VENCIMENTO 06/05/2026 VALOR BRUTO 868,51\n% INCIDENCIA VALOR DESC. PROM./QNT 432,91\n10,19 CONDIGOES DE PAGAMENTO Meee envi\nAté dia 06/05/2026 ve A00H\n10,19 TOTAL A PAGAR 535,79\nprograma certificado n,.°631/AT Os bens foram colocados 4 disposigéo do ad\na mencionada; TAL",
+   "chars": 1469,
+   "text_layer_chars": 0,
+   "ocr_confidence": 76.7,
+   "ocr_words": 248,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 8.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\bfactura\\b",
+      "where": "headline",
+      "line": "TIPO DE DOCUMENTO N° DE DOCUMENTO DOC. ORIGEM | N°CONTRIBUINTE | DATA FACTURA"
+     },
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\bfatura\\b",
+      "where": "headline",
+      "line": "[| FATURA | seeasiszes =| recerisess [06/04/2026"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1
+   ],
+   "confidence": "high",
+   "doc_ids": [],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE"
+   ],
+   "needs_review": [],
+   "boundary_reason": "first page"
+  }
+ ]
+}

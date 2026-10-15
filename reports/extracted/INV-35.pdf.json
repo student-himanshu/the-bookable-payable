@@ -1,0 +1,93 @@
+{
+ "file": "INV-35.pdf",
+ "sha256": "8f217715d2c6a085387e48c421b0c4ecf4e7e87fd98d9f88d887d1cd96574880",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "Zycus PO# 1000020040\n' va\nCiox Health C | O x Invoice #: 0248727220\nP.O. Box 409875 HEALTH ate: ' 6/27/2018\nAtlanta, GA 30384-9875 INVOICE OAtsiner #: 1817680\nFed Tax ID 58 - 2659941\n1-800-367-1500\nQUALITY MANAGEMENT DEPT QUALITY MANAGEMENT DEPT TULANE UNIVERSITY HOSPITAL CL\nAMERIHEALTH CARITAS LA AMERIHEALTH CARITAS LA 1415 TULANE AVENUE\nPO BOX 83580 PO BOX 83580 NEW ORLEANS, LA 70112\nBATON ROUGE, LA 70884-3580 BATON ROUGE, LA 70884-3580\nRequested By: AMERIHEALTH CARITAS DOB: 040712\nDescription Quantity | Unit Price Amount\nYour request for copies of medical records has been processed. Full payment in advance is required and must be received\nwithin 30 days of the receipt of this invoice, before your copies will be released. Promptly return the bottom portion of this\ninvoice along with a check for the balance due. To expedite the request or to pay by credit card, please call 800 - 367 - 1500.\nFULL PAYMENT REQUIRED PRIOR TO RELEASE OF RECORDS\nBasic Fee 25.50\nRetrieval Fee 0.00\nPer Page Copy (Paper) 1 13 0.00\nElectronic Data Archive Fee 2.00\nSubtotal 27.50\nSales Tax 2.75\nInvoice Total 30.25\nBalance Due 30.25\nPay your invoice online at httos://paycioxhealth.com/pay/\nPlease remit this amount : $ 30.25 (USD)\nCiox Health\nP.O. Box 409875\nAtlanta, GA 30384-9875\nFed Tax ID 58 - 2659941\n1-800-367-1500 sovestseietinetnsietinetnsiesicetinetnsiesineietinetntustinetnsiatinenineiesiceineietneintietinsiesinteetet\n| Invoice #: 0248727220\n| Check # :\nGet future medical records as soon as they are processed, |= Payment Amount $\nRegister at: edelivery.cioxhealth.com\nPlease return stub with payment.\nPlease include invoice number on check.\nTo pay invoice online, please go to https://paycioxhealth.com/pay/ or call 800-367-1500.\nEmail questions to collections@cioxhealth.com.",
+   "chars": 1511,
+   "text_layer_chars": 0,
+   "ocr_confidence": 91.7,
+   "ocr_words": 270,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "INVOICE",
+    "subtype": "invoice",
+    "confidence": "high",
+    "scores": {
+     "INVOICE/invoice": 7.0
+    },
+    "evidence": [
+     {
+      "kind": "INVOICE/invoice",
+      "keyword": "\\binvoice\\b",
+      "where": "headline",
+      "line": "Ciox Health C | O x Invoice #: 0248727220"
+     }
+    ],
+    "page_marker": null,
+    "doc_ids": [
+     "0248727220"
+    ],
+    "qualifiers": [
+     "copy_marker"
+    ],
+    "titled": true,
+    "notes": []
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "invoice",
+   "pages": [
+    1
+   ],
+   "confidence": "high",
+   "doc_ids": [
+    "0248727220"
+   ],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:INVOICE"
+   ],
+   "needs_review": [
+    "page marked copy/duplicate but no earlier matching segment: kept as payable"
+   ],
+   "boundary_reason": "first page"
+  }
+ ]
+}

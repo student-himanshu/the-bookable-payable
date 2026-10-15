@@ -1,0 +1,108 @@
+{
+ "file": "INV-27.pdf",
+ "sha256": "a6f3edfc1717a6773a7fcaab90d77e9054a3acfec9f14d830e5866c9ffe74551",
+ "ocr_langs_requested": [
+  "eng",
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "ocr_langs_used": [
+  "eng"
+ ],
+ "ocr_langs_missing": [
+  "deu",
+  "est",
+  "por",
+  "tur",
+  "msa",
+  "fra",
+  "spa",
+  "nld",
+  "dan"
+ ],
+ "errors": [],
+ "pages": [
+  {
+   "page": 1,
+   "method": "ocr",
+   "text": "Oakhaven Supply Ltd\nLindenstrasse 8\nP.O Box 14108, Nairobi, Kenya 32917ALS55\n00400 KEN\nalex.meyer@oakhaven-supply.ke\nwww.northwind-consulting.ke\nPIN P088353697W\nBILL TO\nee — DATE PLEASE PAY DUE DATE\nRua do Ouro 117, BUILDING :\n03/06/2025 KES 70,654.30 03/07/2025\nAZURE\nTOWERS, 10TH FLOOR\nRIVERSIDE\nSQUARE RIVERSIDE DRIVE\n00600 Nairobi Kenya\nPIN P221296346U\nACTIVITY TAX QTy RATE AMOUNT\nHandling Out (per CBM) Std 0.2744 500.00 137.20\nHandling Out of POS DEVICES(SUNMI\nV2PRO) on 19th May\n0.00686CBM * 40 units\nTransport Std 1 3,000.00 3,000.00\nTransport of POS devices(SUNMI V2PRO) on 4th April\nTransport Std 1 1,500.00 1,500.00\nTransport of POS DEVICES(SUNMI V2PRO) on 19th\nMay\nStorage charges Std 40.53574 30.00 1,216.07\nStorage charges for POS devices(SUNMI V2PRO) from\n1st to 19th May\n0.00686 CBM* 31 1units*19days\nStorage charges Std 22.30872 30.00 669.26\nStorage charges for POS devices(SUNMI V2PRO) from\n20th to 31st May\n0.00686 CBM* 271units*12days\nStorage charges Std 1,646.2116 30.00 49,386.35\nStorage charges for Food\ndeliverybag(insulated bag) from 1st to 31st May\n0.0297 CBM* 1788 units* 31 days\nStock Management fee Std 1 5,000.00 5,000.00\nMonthly stock Management fee\nAccount Name: Cloverdale Mobility Limited\nBank Name: Larkspur Bank\nBank Branch: Swissport\nSwift Code: PSDHKIZC\nBank Code: 07000\nKenya Shillings (KES): Account Number 6786517608\nUnited States Dollar (USD): Account Number 8672480023\nEuro (EUR): Account Number 8672480039",
+   "chars": 1239,
+   "text_layer_chars": 0,
+   "ocr_confidence": 93.4,
+   "ocr_words": 212,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 1,
+    "label": "UNKNOWN",
+    "subtype": "unclassified",
+    "confidence": "none",
+    "scores": {},
+    "evidence": [],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": false,
+    "notes": []
+   }
+  },
+  {
+   "page": 2,
+   "method": "ocr",
+   "text": "Warehosuing for May 2025 SUBTOTAL 60,908.88\nTAX 9,745.42\nTOTAL 70,654.30\nTO Ee KES 70,654.30\nTHANK YOU.\nTAX SUMMARY\nRATE TAX NET\nVAT @ 16% 9,745.42 60,908.88\nAccount Name: Cloverdale Mobility Limited\nBank Name: Larkspur Bank\nBank Branch: Swissport\nSwift Code: PSDHKIZC\nBank Code: 07000\nKenya Shillings (KES): Account Number 6786517608\nUnited States Dollar (USD): Account Number 8672480023\nEuro (EUR): Account Number 8672480039",
+   "chars": 365,
+   "text_layer_chars": 0,
+   "ocr_confidence": 92.4,
+   "ocr_words": 62,
+   "rotation_applied": 0,
+   "text_layer_text": "",
+   "warnings": [],
+   "classification": {
+    "page": 2,
+    "label": "INVOICE",
+    "subtype": "untitled_invoice_like",
+    "confidence": "low",
+    "scores": {},
+    "evidence": [],
+    "page_marker": null,
+    "doc_ids": [],
+    "qualifiers": [],
+    "titled": false,
+    "notes": [
+     "no title found; invoice-like content (tax/price vocabulary + total amount)"
+    ]
+   }
+  }
+ ],
+ "segments": [
+  {
+   "index": 1,
+   "label": "INVOICE",
+   "subtype": "untitled_invoice_like",
+   "pages": [
+    1,
+    2
+   ],
+   "confidence": "low",
+   "doc_ids": [],
+   "payable_candidate": true,
+   "page_labels": [
+    "1:UNKNOWN*",
+    "2:INVOICE*"
+   ],
+   "needs_review": [
+    "pages [1] attached as untitled continuation",
+    "low classification confidence"
+   ],
+   "boundary_reason": "first page"
+  }
+ ]
+}
