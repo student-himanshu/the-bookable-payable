@@ -27,7 +27,7 @@ def _segments_from_detail(detail: dict) -> tuple:
     return detail["segments"], texts
 
 
-def process(file: str, segments: list, texts: dict, md: MasterData) -> tuple:
+def process(file: str, segments: list, texts: dict, md: MasterData, rescuer=None) -> tuple:
     payables, declined, reports = [], [], []
     for seg in segments:
         text = "\n".join(texts.get(p, "") for p in seg["pages"])
@@ -38,9 +38,19 @@ def process(file: str, segments: list, texts: dict, md: MasterData) -> tuple:
                 declined.append({"doc_type": "unprocessable",
                                  "reason": f"internal error while building payable: {type(exc).__name__}: {exc}"})
                 continue
+            llm_info = None
+            footed = bool(rep.printed_gross) and rep.printed_gross == rep.erp_gross and rep.n_rows > 0
+            if rescuer is not None and not footed:
+                better, llm_info = rescuer(file, seg, text)
+                if better is not None:
+                    payable = better
+                    rep.structure, rep.status = "llm-vision (ERP foots to printed gross)", "review"
+                    rep.printed_gross = rep.erp_gross = payable["gross_total"]
+                    rep.n_rows = len(payable["line_items"])
+                    rep.flags.append("record replaced by vision rescue; rule-based flags above refer to the discarded draft")
             payables.append(payable)
             reports.append({"segment": seg["index"], "pages": seg["pages"], "label": seg["label"],
-                            "classifier_review": seg.get("needs_review", []), **asdict(rep)})
+                            "classifier_review": seg.get("needs_review", []), "llm": llm_info, **asdict(rep)})
         else:
             reason = "; ".join(seg.get("needs_review", [])) or seg.get("boundary_reason", "")
             declined.append({"doc_type": seg["subtype"] if seg["subtype"] not in ("", None) else seg["label"],
@@ -78,6 +88,9 @@ def main(argv=None) -> int:
     ap.add_argument("--only", nargs="*", default=None)
     ap.add_argument("--no-ocr", action="store_true")
     ap.add_argument("--workers", type=int, default=4)
+    ap.add_argument("--llm", action="store_true",
+                    help="vision rescue for payables that do not foot (needs ANTHROPIC_API_KEY, anthropic, pypdfium2)")
+    ap.add_argument("--provider", default="", choices=["", "gemini", "claude"], help="force the vision backend")
     args = ap.parse_args(argv)
 
     md = MasterData(args.master)
@@ -109,11 +122,22 @@ def main(argv=None) -> int:
         print("nothing to process", file=sys.stderr)
         return 2
 
+    rescuer = None
+    if args.llm:
+        from . import llm_fallback
+        client = llm_fallback.make_client(args.provider)
+        if client is None:
+            print("--llm requested but GEMINI_API_KEY (or ANTHROPIC_API_KEY) / SDK not available: rescue disabled", file=sys.stderr)
+        else:
+            def rescuer(file, seg, text):
+                return llm_fallback.rescue(args.docs / file, seg["pages"], text, md, client,
+                                           cache_dir=ROOT / ".cache" / "llm")
+
     args.out.mkdir(parents=True, exist_ok=True)
     args.reports.mkdir(parents=True, exist_ok=True)
     rows = []
     for file, segs, texts in jobs:
-        rec, reps = process(file, segs, texts, md)
+        rec, reps = process(file, segs, texts, md, rescuer)
         (args.out / (Path(file).stem + ".json")).write_text(
             json.dumps(rec, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         rows.append({"file": file, "segments": reps})

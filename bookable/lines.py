@@ -89,7 +89,21 @@ def _orders(toks: list, vals: list, i: int, j: int, order: str) -> list:
     return [a, b]
 
 
+_SPACE_THOUSANDS = re.compile(r"(?<![\d.,])(\d{1,3}) (\d{3}[.,]\d{2})(?!\d)")
+
+
 def parse_row(line: str, hint: str, line_no: int, order: str = "") -> Optional[Row]:
+    """Parse one text line as an item row. If the plain reading fails, retry once with
+    space-separated thousands joined ("6 976.80" -> "6976.80"); arithmetic decides which is right."""
+    r = _parse_row(line, hint, line_no, order)
+    if r is None:
+        merged = _SPACE_THOUSANDS.sub(r"\1\2", line)
+        if merged != line:
+            r = _parse_row(merged, hint, line_no, order)
+    return r
+
+
+def _parse_row(line: str, hint: str, line_no: int, order: str = "") -> Optional[Row]:
     work = _strip_dates(line)
     pcts = []
     for m in PCT_RE.finditer(work):
@@ -99,6 +113,9 @@ def parse_row(line: str, hint: str, line_no: int, order: str = "") -> Optional[R
     work_np = PCT_RE.sub(" ", work)
     toks = [(m.start(), m.group(0), parse_amount(m.group(0), hint)) for m in NUM_RE.finditer(work_np)]
     toks = [(p, t, v) for p, t, v in toks if v is not None]
+    # a leading small integer followed by a word is the position number, not a quantity
+    if toks and re.match(r"^\W*\d{1,3}\s+[^\W\d]", work_np) and toks[0][0] <= 2 and _is_int_token(toks[0][1]):
+        toks = toks[1:]
     if len(toks) < 2:
         return None
     vals = [abs(v) for _, _, v in toks]
@@ -140,6 +157,8 @@ def parse_row(line: str, hint: str, line_no: int, order: str = "") -> Optional[R
     if not found:
         return None
     qi, ui, k, disc = found
+    if vals[k] == 1 and vals[ui] == 1 and (qi is None or vals[qi] == 1):
+        return None                                     # "1 1 1": a wrapped description, not an item
     qty = vals[qi] if qi is not None else Decimal(1)
     # description: line text left of the first numeric token that is part of the match
     first = min(toks[x][0] for x in (qi, ui, k) if x is not None)

@@ -95,8 +95,11 @@ def lines_of(text: str) -> list:
     return [re.sub(r"[ \t]{2,}", "  ", ln).strip() for ln in text.splitlines() if ln.strip()]
 
 
+_SPACE_THOUSANDS = re.compile(r"(?<![\d.,])(\d{1,3}) (\d{3}[.,]\d{2})(?!\d)")
+
+
 def _amounts(line: str, hint: str) -> list:
-    line = PCT_RE.sub(" ", line)
+    line = _SPACE_THOUSANDS.sub(r"\1\2", PCT_RE.sub(" ", line))
     out = []
     for m in NUM_RE.finditer(line):
         v = parse_amount(m.group(0), hint)

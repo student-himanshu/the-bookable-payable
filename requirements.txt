@@ -9,3 +9,5 @@ pillow==12.1.1
 pytest>=8,<9
 # System tool (not pip): tesseract-ocr, plus language packs for the documents you process
 # (eng deu est por tur msa fra spa nld dan). Poppler is only needed for tools/inventory_pdfs.py.
+# Phase 4 (optional, only for `python -m bookable.phase3 --llm`): pip install google-genai   (Gemini)  or  anthropic (Claude)
+# pypdfium2 and pillow are already needed by Phase 2 OCR. Set GEMINI_API_KEY (or ANTHROPIC_API_KEY). Not verified live.

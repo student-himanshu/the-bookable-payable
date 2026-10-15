@@ -12,6 +12,7 @@ venv/
 # Secrets
 .env
 *.key
+!.env.example
 
 # OS / editor junk
 .DS_Store
